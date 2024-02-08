@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/vafri/static/css/main.9f92e01f.css",
+    "main.js": "/vafri/static/js/main.3f3ed6e5.js",
+    "static/js/592.0e161b22.chunk.js": "/vafri/static/js/592.0e161b22.chunk.js",
+    "static/media/img_clutch.png": "/vafri/static/media/img_clutch.a61281caf1682ceb039a.png",
+    "static/media/hero_icon_right.png": "/vafri/static/media/hero_icon_right.d1fda84ef6f02878914c.png",
+    "static/media/img_5.png": "/vafri/static/media/img_5.b75a02e420e888b23cb9.png",
+    "static/media/img_6.png": "/vafri/static/media/img_6.67f39d4579e2ebb1f44b.png",
+    "static/media/img_4.png": "/vafri/static/media/img_4.e106e106ff5221636498.png",
+    "static/media/img_1.png": "/vafri/static/media/img_1.76ead3ec3c84ac6a9e90.png",
+    "static/media/img_7.png": "/vafri/static/media/img_7.f02d1d8a423dd70d56d3.png",
+    "static/media/img_8.png": "/vafri/static/media/img_8.8545148ec48b81832ab1.png",
+    "static/media/img_3.png": "/vafri/static/media/img_3.a200356edbc618a5b71e.png",
+    "static/media/img_2.png": "/vafri/static/media/img_2.703129d8187d1d69fe98.png",
+    "static/media/logo.png": "/vafri/static/media/logo.eaadf5590a610ce6a988.png",
+    "static/media/whatsapp_logo.svg": "/vafri/static/media/whatsapp_logo.864e281065edf700a66f845bc2bf75a7.svg",
+    "index.html": "/vafri/index.html",
+    "static/media/facebook_logo.svg": "/vafri/static/media/facebook_logo.be0d1263a63a8d2ea15c68ab90a2b91d.svg",
+    "static/media/mail_logo.svg": "/vafri/static/media/mail_logo.964d915425a88cd6a8f7a16ee02f3e57.svg",
+    "main.9f92e01f.css.map": "/vafri/static/css/main.9f92e01f.css.map",
+    "main.3f3ed6e5.js.map": "/vafri/static/js/main.3f3ed6e5.js.map",
+    "592.0e161b22.chunk.js.map": "/vafri/static/js/592.0e161b22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f92e01f.css",
+    "static/js/main.3f3ed6e5.js"
+  ]
+}
