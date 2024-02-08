@@ -1,0 +1,29 @@
+.pasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 60vh;
+    margin-left: 50px;
+}
+
+.pasta h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -50px;
+}
+
+.pasta hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-left: -50px;
+}
+
+.pasta-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
