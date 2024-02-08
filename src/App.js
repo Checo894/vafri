@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Inicio/>}/>
+          <Route path="/vafri" element={<Inicio/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/pastas" element={<ShopCategory category="pastas"/>}/>
           <Route path="/tacon" element={<ShopCategory category="tacon"/>}/>

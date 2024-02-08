@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img src={logo} alt="" />
             </div>
                 <ul className="nav-menu">
-                    <li onClick={() => {setMenu("inicio")}}><Link style={{textDecoration:'none'}} to='/'>Inicio</Link>{menu==="inicio"?<hr/>:<></>}</li>
+                    <li onClick={() => {setMenu("inicio")}}><Link style={{textDecoration:'none'}} to='/vafri'>Inicio</Link>{menu==="inicio"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("blog")}}><Link style={{textDecoration:'none'}} to='/blog'>Blog</Link>{menu==="blog"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("pastas")}}><Link style={{textDecoration:'none'}} to='/pastas'>Pastas</Link>{menu==="pastas"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("tacon")}}><Link style={{textDecoration:'none'}} to='/tacon'>Tacón</Link>{menu==="tacon"?<hr/>:<></>}</li>
