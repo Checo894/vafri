@@ -5,11 +5,20 @@ import Inicio from "./Pages/Inicio";
 import Product from "./Pages/Product";
 import Login from "./Pages/Login";
 import Footer from "./Components/Footer/Footer";
-import Blog from "./Pages/Blog";
+// import Blog from "./Pages/Blog";
 import Conocenos from "./Pages/Conocenos";
 import Contacto from "./Pages/Contacto";
+import banner_tacon from "./Components/Assets/banner_tacon.jpg"
+import banner_pasta_tacon from "./Components/Assets/banner_pasta_tacon.jpg"
+import banner_pasta from "./Components/Assets/banner_pasta5.png"
+import banner_miscelanea from "./Components/Assets/banner_miscelanea4.png"
+import Catalogo from "./Pages/Catalogo";
+
+//importamos el banner para cada una de las categorias (pasta, pasta tacón, miscelanea, tacón, etc)
+//Poner como props los banners
 
 
+//Falta hacer el dropdown 
 
 function App() {
   return (
@@ -18,11 +27,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/vafri" element={<Inicio/>}/>
-          <Route path="/blog" element={<Blog/>}/>
-          <Route path="/pastas" element={<ShopCategory category="pastas"/>}/>
-          <Route path="/tacon" element={<ShopCategory category="tacon"/>}/>
-          <Route path="/remache" element={<ShopCategory category="remache"/>}/>
-          <Route path="/kit" element={<ShopCategory category="kit"/>}/>
+          <Route path="/catalogo" element={<Catalogo/>}></Route>
+          <Route path="/pasta" element={<ShopCategory banner={banner_pasta}category="pasta"/>}/>
+          <Route path="/tacon" element={<ShopCategory banner={banner_tacon} category="tacon"/>}/>
+          <Route path="/pastaTacon" element={<ShopCategory banner={banner_pasta_tacon}category="pastaTacon"/>}/>
+          <Route path="/miscelanea" element={<ShopCategory banner={banner_miscelanea} category="miscelanea"/>}/>
           <Route path="/conocenos" element={<Conocenos/>}/>
           <Route path="/contacto" element={<Contacto/>}/>
           <Route path="/product" element={<Product/>}>

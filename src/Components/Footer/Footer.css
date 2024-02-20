@@ -1,13 +1,17 @@
 .footer {
+    position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ajusta el ancho del footer al 100% */
     display: flex;
     flex-direction: column;
     background-color: #194197;
-    justify-content: center;
+    justify-content: first baseline;
     align-items: center;
     padding: 20px; /* Ajusta el espacio interior del footer */
     gap: 20px;
-    margin: 0 auto; /* Centra el footer horizontalmente */
 }
+
 
 .footer-logo{
     display: flex;

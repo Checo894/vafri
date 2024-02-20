@@ -12,6 +12,7 @@
     font-size: 50px;
     font-weight: 600;
     margin-left: -50px;
+    align-items: center;
 }
 
 .pasta hr{
@@ -26,4 +27,77 @@
     margin-top: 50px;
     display: flex;
     gap: 50px;
+    align-items: center;
+}
+@media(max-width:1280px){
+    .pasta{
+        height: 30vh;
+    }
+
+    .pasta h1{
+        font-size: 40px;
+    }
+
+    .pasta hr{
+        width: 160px;
+        height: 4px;
+    }
+
+    .pasta-item{
+        gap: 20px;
+        margin-top: 30px ;
+    }
+}
+
+@media(max-width:1024px){
+    .pasta{
+        height: 40vh;
+    }
+
+    .pasta h1{
+        font-size: 30px;
+    }
+
+    .pasta hr{
+        width: 120px;
+        height: 3px;
+    }
+
+    .pasta-item{
+        gap: 15px;
+        margin-top: 20px ;
+    }
+}
+
+@media(max-width:800px){
+    .pasta{
+        height: 20vh;
+        gap: 6px;
+    }
+
+    .pasta h1{
+        font-size: 20px;
+    }
+
+    .pasta hr{
+        width: 100px;
+    }
+
+    .pasta-item{
+        gap: 5px;
+    }
+}
+
+@media(max-width:500px){
+    .pasta{
+        height: 30vh;
+        gap: 5px;
+    }
+
+    .pasta-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 40px;
+        gap: 5px;
+    }
 }
