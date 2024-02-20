@@ -9,9 +9,9 @@ const Hero = () => {
                 <h2>Productos de fricción de alto rendimiento</h2>
                 <div>
                     <div className="hero-piece-icon">
-                        <p>Todo para</p>
+                        <p>Consulta</p>
                     </div>
-                    <p>tu auto</p>
+                    <p>nuestros productos</p>
                 </div>
                 <div className="contacto-btn">
                     <button>Catálogo</button>
