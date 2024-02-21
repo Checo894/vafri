@@ -1,6 +1,7 @@
 import React from "react";
 import './Hero.css'
 import hero_icon_right from '../Assets/hero_icon_right.png'
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return(
@@ -14,7 +15,9 @@ const Hero = () => {
                     <p>nuestros productos</p>
                 </div>
                 <div className="contacto-btn">
-                    <button>Catálogo</button>
+                    <Link style={{textDecoration: 'none'}} to='/catalogo'>
+                        <button>Catálogo</button>
+                    </Link>
                 </div>
             </div>
             <div className="hero-right">

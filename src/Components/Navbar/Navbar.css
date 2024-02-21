@@ -30,20 +30,22 @@
   background-size: 24px;
   width: 300px;
   border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
   border-radius: 15px;
   padding: 10px 10px 10px 30px;
   outline: none;
+  text-emphasis-color: #194197;
 }
 
 .boton-buscar {
-  background-color: red;
-  border: transparent;
+  background-color: #f82a27;
+  border: solid 1px #ccc;
   color: white;
   padding: 10px 20px;
   border-radius: 15px;
   margin-left: -40px; /* Ajusta el margen izquierdo para que esté pegado al buscador */
 }
-
 
 .nav-menu li{
     display: flex;

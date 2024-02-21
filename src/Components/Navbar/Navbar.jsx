@@ -16,7 +16,9 @@ const Navbar = () => {
     return(
         <div className="navbar">
             <div className="nav-logo">
-                <img src={logo} alt="" />
+                <Link style={{textDecoration: 'none'}} to='/vafri'>
+                    <img src={logo} alt="" />
+                </Link>
             </div>
             <img className='nav-dropdown' onClick={dropdown_toggle} src={dropdown_icon2} alt="" />
                 <ul ref={menuRef} className="nav-menu">

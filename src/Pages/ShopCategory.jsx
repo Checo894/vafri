@@ -8,7 +8,7 @@ import Item from "../Components/Item/Item";
 const ShopCategory = (props) => {
     const {all_data} = useContext(ShopContext)
     return (
-        <div className="shopcategory">
+        <div className="shopcategory" onLoad={window.scrollTo(0,0)}>
             <img className="shopcategory-banner" src={props.banner} alt="" />
             <div className="shopcategory-indexSort">
                 <p>
