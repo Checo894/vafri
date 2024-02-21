@@ -12,22 +12,25 @@ const Catalogo = () => {
         <div className="catalogo">
             <img className="catalogo-banner" src={banner_catalogo} alt="" />
             <div className="catalogo-info">
+                <h2>
+                    Catálogo Digital
+                </h2>
                 <p>	
-                    aa
+                    
                 </p>
             </div>
             <div>
                 <Link to='/pasta'>
-                    <img onClick={window.scrollTo(0,0)} className="catalogo-pasta" src={banner_pasta} alt="" />
+                    <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_pasta} alt="" />
                 </Link>
                 <Link to='/pastaTacon'>
-                    <img onClick={window.scrollTo(0,0)} className="catalogo-pastaTacon" src={banner_pasta_tacon} alt="" />
+                    <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_pasta_tacon} alt="" />
                 </Link>
                 <Link to='/tacon'>
-                    <img onClick={window.scrollTo(0,0)} className="catalogo-tacon" src={banner_tacon} alt="" />
+                    <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_tacon} alt="" />
                 </Link>
                 <Link to='/miscelanea'>
-                    <img onClick={window.scrollTo(0,0)} className="catalogo-miscelanea" src={banner_miscelanea} alt="" />
+                    <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_miscelanea} alt="" />
                 </Link>
             </div>
         </div>
