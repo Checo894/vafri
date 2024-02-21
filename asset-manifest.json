@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/vafri/static/css/main.09b5aa29.css",
-    "main.js": "/vafri/static/js/main.45865359.js",
+    "main.css": "/vafri/static/css/main.5e85834b.css",
+    "main.js": "/vafri/static/js/main.9d58ad40.js",
     "static/js/592.0e161b22.chunk.js": "/vafri/static/js/592.0e161b22.chunk.js",
-    "static/media/banner_pasta5.png": "/vafri/static/media/banner_pasta5.081289f711c0c054cf1c.png",
-    "static/media/banner_miscelanea4.png": "/vafri/static/media/banner_miscelanea4.0f20df825b0f3a832724.png",
-    "static/media/banner_pasta_tacon.jpg": "/vafri/static/media/banner_pasta_tacon.49291ce3b995afb50855.jpg",
-    "static/media/banner_tacon.jpg": "/vafri/static/media/banner_tacon.1fa24ebb379abe81d100.jpg",
+    "static/media/banner_pasta_tacon_final.png": "/vafri/static/media/banner_pasta_tacon_final.4d23fa27306922da2d90.png",
+    "static/media/banner_tacon_final.png": "/vafri/static/media/banner_tacon_final.364761d9433587614e56.png",
+    "static/media/banner_pasta_final.png": "/vafri/static/media/banner_pasta_final.0d4bec2b9a69cc6fa7b4.png",
+    "static/media/banner_miscelanea_final.png": "/vafri/static/media/banner_miscelanea_final.c7731d7278d9bd5aeaca.png",
     "static/media/img_clutch.png": "/vafri/static/media/img_clutch.a61281caf1682ceb039a.png",
     "static/media/hero_icon_right.png": "/vafri/static/media/hero_icon_right.d1fda84ef6f02878914c.png",
+    "static/media/banner_catalogo.png": "/vafri/static/media/banner_catalogo.34f23e0df8867ad33459.png",
     "static/media/img_5.png": "/vafri/static/media/img_5.b75a02e420e888b23cb9.png",
     "static/media/img_6.png": "/vafri/static/media/img_6.67f39d4579e2ebb1f44b.png",
     "static/media/img_4.png": "/vafri/static/media/img_4.e106e106ff5221636498.png",
@@ -24,12 +25,12 @@
     "static/media/mail_logo.svg": "/vafri/static/media/mail_logo.964d915425a88cd6a8f7a16ee02f3e57.svg",
     "static/media/arrow_icon.svg": "/vafri/static/media/arrow_icon.1a79cd9e1bb38ee4943790c8c17d8769.svg",
     "static/media/dropdown_icon2.svg": "/vafri/static/media/dropdown_icon2.f38759a838483615524e8cb7bef3ed2f.svg",
-    "main.09b5aa29.css.map": "/vafri/static/css/main.09b5aa29.css.map",
-    "main.45865359.js.map": "/vafri/static/js/main.45865359.js.map",
+    "main.5e85834b.css.map": "/vafri/static/css/main.5e85834b.css.map",
+    "main.9d58ad40.js.map": "/vafri/static/js/main.9d58ad40.js.map",
     "592.0e161b22.chunk.js.map": "/vafri/static/js/592.0e161b22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09b5aa29.css",
-    "static/js/main.45865359.js"
+    "static/css/main.5e85834b.css",
+    "static/js/main.9d58ad40.js"
   ]
 }
