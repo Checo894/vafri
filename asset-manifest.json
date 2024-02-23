@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vafri/static/css/main.5e85834b.css",
-    "main.js": "/vafri/static/js/main.9d58ad40.js",
+    "main.css": "/vafri/static/css/main.d63e2f4b.css",
+    "main.js": "/vafri/static/js/main.79c17456.js",
     "static/js/592.0e161b22.chunk.js": "/vafri/static/js/592.0e161b22.chunk.js",
     "static/media/banner_pasta_tacon_final.png": "/vafri/static/media/banner_pasta_tacon_final.4d23fa27306922da2d90.png",
     "static/media/banner_tacon_final.png": "/vafri/static/media/banner_tacon_final.364761d9433587614e56.png",
@@ -16,6 +16,7 @@
     "static/media/img_1.png": "/vafri/static/media/img_1.76ead3ec3c84ac6a9e90.png",
     "static/media/img_7.png": "/vafri/static/media/img_7.f02d1d8a423dd70d56d3.png",
     "static/media/img_8.png": "/vafri/static/media/img_8.8545148ec48b81832ab1.png",
+    "static/media/fotoPrueba.png": "/vafri/static/media/fotoPrueba.e38e36e9ca7e43629ca1.png",
     "static/media/img_3.png": "/vafri/static/media/img_3.a200356edbc618a5b71e.png",
     "static/media/img_2.png": "/vafri/static/media/img_2.703129d8187d1d69fe98.png",
     "static/media/logo.png": "/vafri/static/media/logo.eaadf5590a610ce6a988.png",
@@ -25,12 +26,12 @@
     "static/media/mail_logo.svg": "/vafri/static/media/mail_logo.964d915425a88cd6a8f7a16ee02f3e57.svg",
     "static/media/arrow_icon.svg": "/vafri/static/media/arrow_icon.1a79cd9e1bb38ee4943790c8c17d8769.svg",
     "static/media/dropdown_icon2.svg": "/vafri/static/media/dropdown_icon2.f38759a838483615524e8cb7bef3ed2f.svg",
-    "main.5e85834b.css.map": "/vafri/static/css/main.5e85834b.css.map",
-    "main.9d58ad40.js.map": "/vafri/static/js/main.9d58ad40.js.map",
+    "main.d63e2f4b.css.map": "/vafri/static/css/main.d63e2f4b.css.map",
+    "main.79c17456.js.map": "/vafri/static/js/main.79c17456.js.map",
     "592.0e161b22.chunk.js.map": "/vafri/static/js/592.0e161b22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e85834b.css",
-    "static/js/main.9d58ad40.js"
+    "static/css/main.d63e2f4b.css",
+    "static/js/main.79c17456.js"
   ]
 }
