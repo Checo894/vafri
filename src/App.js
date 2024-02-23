@@ -13,7 +13,6 @@ import banner_pasta_tacon from "./Components/Assets/banner_pasta_tacon_final.png
 import banner_pasta from "./Components/Assets/banner_pasta_final.png"
 import banner_miscelanea from "./Components/Assets/banner_miscelanea_final.png"
 import Catalogo from "./Pages/Catalogo";
-import banner_catalogo from "./Components/Assets/banner_catalogo.png"
 //importamos el banner para cada una de las categorias (pasta, pasta tacón, miscelanea, tacón, etc)
 //Poner como props los banners
 

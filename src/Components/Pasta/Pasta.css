@@ -31,7 +31,7 @@
 }
 @media(max-width:1280px){
     .pasta{
-        height: 30vh;
+        height: 40vh;
     }
 
     .pasta h1{
@@ -90,7 +90,7 @@
 
 @media(max-width:500px){
     .pasta{
-        height: 30vh;
+        height: 40vh;
         gap: 5px;
     }
 

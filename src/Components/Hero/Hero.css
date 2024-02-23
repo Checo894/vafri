@@ -141,7 +141,7 @@
 @media(max-width:500px){
     .hero{
         flex-direction: column;
-        height: 30vh;
+        height: 40vh;
     }
     .hero-left{
         padding: 40px;

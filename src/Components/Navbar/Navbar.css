@@ -28,7 +28,7 @@
   margin-top: 20px;
   display: absolute;
   background-size: 24px;
-  width: 300px;
+  width: 200px;
   border-bottom: solid 1px #ccc;
   border-top: solid 1px #ccc;
   border-left: solid 1px #ccc;
@@ -136,6 +136,17 @@
     height: 35px;
     font-size: 14px;
   }
+
+  .buscador{
+    width: 150px;
+    height: 17px;
+  }
+
+  .boton-buscar{
+    width: 70px;
+    font-size: 10px;
+    height: 41px;
+  }
 }
 @media(max-width:1024px){
   .navbar{
@@ -160,6 +171,7 @@
     padding: 10px 0px;
   }
   .nav-dropdown{
+    margin-left: -80px;
     display: block;
     width: 40px;
     rotate: -90deg;
@@ -211,6 +223,17 @@
     font-size: 14px;
     justify-content: center;
     align-items: center;
+  }
+
+  .nav-dropdown{
+    display: flex;
+    margin-left: -200px;
+  }
+
+  .buscador{
+    font-size: 9px;
+    margin-left: -150px;
+    width: 100px;
   }
 }
 
