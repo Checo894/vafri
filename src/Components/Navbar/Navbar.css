@@ -16,7 +16,7 @@
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: rgb(36, 36, 144);
+    color: #194197;
     font-size: 20px;
 }
 
@@ -45,6 +45,7 @@
   padding: 10px 20px;
   border-radius: 15px;
   margin-left: -40px; /* Ajusta el margen izquierdo para que esté pegado al buscador */
+  cursor: pointer;
 }
 
 .nav-menu li{

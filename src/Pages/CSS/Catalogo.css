@@ -3,11 +3,37 @@
     margin-bottom: 20px;
     width: 100%;
 }
+
+.catalogo-info h2{
+    align-content: center;
+}
+
+.catalogo-type1{
+    margin-top: 25px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.catalogo-type2{
+    margin-top: 25px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
 .catalogo-elements{
     display: block;
     margin-bottom: 2px;
     width: 100%;
-    border: solid 2px #ccc;
+    /* border: solid 2px #ccc;*/
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .catalogo-elements:hover{
