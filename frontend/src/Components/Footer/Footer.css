@@ -1,0 +1,51 @@
+.footer {
+    position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ajusta el ancho del footer al 100% */
+    display: flex;
+    flex-direction: column;
+    background-color: #193f98;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 20px; /* Ajusta el espacio interior del footer */
+    gap: 20px;
+}
+
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.footer-icons-container{
+    padding: 5px;
+    padding-bottom: 3px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fefefe;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-copyright hr {
+    width: 200%;
+    border: none;
+    border-radius: 100px;
+    height: 3px;
+    background: #fefefe;
+    margin: 10px 0;
+}
+
+.footer-copyright p {
+    margin-top: 10px; /* Ajusta el espacio sobre el texto de copyright */
+}
