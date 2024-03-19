@@ -18,7 +18,7 @@ const ProductDisplay = (props) => {
                 </div>
             </div>
             <div className="productdisplay-right">
-                <h1>{product.name}-{product.model}</h1>
+                <h1>FMSI - {product.name}-{product.model}</h1>
                  <p>Aplicaciones: {product.application}</p>
                  <p>Medidas: {product.measures}</p>
                  <p>Material: {product.material}</p>

@@ -12,11 +12,11 @@ const Item = (props) => {
             <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
             <div className="model-name">
                 <p className="model">
-                    {props.model}
+                    FMSI {props.model}
                 </p>
-                <p className="name">
+                {/* <p className="name">
                     {props.name}
-                </p>
+                </p> */}
             </div>
             <div className="application">
                 {props.application}

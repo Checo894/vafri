@@ -48,33 +48,33 @@ const Product = mongoose.model("Product", {
         type:Number,
         require: true,
     },
-    name:{
+    FMSI:{
         type:String,
         require:true,
     },
-    model:{
+    brand:{
         type:String,
         require:true,
     },
-    image:{
-        type:String,
-        require:true,
-    },
-    category:{
-        type:String,
-        require:true,
-    },
-    application:{
-        type:String,
-        require:true,
-    },
-    material:{
+    formula:{
         type:String,
         require:true,
     },
     measures:{
         type: String,
         require:false,
+    },
+    applications:{
+        type:String,
+        require:false,
+    },
+    category:{
+        type:String,
+        require:true,
+    },
+    image:{
+        type:String,
+        require:true,
     },
     pdf:{
         type:String,
@@ -86,7 +86,7 @@ const Product = mongoose.model("Product", {
     },
     available:{
         type:Boolean,
-        default: true,
+        default: false,
     },
 })
 

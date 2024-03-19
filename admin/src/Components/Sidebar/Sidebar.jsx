@@ -3,21 +3,22 @@
 import React from "react";
 import './Sidebar.css'
 import {Link} from 'react-router-dom'
-import addProduct from '../../assets/add-task.png'
+import addProduct from '../../assets/addproduct.svg'
+import listproduct from '../../assets/listproduct.svg'
 
 const Sidebar = () => {
     return(
         <div className="sidebar">
             <Link to={'/addproduct'} style={{textDecoration: 'none'}}>
                 <div className="sidebar-item">
-                    <img src={addProduct} alt="add product icon" />
-                    <p>Add Product</p>
+                    <img src={addProduct} alt="add product icon" style={{width: '30px', height: '30px'}}/>
+                    <p>Añadir Producto</p>
                 </div>
             </Link>
             <Link to={'/listproduct'} style={{textDecoration: 'none'}}>
                 <div className="sidebar-item">
-                    <img src={addProduct} alt="add product icon" />
-                    <p>List products</p>
+                    <img src={listproduct} alt="list product icon" style={{width: '30px', height: '30px'}}/>
+                    <p>Lista de Prouctos</p>
                 </div>
             </Link>
         </div>
