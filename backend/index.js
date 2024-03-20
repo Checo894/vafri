@@ -32,6 +32,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage:storage})
 
+
 //Creating upload endpoint for images
 app.use('/images', express.static('upload/images'))
 app.post("/upload", upload.single('product'), (req, res) => {
@@ -48,7 +49,7 @@ const Product = mongoose.model("Product", {
         type:Number,
         require: true,
     },
-    FMSI:{
+    fmsi:{
         type:String,
         require:true,
     },
@@ -64,7 +65,7 @@ const Product = mongoose.model("Product", {
         type: String,
         require:false,
     },
-    applications:{
+    application:{
         type:String,
         require:false,
     },
@@ -86,7 +87,7 @@ const Product = mongoose.model("Product", {
     },
     available:{
         type:Boolean,
-        default: false,
+        default: true,
     },
 })
 
@@ -102,12 +103,12 @@ app.post('/addproduct', async (req, res)=>{
     }
     const product = new Product({
         id:id,
-        name:req.body.name,
-        model:req.body.model,
+        fmsi:req.body.fmsi,
+        brand:req.body.brand,
         image:req.body.image,
         category:req.body.category,
         application:req.body.application,
-        material:req.body.material,
+        formula:req.body.formula,
         measures:req.body.measures,
         pdf:req.body.pdf,
     });
@@ -116,7 +117,7 @@ app.post('/addproduct', async (req, res)=>{
     console.log("Saved");
     res.json({
         success:true,
-        name:req.body.name,
+        fmsi:req.body.fmsi,
     })
 })
 
@@ -126,7 +127,7 @@ app.post('/removeproduct', async (req, res) => {
     console.log("Removed");
     res.json({
         success:true,
-        name:req.body.name,
+        fmsi:req.body.fmsi,
     })
 })
 

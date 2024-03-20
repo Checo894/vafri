@@ -15,12 +15,12 @@ const RelatedProducts = () => {
                     key={i} 
                     id={item.id} 
                     category={item.category} 
-                    model={item.model} 
+                    brand={item.brand} 
                     name={item.name} 
                     application={applicationText} 
                     image={item.image} 
                     measures={item.measures} 
-                    material={item.material}/>
+                    formula={item.formula}/>
                 })}
             </div>
         </div>

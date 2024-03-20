@@ -37,7 +37,7 @@
 
 .productdisplay-right p{
     color: #3d3d3d;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .productdisplay-right-description{
@@ -46,7 +46,7 @@
 
 .productdisplay-right button{
     padding: 20px 40px;
-    width: 200px;
+    width: 350px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
@@ -55,7 +55,7 @@
     border: none;
     margin-bottom: 10px;
     outline: none;
-
+    display: center;
 }
 
 .productdisplay-right-category{

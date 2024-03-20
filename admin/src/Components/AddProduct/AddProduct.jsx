@@ -5,13 +5,14 @@ import upload_file from '../../assets/productfile.svg'
 
 const AddProduct = () => {
 
-    const [image, setimage] = useState(false);
+    const [image, setImage] = useState(null);
+    const [pdf, setPDF] = useState(null);
     const [productDetails,setProductDetails] = useState({
-        FMSI:"",
+        fmsi:"",
         brand:"",
         formula:"",
         measures:"",
-        applications:"",
+        application:"",
         category:"pasta",
         image:"",
         pdf:""
@@ -19,11 +20,15 @@ const AddProduct = () => {
     });
 
     const imageHandler = (e)=>{
-        setimage(e.target.files[0])
+        setImage(e.target.files[0])
+    }
+
+    const fileHandler = (e)=>{
+        setPDF(e.target.files[0])
     }
 
     const changeHandler = (e)=>{
-        setProductDetails({...productDetails,[e.target.name]:e.target.value})
+        setProductDetails({...productDetails,[e.target.fmsi]:e.target.value})
     }
 
     const add_product = async ()=>{
@@ -32,19 +37,32 @@ const AddProduct = () => {
         let product = productDetails;
 
         let formData = new FormData();
-        formData.append('product', image);
+        formData.append('product',image);
+        // formData.append('product',pdf);
 
         await fetch('http://localhost:4000/upload',{
-            method:'post',
+            method:'POST',
             headers:{
-                Accept:'application/jason',
+                Accept:'application/json',
             },
             body:formData,
-        }).then((resp) => resp.json()).then((data)=>{responseData})
-
-        if(responseData.success){
+        }).then((resp) => resp.json()).then((data)=>{responseData=data});
+        
+        if(responseData.success)
+        {
             product.image = responseData.image_url;
+            // product.pdf = responseData.pdf_url;
             console.log(product);
+            await fetch('http://localhost:4000/addproduct',{
+                method:'POST',
+                headers:{
+                    Accept:'application/json',
+                    'Content-Type':'application/json',
+                },
+                body:JSON.stringify(product),
+            }).then((resp) => resp.json()).then((data)=>{
+                data.success?alert("Product Added"):alert("Failed")
+            });
         }
     }
 
@@ -56,7 +74,7 @@ const AddProduct = () => {
             <div className="addproduct-data">
                 <div className="addproduct-itemfield">
                     <p>FMSI</p>
-                    <input value={productDetails.FMSI} onChange={changeHandler} type="text" name='FMSI' placeholder="FMSI / Modelo"/>
+                    <input value={productDetails.fmsi} onChange={changeHandler} type="text" name='fmsi' placeholder="FMSI / Modelo"/>
                 </div>
                 <div className="addproduct-itemfield">
                     <p>Marca</p>
@@ -76,7 +94,7 @@ const AddProduct = () => {
             <div className="addproduct-data">
                 <div className="addproduct-itemfield">
                     <p>Aplicaciones</p>
-                    <input value={productDetails.applications} onChange={changeHandler} type="text" name='applications' placeholder="Ej. VW, Vento, Chevrolet Pick-UP"/>
+                    <input value={productDetails.application} onChange={changeHandler} type="text" name='application' placeholder="Ej. VW, Vento, Chevrolet Pick-UP"/>
                 </div>
             </div>
             <div className="addproduct-itemfield">
@@ -97,58 +115,17 @@ const AddProduct = () => {
                     </label>
                     <input onChange={imageHandler} type="file" name="image" id="file-input" hidden/>
                 </div>
-                {/* <div className="addproduct-itemfield">
+                <div className="addproduct-itemfield">
                     <p>Archivo PDF</p>
                     <label htmlFor="file-input">
-                        <img src={upload_file} className="addproduct-thumnail-file" alt=""/>
+                        <img src={pdf?URL.createObjectURL(pdf):upload_file} className="addproduct-thumnail-file" alt=""/>
                     </label>
-                    <input type="file" name="pdf" id="file-input" hidden/>
-                </div> */}
+                    <input onChange={fileHandler} type="file" name="pdf" id="file-input" hidden/>
+                </div>
             </div>
             <button onClick={()=>{add_product()}} className="addproduct-button">Guardar</button>
         </div>
     )
 }
-
-// name:{
-//     type:String,
-//     require:true,
-// },
-// model:{
-//     type:String,
-//     require:true,
-// },
-// image:{
-//     type:String,
-//     require:true,
-// },
-// category:{
-//     type:String,
-//     require:true,
-// },
-// application:{
-//     type:String,
-//     require:true,
-// },
-// material:{
-//     type:String,
-//     require:true,
-// },
-// measures:{
-//     type: String,
-//     require:false,
-// },
-// pdf:{
-//     type:String,
-//     require:false,
-// },
-// date:{
-//     type: Date,
-//     default:Date.now,
-// },
-// available:{
-//     type:Boolean,
-//     default: true,
-// },
 
 export default AddProduct

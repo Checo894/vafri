@@ -7,12 +7,13 @@ const Item = (props) => {
     if(props.image === ""){
         props.image = foto_prueba
     }
+    
     return (
         <div className="item">
             <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
             <div className="model-name">
                 <p className="model">
-                    FMSI {props.model}
+                    {props.brand} - FMSI {props.fmsi}
                 </p>
                 {/* <p className="name">
                     {props.name}

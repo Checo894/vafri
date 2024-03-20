@@ -7,7 +7,7 @@ let data_product =
     category: "pasta",
     model: "FMSI", 
     name: "512P",
-    application: "Agricola",
+    application: "Agricola", 
     material: "VFB",
     measures: "140*85*3.18",
     image: fotoPrueba,
