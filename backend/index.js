@@ -21,26 +21,72 @@ app.get("/", (req, res) =>{
     res.send("Express App is Running")
 })
 
-//Image Storage Engine 
-
 const storage = multer.diskStorage({
-    destination: './upload/images',
+    destination: function (req, file, cb){
+        cb(null, 'upload/images')
+    },
     filename:(req,file,cb) => {
         return cb(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
     }
 })
 
+
 const upload = multer({storage:storage})
+
+
+var multipleUploads = upload.fields([
+    { name: 'product', maxCount: 1 }, 
+    { name: 'productPDF', maxCount: 1 }
+])
 
 
 //Creating upload endpoint for images
 app.use('/images', express.static('upload/images'))
-app.post("/upload", upload.single('product'), (req, res) => {
-    res.json({
-        success:1,
-        image_url:`http://localhost${port}/images/${req.file.filename}`
+app.post("/upload", multipleUploads, (req, res) => {
+    let imageURL = "";
+    let pdfURL = "";
+    if (req.files) {
+        // Access uploaded image details (if present)
+        if (req.files.product) {
+          imageURL = `http://localhost:${port}/images/${req.files.product[0].filename}`;
+        }
+    
+        // Access uploaded PDF details (if present)
+        if (req.files.productPDF) {
+          pdfURL = `http://localhost:${port}/images/${req.files.productPDF[0].filename}`; // Adjust path if PDFs are stored elsewhere
+        }
+      }
+    
+      // Respond with image and PDF URLs (if uploaded)
+      res.json({
+        success: 1,
+        imageURL: imageURL,
+        pdfURL: pdfURL,
+      });
     })
-})
+
+//Image Storage Engine 
+
+// const storage = multer.diskStorage({
+//     destination: './upload/images',
+//     filename:(req,file,cb) => {
+//         return cb(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
+//     }
+// })
+
+// const upload = multer({storage:storage})
+
+
+// //Creating upload endpoint for images
+// app.use('/images', express.static('upload/images'))
+// app.post("/upload", upload.single('product'), (req, res) => {
+//     res.json({
+//         success:1,
+//         image_url:`http://localhost${port}/images/${req.file.filename}`
+//     })
+// })
+
+
 
 //Schema for Creating Products
 
