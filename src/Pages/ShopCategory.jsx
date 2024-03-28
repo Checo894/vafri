@@ -26,13 +26,16 @@ const ShopCategory = (props) => {
                         return <Item 
                                 key={i} 
                                 id={item.id} 
-                                category={item.category} 
                                 fmsi={item.fmsi}
-                                brand={item.brand} 
-                                application={applicationText} 
-                                image={item.image} 
-                                measures={item.measures} 
-                                formula={item.formula}
+                                brand={item.brand}
+                                formula={item.formula} 
+                                measures={item.measures}
+                                application={item.application} 
+                                category={item.category}
+                                image={item.image}
+                                pdf={item.pdf} 
+                                date={item.date}
+                                avilable={item.avilable}
                         />
                     } else {
                         return null

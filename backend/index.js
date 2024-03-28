@@ -41,6 +41,7 @@ var multipleUploads = upload.fields([
 
 
 //Creating upload endpoint for images
+
 app.use('/images', express.static('upload/images'))
 app.post("/upload", multipleUploads, (req, res) => {
     let imageURL = "";
@@ -168,6 +169,7 @@ app.post('/addproduct', async (req, res)=>{
 })
 
 //Creating API for dleeting products
+
 app.post('/removeproduct', async (req, res) => {
     await Product.findOneAndDelete({id:req.body.id});
     console.log("Removed");
@@ -178,6 +180,7 @@ app.post('/removeproduct', async (req, res) => {
 })
 
 //Creating API for getting all products
+
 app.get('/allproducts', async (req, res)=>{
     let products = await Product.find({});
     console.log("All products Fetched");

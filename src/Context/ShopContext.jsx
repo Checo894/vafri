@@ -1,9 +1,18 @@
-import React, { createContext } from "react";
-import all_data from '../Components/Assets/all_data_new_final'
+import React, { createContext, useEffect, useState } from "react";
+// import all_data from '../Components/Assets/all_data_new_final'
 
 export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
+
+    const [all_data,setAll_product] = useState([]);
+
+    useEffect(()=>{
+        fetch('http://localhost:4000/allproducts')
+        .then((Response)=>Response.json())
+        .then((data)=>setAll_product(data)) 
+    },[])
+
     const contextValue = {all_data};
 
     return (
