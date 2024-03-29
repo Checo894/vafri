@@ -12,12 +12,6 @@ const Catalogo = () => {
         <div className="catalogo">
             <img className="catalogo-banner" src={banner_catalogo} alt="" />
             <div className="catalogo-info">
-                <h2>
-                    Catálogo Digital
-                </h2>
-                <p>	
-                    
-                </p>
             </div>
             <div className="catalogo-type1">
                 <Link to='/pasta'>

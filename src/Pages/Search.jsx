@@ -3,6 +3,7 @@ import './CSS/Search.css';
 import { ShopContext } from '../Context/ShopContext';
 import Item from '../Components/Item/Item';
 import banner_buscar from '../Components/Assets/banner_buscar.png';
+import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 import './CSS/ShopCategory.css';
 
 const Search = () => {
@@ -20,11 +21,9 @@ const Search = () => {
       )
     );
     setFilteredData(filtered);
-  }, [all_data, query]); // Re-search when query or data changes
+  }, [all_data, query]); 
 
   const handleSearch = () => {
-    // Trigger search based on query value
-    // You can add more specific logic here if needed
     console.log('Search button clicked with query:', query);
   };
 
@@ -33,6 +32,7 @@ const Search = () => {
       <div className="buscar">
         <img className="buscar-banner" src={banner_buscar} alt="Banner de búsqueda" />
       </div>
+
       <div className="container">
         <input
           onChange={(e) => setQuery(e.target.value)}
@@ -45,6 +45,16 @@ const Search = () => {
           Buscar
         </button>
       </div>
+      
+      <div className="shopcategory-indexSort">
+                <p>
+                    <span>Showing 1-12</span> out of # products
+                </p>
+                <div className="shopcategory-sort">
+                    Sort by <img src={dropdown_icon} alt="" />
+                </div>
+        </div>
+      
       <div className="shopcategory-products">
         {filteredData.map((item, i) => (
           <Item key={i} {...item} />

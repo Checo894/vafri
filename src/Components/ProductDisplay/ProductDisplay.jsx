@@ -6,6 +6,14 @@ import { Link } from "react-router-dom";
 const ProductDisplay = (props) => {
     const {product} = props;
 
+    const handleRedirect = () => {
+        // Obtener la URL del PDF desde los props
+        const pdfURL = product.pdf; // Suponiendo que el prop que contiene la URL del PDF se llama "pdf"
+
+        // Abrir la URL del PDF en una nueva pestaña
+        window.open(pdfURL, '_blank');
+    }
+
     const Categoria =({product})=>{
         if (product.category === "pasta") {
             return <p><strong>Categoría</strong>: Pasta para Clutch</p>
@@ -52,9 +60,7 @@ const ProductDisplay = (props) => {
             <Link style={{textDecoration: 'none'}} to='/contacto'>
                 <button>Contactar al Provedor</button>
             </Link>
-            <Link style={{textDecoration: 'none'}} to='/contacto'>
-                <button>Descargar PDF en tamaño real</button>
-            </Link>
+            <button onClick={handleRedirect}>Descargar PDF en tamaño real</button>
             <p className="productdisplay-right-category"><span>{Categoria({product})} </span></p>
             {/* <p className="productdisplay-right-tags"><span>Tags : Carros</span></p> */}
             </div>
