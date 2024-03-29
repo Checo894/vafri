@@ -9,6 +9,7 @@ import Blog from "./Pages/Blog";
 import Conocenos from "./Pages/Conocenos";
 import Contacto from "./Pages/Contacto";
 import Catalogo from "./Pages/Catalogo";
+import Search from "./Pages/Search";
 import banner_tacon from "./Components/Assets/banner_tacon_final.png"
 import banner_pasta_tacon from "./Components/Assets/banner_pasta_tacon_final.png"
 import banner_pasta from "./Components/Assets/banner_pasta_final.png"
@@ -38,6 +39,7 @@ function App() {
             <Route path=":productId" element={<Product/>}/>
           </Route>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/buscar" element={<Search/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

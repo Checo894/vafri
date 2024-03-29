@@ -31,11 +31,12 @@ const Navbar = () => {
                     <li onClick={() => {setMenu("blog")}}><Link style={{textDecoration:'none'}} to='/blog'>Blog</Link>{menu==="blog"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("conocenos")}}><Link style={{textDecoration:'none'}} to='/conocenos'>Conócenos</Link>{menu==="conocenos"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("contacto")}}><Link style={{textDecoration:'none'}} to='/contacto'>Contacto</Link>{menu==="contacto"?<hr/>:<></>}</li>
+                    <li onClick={() => {setMenu("buscar")}}><Link style={{textDecoration:'none'}} to='/buscar'>Buscar</Link>{menu==="buscar"?<hr/>:<></>}</li>
                 </ul>
-                <div class="buscador-container">
+                {/* <div class="buscador-container">
                     <input type="text" class="buscador" placeholder="Buscar producto"/>
                     <button class="boton-buscar">Buscar</button>
-                </div>
+                </div> */}
 
                 {/* <div className="login-admi">
                     <Link to='/login'><button>Login Admi</button></Link>

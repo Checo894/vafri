@@ -1,0 +1,45 @@
+.buscar-banner{
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container {
+  display: relative;
+}
+
+.search-input {
+  font-size: 16px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-size: 24px;
+  width: 500px;
+  height: 30px;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  /* border-right: solid 1px #ccc; */
+  border-radius: 15px;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+  text-emphasis-color: #194197;
+}
+
+.search-button {
+  height: 55px;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #f82a27;
+  border: solid 1px #ccc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-left: -40px; 
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #e0e0e0;
+}

@@ -41,6 +41,33 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+.searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+  }
+  
+.searchButton {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+.searchButton:hover {
+    background-color: #e0e0e0;
+  }
 @media(max-width:1280px){
     .shopcategory-banner{
         margin: 20px auto;
