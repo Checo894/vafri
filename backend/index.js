@@ -194,3 +194,12 @@ app.listen(port, (error)=>{
         console.log("Error: "+error)
     }
 })
+
+// Api novedades
+
+app.get('/newproducts',async (req,res)=>{
+    let product = await Product.find({});
+    let newproducts = products.slice(1).slice(-8);
+    console.log("NewProducts Fetched");
+    res.send(newproducts);
+})
