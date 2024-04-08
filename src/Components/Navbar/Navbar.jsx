@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li onClick={() => {setMenu("tacon")}}><Link style={{textDecoration:'none'}} to='/tacon'>Tacón</Link>{menu==="tacon"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("pastaTacon")}}><Link style={{textDecoration:'none'}} to='/pastaTacon'>Pasta tacón</Link>{menu==="pastaTacon"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("miscelanea")}}><Link style={{textDecoration:'none'}} to='/miscelanea'>Miscelanea</Link>{menu==="miscelanea"?<hr/>:<></>}</li> */}
-                    <li onClick={() => {setMenu("blog")}}><Link style={{textDecoration:'none'}} to='/blog'>Blog</Link>{menu==="blog"?<hr/>:<></>}</li>
+                    {/* <li onClick={() => {setMenu("blog")}}><Link style={{textDecoration:'none'}} to='/blog'>Blog</Link>{menu==="blog"?<hr/>:<></>}</li> */}
                     <li onClick={() => {setMenu("conocenos")}}><Link style={{textDecoration:'none'}} to='/conocenos'>Conócenos</Link>{menu==="conocenos"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("contacto")}}><Link style={{textDecoration:'none'}} to='/contacto'>Contacto</Link>{menu==="contacto"?<hr/>:<></>}</li>
                     <li onClick={() => {setMenu("buscar")}}><Link style={{textDecoration:'none'}} to='/buscar'>Buscar</Link>{menu==="buscar"?<hr/>:<></>}</li>

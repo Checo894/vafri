@@ -7,7 +7,12 @@ const Breadcrum = (props) => {
     const {product} = props;
     return (
         <div className="breadcrum">
-            <Link to="/vafri" style={{textDecoration:'none'}} >Inicio</Link> <img src={arrow_icon} alt="" /> <Link to="/catalogo" style={{textDecoration:'none'}}>Catálogo</Link> <img src={arrow_icon} alt="" /> <Link to={`${product.category}`}>{product.category}</Link>  <img src={arrow_icon} alt="" /> FMSI {product.fmsi}
+            <Link to="/vafri" style={{textDecoration:'none'}} >Inicio</Link> 
+            <img src={arrow_icon} alt="" /> 
+            <Link to="/catalogo" style={{textDecoration:'none'}}>Catálogo</Link> 
+            <img src={arrow_icon} alt="" /> 
+            <Link to={`${product.category}`} style={{textDecoration:'none'}}>{product.category}</Link>  
+            <img src={arrow_icon} alt="" /> FMSI {product.fmsi}
         </div>
     )
 }

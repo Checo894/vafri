@@ -3,3 +3,44 @@
     margin-bottom: 20px;
     width: 100%;
 }
+
+.conocenos{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.conocenos p{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conocenos h1{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conocenos h2{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-content{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

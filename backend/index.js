@@ -66,28 +66,6 @@ app.post("/upload", multipleUploads, (req, res) => {
       });
     })
 
-//Image Storage Engine 
-
-// const storage = multer.diskStorage({
-//     destination: './upload/images',
-//     filename:(req,file,cb) => {
-//         return cb(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
-//     }
-// })
-
-// const upload = multer({storage:storage})
-
-
-// //Creating upload endpoint for images
-// app.use('/images', express.static('upload/images'))
-// app.post("/upload", upload.single('product'), (req, res) => {
-//     res.json({
-//         success:1,
-//         image_url:`http://localhost${port}/images/${req.file.filename}`
-//     })
-// })
-
-
 
 //Schema for Creating Products
 
@@ -187,6 +165,22 @@ app.get('/allproducts', async (req, res)=>{
     res.send(products);
 })
 
+//Creating Endpoint for Nuevo
+app.get('/nuevo', async (req, res)=>{
+    let products = await Product.find();
+    let nuevo = products.slice(1).slice(-8);
+    console.log("Nuevo Fetched");
+    res.send(nuevo);
+})
+
+//Creating Endpoint for Pasta products 
+app.get('/pastaP', async (req, res)=>{
+    let products = await Product.find({category:"pasta"});
+    let pastaP = products.slice(0,4);
+    console.log("Pasta Fetched");
+    res.send(pastaP);
+})
+
 app.listen(port, (error)=>{
     if (!error){
         console.log("Server Running on Port " +port)
@@ -195,11 +189,3 @@ app.listen(port, (error)=>{
     }
 })
 
-// Api novedades
-
-app.get('/newproducts',async (req,res)=>{
-    let product = await Product.find({});
-    let newproducts = products.slice(1).slice(-8);
-    console.log("NewProducts Fetched");
-    res.send(newproducts);
-})
