@@ -9,28 +9,24 @@ const Conocenos = () => {
             <h1>Bienvenidos a Vafri</h1>
             <div className="about-us-content">
                 <h2>Nuestra historia</h2>
-                <p>En Vafri, nuestra historia es la de una pasión compartida por la excelencia en cada detalle. 
-                    Fundada en el corazón de la industria automotriz, nos hemos dedicado a perfeccionar las pastas para clutch, 
-                    brindando soluciones confiables y duraderas a nuestros clientes desde [año de fundación]. 
-                    Lo que comenzó como una visión de calidad se ha convertido en una realidad arraigada en cada 
-                    producto que sale de nuestras instalaciones.
+                <p>Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren.
                 </p>
 
                 <h2>Compromiso con la Calidad</h2>
-                <p>Nos enorgullecemos de ser pioneros en la fabricación de pastas para clutch de alta calidad. 
-                    Cada componente que utilizamos pasa por rigurosas pruebas de calidad para garantizar su rendimiento 
-                    y durabilidad en las condiciones más exigentes. Nuestro equipo de ingenieros y técnicos altamente 
-                    capacitados trabaja incansablemente para mantener los más altos estándares de calidad en cada 
-                    etapa del proceso de fabricación.
+                <p>Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren.
                 </p>
 
                 <h2>Servicio al Cliente Personalizado</h2>
                 <p>
-                    En Vafri, creemos en el poder de las relaciones personales. Valoramos a cada cliente como un socio 
-                    y nos comprometemos a brindar un servicio personalizado que supere sus expectativas. 
-                    Desde el asesoramiento técnico hasta la atención al detalle en cada pedido, 
-                    nos esforzamos por construir una experiencia de cliente excepcional en cada interacción.
+                Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren.
                 </p>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Crecimiento</li>
+                    <li>Responsabilidad Social</li>
+                    <li>Honestidad</li>
+                    <li>Calidad</li>
+                </ul>
 
                 <h2>Nuestra Visión</h2>
                 <p>

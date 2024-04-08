@@ -47,5 +47,6 @@
 }
 
 .footer-copyright p {
+    color: #fefefe;
     margin-top: 10px; /* Ajusta el espacio sobre el texto de copyright */
 }

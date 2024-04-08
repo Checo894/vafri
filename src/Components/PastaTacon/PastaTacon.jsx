@@ -29,10 +29,10 @@ const PastaTacon = () => {
                                 fmsi={item.fmsi}
                                 brand={item.brand}
                                 category={item.category} 
-                                model={item.model} 
-                                application={applicationText} 
+                                model={item.model}  
                                 image={item.image} 
                                 measures={item.measures} 
+                                application={appText}
                                 formula={item.formula}
                                 pdf={item.pdf} 
                                 />
