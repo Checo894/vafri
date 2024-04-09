@@ -1,24 +1,59 @@
-import React from "react";
-import './DescriptionBox.css'
+import React, { useState } from "react";
+import './DescriptionBox.css';
+import vfb_image from '../Assets/vfb_image.png';
+import vfc_image from '../Assets/vfc_image.png';
+import vfr_image from '../Assets/vfr_image.png';
 
 const DescriptionBox = () => {
-    return(
+    const [description, setDescription] = useState(
+        "Pasta de fibra de vidrio con cobre y tecnología de segunda generación " +
+        "con trenzado, integrando un hilo de cobre para un buen funcionamiento"
+    );
+
+    const [image, setImage] = useState(vfb_image);
+    const [activeButton, setActiveButton] = useState("vfb");
+
+    const handleVfbClick = () => {
+        setDescription(
+            "Pasta de fibra de vidrio con cobre y tecnología de segunda generación " +
+            "con trenzado, integrando un hilo de cobre para un buen funcionamiento"
+        );
+        setImage(vfb_image);
+        setActiveButton("vfb");
+    };
+
+    const handleVfcClick = () => {
+        setDescription(
+            "Pasta de fibra de vidrio con cobre y tecnología de segunda generación " +
+            "con trenzado, integrando 3 hilos de cobre para mejorar el rendimiento"
+        );
+        setImage(vfc_image);
+        setActiveButton("vfc");
+    };
+
+    const handleVfrClick = () => {
+        setDescription(
+            "Pasta de fibra de vidrio con cobre y tecnología de segunda generación " +
+            "con trenzado, integrados 5 hilos de cobre para optimizar el rendimiento"
+        );
+        setImage(vfr_image);
+        setActiveButton("vfr");
+    };
+
+    return (
         <div className="descriptionbox">
             <div className="descriptionbox-navigator">
-                <div className="descriptionbox-nav-box">Description</div>
-                <div className="descriptionbox-nav-box fade">Reviews (34)</div>
+                <button className={`${activeButton === 'vfb' ? 'active' : ''}`} onClick={handleVfbClick}>VFB</button>
+                <button className={`${activeButton === 'vfc' ? 'active' : ''}`} onClick={handleVfcClick}>VFC</button>
+                <button className={`${activeButton === 'vfr' ? 'active' : ''}`} onClick={handleVfrClick}>VFR</button>
             </div>
             <div className="descriptionbox-description">
-                <p>las pastas para clutch, también conocidas como pastillas de 
-                    embrague, son componentes fundamentales en los sistemas de 
-                    embrague de los vehículos de transmisión manual. Estas pastas 
-                    están diseñadas para proporcionar la fricción necesaria que 
-                    permite la transferencia de potencia desde el motor hasta la transmisión, 
-                    permitiendo así el cambio de marchas y la conducción del vehículo.
-                </p>
+                <p>{description}</p>
+                <img src={image} alt="" />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default DescriptionBox
+export default DescriptionBox;
+

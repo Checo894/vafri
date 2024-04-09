@@ -19,8 +19,7 @@
 }
 
 .productdisplay-main-img{
-    width: 586px;
-    height: 600px;
+    height: 400px;
 }
 
 .productdisplay-right{
@@ -58,6 +57,10 @@
     display: center;
 }
 
+.productdisplay-right button:hover {
+    background-color: #0d2a4e;
+}
+
 .productdisplay-right-category{
     margin-top: 10px;
 }
@@ -89,8 +92,8 @@
     }
 
     .productdisplay-main-img{
-        width: auto;
-        height: 510px;
+        width: 250px;
+        height: 250px;
     }
 
     .productdisplay-right{
