@@ -21,3 +21,82 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.container-contact h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-contact form{
+    width: 1000px;
+    text-align: center;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.form .input-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.field .itemC{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #171717;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+form .text-area .field{
+    resize: none;
+}
+
+.field .error-txt{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left;
+    display: none;
+}
+
+.contacto-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #171717;
+    color:#ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+

@@ -1,10 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import banner_contacto from "../Components/Assets/banner_contacto.png"
-import banner_pasta from "../Components/Assets/banner_pasta_square.png"
-import banner_pasta_tacon from "../Components/Assets/banner_pasta_tacon_square.png"
-import banner_tacon from "../Components/Assets/banner_tacon_square.png"
-import banner_miscelanea from "../Components/Assets/banner_miscelanea_square.png"
+// import smtpjs from "smtpjs";
+
 import './CSS/Contacto.css'
 
 const Contacto = () => {
@@ -15,24 +12,43 @@ const Contacto = () => {
             <div className="contacto-content">
                 <h2>Información de Contacto</h2>
                 <p>Para consultas generales, comentarios o preguntas sobre nuestros productos, no dude en ponerse en contacto con nosotros.</p>
-                <div className="contact-info">
-                <div className="catalogo-type1">
-                    <Link to='/pasta'>
-                        <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_pasta} alt="" />
-                    </Link>
-                    <Link to='/pastaTacon'>
-                        <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_pasta_tacon} alt="" />
-                    </Link>
+                <div className="container-contact">
+                    <h2>Contactanos!</h2>
+                    <form className="form"> 
+                        <div className="input-box">
+                            <div className="input-field field">
+                                <input type="text" id="nombre" className="itemC" 
+                                name="nombre" placeholder="Nombre Completo"required />
+                                <div className="error-txt">Nombre no puede estar vacío</div>
+                                <input type="email" id="email" className="itemC" 
+                                name="email" placeholder="Email"required />
+                                <div className="error-txt">Email no puede estar vacío</div>
+                            </div>
+                        </div>
+
+                        <div className="input-box">
+                            <div className="input-field field">
+                                <input type="text" id="numero" className="itemC" 
+                                name="numero" placeholder="Teléfono"required />
+                                <div className="error-txt">Teléfono no puede estar vacío</div>
+                                <input type="text" id="asunto" className="itemC" 
+                                name="asunto" placeholder="Asunto"required />
+                                <div className="error-txt">Asunto no puede estar vacío</div>
+                            </div>
+                        </div>
+
+                        <div className="text-area field">
+                            <textarea 
+                                name="" className="itemC" id="message" 
+                                cols="30" rows="10" placeholder="Mensaje">
+                            </textarea>
+                            <div className="error-txt">Mensaje no puede estar vacío</div>
+                        </div>
+                    </form>
+                    <div className="contacto-btn">
+                        <button type="submit">Enviar Correo</button>
+                    </div>
                 </div>
-                <div className="catalogo-type2">
-                    <Link to='/tacon'>
-                        <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_tacon} alt="" />
-                    </Link>
-                    <Link to='/miscelanea'>
-                        <img onClick={window.scrollTo(0,0)} className="catalogo-elements" src={banner_miscelanea} alt="" />
-                    </Link>
-                </div>
-            </div>
                 
             </div>
         </div>
