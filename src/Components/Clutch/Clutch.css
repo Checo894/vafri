@@ -24,6 +24,7 @@
 }
 
 .clutch-left p{
+    margin-top: 10px;
     color:#171717;
     font-size: 22px;
     font-weight: 600;
@@ -32,7 +33,7 @@
 .clutch-left button{
     width: 228px;
     height: 70px;
-    border-radius: 35px;
+    border-radius: 5px;
     background: #ff4141;
     border: none;
     cursor: pointer;
@@ -40,6 +41,10 @@
     font-size: 22px;
     font-weight:500;
     margin-top: 30px;
+}
+
+.clutch.clutch-left button:hover{
+    background: #a12e2e;
 }
 
 .clutch-right{

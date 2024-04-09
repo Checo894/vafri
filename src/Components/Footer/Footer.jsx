@@ -35,7 +35,7 @@ const Footer = () => {
             
             <div className="footer-copyright">
                 <hr />
-                <p>Copyright @ 2024 - Vafri Ceramic. Todos los derechos reservados</p>
+                <p>Copyright © 2024 - Vafri Ceramic. Todos los derechos reservados</p>
             </div>
         </div>
     )

@@ -213,14 +213,14 @@ const ShopCategory = (props) => {
                 <span>Showing 1-{visibleData.length}</span> out of {filteredData.length} products
                 </p>
                 <div className="shopcategory-sort">
-                    Sort by
-                    <select value={sortBy} onChange={handleSortChange}>
+                    Sort by  <img src={dropdown_icon} alt="" />
+                    {/* <select value={sortBy} onChange={handleSortChange}>
                         <option value="">-- Select --</option>
                         <option value="az">A-Z</option>
                         <option value="za">Z-A</option>
                         <option value="newest">Newest to Oldest</option>
                         <option value="oldest">Oldest to Newest</option>
-                    </select>
+                    </select> */}
                 </div>
             </div>
             <div className="shopcategory-products">

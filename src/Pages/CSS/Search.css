@@ -15,7 +15,7 @@
   justify-content: center;
   background-size: 24px;
   width: 500px;
-  height: 30px;
+  height: 55px;
   border-bottom: solid 1px #ccc;
   border-top: solid 1px #ccc;
   border-left: solid 1px #ccc;
@@ -41,5 +41,7 @@
 }
 
 .search-button:hover {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
+  color: #f82a27;
+  font-weight: 600;
 }
