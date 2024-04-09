@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import banner_contacto from "../Components/Assets/banner_contacto.png"
 import emailjs from '@emailjs/browser';
+import Slider from "react-slick/lib/slider";
 // import smtpjs from "smtpjs";
 
 import './CSS/Contacto.css'
+
+
+//Importante configurar emailjs con el correo institucional y 
+//de la misma manera poner el template adecuado
 
 
 const Contacto = () => {

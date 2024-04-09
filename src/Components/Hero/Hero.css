@@ -1,11 +1,17 @@
 .hero {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-image: url('../Assets/pag_inicio_banner.jpg');
-    background-size: cover;
-    background-position: end;
+    height: 100vh;
+    /* margin-bottom: 180px; */
 }
+
+.hero .slick-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero .slick-slide a img {
+    object-fit: cover;
+  }
 
 .contenedor {
     display: flex;
