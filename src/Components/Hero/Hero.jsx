@@ -57,6 +57,9 @@ const Hero = () => {
           </Link>
         ))}
       </Slider>
+      <div className="contenedor-texto">
+        <h1>¡Bienvenido a Vafri!</h1>
+      </div>
     </div>
   );
 };
@@ -75,7 +78,7 @@ const CustomPrevArrow = ({ onClick }) => (
     }}
     onClick={onClick}
   >
-    <i className="fa fa-angle-left" aria-hidden="true"></i> {/* Use FontAwesome icon */}
+    <i className="fa fa-angle-left" aria-hidden="true"></i> 
   </div>
 );
 
@@ -92,7 +95,7 @@ const CustomNextArrow = ({ onClick }) => (
     }}
     onClick={onClick}
   >
-    <i className="fa fa-angle-right" aria-hidden="true"></i> {/* Use FontAwesome icon */}
+    <i className="fa fa-angle-right" aria-hidden="true"></i> 
   </div>
 );
 

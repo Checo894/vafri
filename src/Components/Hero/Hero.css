@@ -1,28 +1,25 @@
 .hero {
-    height: 100vh;
-    /* margin-bottom: 180px; */
+    margin-bottom: 100px;
 }
 
 .hero .slick-slide a {
-    display: block;
     width: 100%;
     height: 100%;
   }
   
-  .hero .slick-slide a img {
-    object-fit: cover;
-  }
+.hero .slick-slide img {
+object-fit: cover;
+}
 
-.contenedor {
+.contenedor-texto{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 70%;
-    margin-right: 50px;
-    width: 100%;
-    margin-top: 50px;
-    background: rgba(255,255,255,0.5);
+    align-items: column;
+    height: 100%;
+}
+.contenedor-texto h1{
+    margin-top: 50px ;
+   font-size: 60px;
 }
 
 p{
@@ -32,35 +29,6 @@ p{
 }
 
 
-
-
-.hero-left{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
-    line-height: 1.1;
-}
-
-.hero-left h2 {
-    color: #090909;
-    font-size: 26px;
-    font-weight: 600;
-}
-
-.hero-left p{
-    color: #171717;
-    font-size: 100px;
-    font-weight: 700;
-}
-
-.hero-piece-icon{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
 .contacto-btn button{
     display: flex;
@@ -77,13 +45,6 @@ p{
     color:#ffffff;
     font-size: 22px;
     font-weight: 500;
-}
-
-.hero-right{
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media(max-width:1280px){
