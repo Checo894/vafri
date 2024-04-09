@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px; 
+    height: 10px;
 }
 
 .pasta-tacon hr{
