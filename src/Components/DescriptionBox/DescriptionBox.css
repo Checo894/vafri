@@ -50,18 +50,21 @@
 }
 
 .descriptionbox-description{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-direction: column;
     gap: 25px;
     border: 1px solid #d0d0d0;
-    padding: 48px;
+    padding: 60px;
     padding-bottom: 70px;
+
 }
 
 .descriptionbox-description p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     color: #3d3d3d;
+    align-content: center;
 }
 
 .descriptionbox-description img{

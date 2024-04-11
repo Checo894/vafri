@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './DescriptionBox_pt.css';
+import './DescriptionBox.css';
 import vc_image from '../Assets/fotoPrueba.png';
 
 const DescriptionBox_pt = () => {
@@ -19,11 +19,11 @@ const DescriptionBox_pt = () => {
     };
 
     return (
-        <div className="descriptionbox_pt">
-            <div className="descriptionbox_pt-navigator">
+        <div className="descriptionbox">
+            <div className="descriptionbox-navigator">
                 <button className={`${activeButton === 'vc' ? 'active' : ''}`} onClick={handleVcClick}>VC</button>
             </div>
-            <div className="descriptionbox_pt-description">
+            <div className="descriptionbox-description">
                 <p>{description}</p>
                 <img src={image} alt="" />
             </div>
