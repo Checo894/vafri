@@ -8,11 +8,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import hero1 from '../Assets/hero1.png';
 import hero2 from '../Assets/hero2.png';
+import hero3 from '../Assets/hero3.png';
 
 const Hero = () => {
   const images = [
     hero1,
     hero2,
+    hero3,
   ];
 
   const settings = {

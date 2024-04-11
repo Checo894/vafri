@@ -39,6 +39,17 @@
     text-align: justify;
 }
 
+.conocenos-img{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
 .about-us-container {
     max-width: 800px;
     margin: 0 auto;
