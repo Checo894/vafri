@@ -11,8 +11,6 @@
 }
 
 .conocenos p{
-    align-content: center;
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -30,7 +28,7 @@
 
 .about-us-content{
     display: block;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     margin-bottom: 20px;
     max-width: 1000px;

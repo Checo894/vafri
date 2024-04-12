@@ -7,7 +7,7 @@ const Conocenos = () => {
     return(
         <div className="conocenos">
             <img className="conocenos-banner" src={banner_conocenos} alt="" />
-            <h1>Bienvenidos a Vafri</h1>
+            {/* <h1>Bienvenidos a Vafri</h1> */}
             <img className="conocenos-img" src={conocenosLogo} alt="" />
             <div className="about-us-content">
                 

@@ -4,7 +4,7 @@
 
 .descriptionbox-navigator{
     display:flex;
-    width: 99.9%;
+    width: 100%;
     border: 2px solid #d0d0d0;
     justify-content: center;
 }
@@ -57,14 +57,14 @@
     border: 1px solid #d0d0d0;
     padding: 60px;
     padding-bottom: 70px;
-
+    background: #fbfbfb;
 }
 
 .descriptionbox-description p{
     font-size: 25px;
     font-weight: 400;
     color: #3d3d3d;
-    align-content: center;
+    text-align: justify;
 }
 
 .descriptionbox-description img{
