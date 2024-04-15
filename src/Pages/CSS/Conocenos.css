@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-.conocenos p{
+/* .conocenos p{
     margin-bottom: 20px;
 }
 
@@ -35,21 +35,88 @@
     margin: 0 auto;
     padding: 20px;
     text-align: justify;
+} */
+
+.conocenos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    padding: 50px;
+    margin-bottom: auto;
 }
 
 .conocenos-img{
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
-.about-us-container {
+/* .about-us-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+} */
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.accordion {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+
+.accordion :hover {
+  cursor: pointer;
+  /* background-color: #194197;
+  color: white; */
+}
+
+article {
+  border-bottom: 2px solid #9d9d9d;
+  padding: 1em;
+  content: "▶";
+}
+
+article h2 {
+  font-size: 30px;
+  color: #404040;
+  font-weight: 700;
+}
+
+article p {
+  font-size: 20px;
+  color: #404040;
+  margin-top: 20px;
+}
+
+article ul {
+  list-style-type: square;
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  position: fixed;
+  top: -100vh; left: -100vh;
+
+  & ~ div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  &:checked ~ div {
+    max-height: 1000px;
+  }
 }
