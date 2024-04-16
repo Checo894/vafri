@@ -127,6 +127,8 @@ const AddProduct = () => {
                     <option value="tacon">Tacón</option>
                     <option value="remache">Remache</option>
                     <option value="miscelanea">Miscelánea</option>
+                    <option value="remache">Remache</option>
+                    <option value="balata">Balata</option>
                 </select>
             </div>
             <div className="addproduct-assets">
