@@ -30,6 +30,24 @@ const ListProduct = () => {
         await fetchInfo();
     }
 
+    const Categoria =({product})=>{
+        if (product.category === "pasta") {
+            return <p>Pasta para Clutch</p>
+        } else if (product.category === "pastaTacon"){
+            return <p>Pasta Tacón</p>
+        } else if (product.category === "tacon"){
+            return <p>Tacón</p>
+        } else if (product.category === "miscelanea"){
+            return <p>Miscelanea</p>
+        } else if (product.category === "remache"){
+            return <p>Remache</p>
+        } else if (product.category === "balata"){
+            return <p>Balata</p>
+        } else{
+            return <p>Categoría: No determinada</p>
+        }
+    }
+
     return(
         <div className="list-product">
             <h1>Lista de todos los productos</h1>
@@ -54,7 +72,7 @@ const ListProduct = () => {
                         <p>{product.formula}</p>
                         <p>{product.measures}</p>
                         <p>{product.application}</p>
-                        <p>{product.category}</p>
+                        <p>{Categoria({product})}</p>
                         {/* <p>{product.pdf}</p> */}
                         {/* <img src={product.pdf} alt="" className="listproduct-product-pdf" style={{height: '80px'}}/> */}
                         <img onClick={()=>{remove_product(product.id)}} src={removeIcon} alt="" className="listproduct-remove-icon"/>
