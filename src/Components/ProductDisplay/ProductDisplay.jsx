@@ -25,6 +25,10 @@ const ProductDisplay = (props) => {
             return <p><strong>Categoría</strong>: Remache</p>
         } else if (product.category === "miscelanea"){
             return <p><strong>Categoría</strong>: Miscelanea</p>
+        } else if (product.category === "remache"){
+            return <p><strong>Categoría</strong>: Remache</p>
+        } else if (product.category === "balata"){
+            return <p><strong>Categoría</strong>: Balata</p>
         } else{
             return <p>Categoría: No determinada</p>
         }
