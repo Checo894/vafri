@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import banner_contacto from "../Components/Assets/banner_contacto.png"
 import emailjs from '@emailjs/browser';
 import Slider from "react-slick/lib/slider";
+import mail_logo from '../Components/Assets/mail_logo.svg'
+import tel_logo from '../Components/Assets/phone_logo.svg'
+import facebook_logo from '../Components/Assets/facebook_logo.svg'
+import whatsapp_logo from '../Components/Assets/whatsapp_logo.svg'
 // import smtpjs from "smtpjs";
 
 import './CSS/Contacto.css'
@@ -48,8 +52,13 @@ const Contacto = () => {
         });
     }
 
-    
+    const handleRedirectFacebook = () => {
+        window.open('https://www.facebook.com/people/Vafri/100071049796148/', '_blank')
+    }
 
+    const handleRedirectWhatsapp = () => {
+        window.open('https://wa.me/523315663639/', '_blank')
+    }
 
     return (
         <div className="contacto">
@@ -58,6 +67,24 @@ const Contacto = () => {
             <div className="contacto-content">
                 <h2>Información de Contacto</h2>
                 <p>Para consultas generales, comentarios o preguntas sobre nuestros productos, no dude en ponerse en contacto con nosotros.</p>
+                <div className="contacto-miniBanners">
+                    <button onClick={handleRedirectFacebook}>
+                        <img src={facebook_logo} alt=""/>
+                        <p>FaceBook</p>
+                    </button>
+                    <button onClick={handleRedirectWhatsapp}>
+                        <img src={whatsapp_logo} alt=""/>
+                        <p>WhatsApp</p>
+                    </button>
+                    <button>
+                        <img src={tel_logo} alt=""/>
+                        <p>(443) 520-8109</p>
+                    </button>
+                    <button>
+                        <img src={mail_logo} alt=""/>
+                        <p>aa_vafri@hotmail.com</p>
+                    </button>
+                </div>
                 <div className="container-contact">
                     <h2>Contactanos!</h2>
                     <form className="form" onSubmit={handleSubmit}> 

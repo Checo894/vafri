@@ -108,7 +108,61 @@ form .text-area .field{
 }
 
 .contacto-btn button:hover{
-    background-color: white;
+    /* background-color: white;
     border: solid 2px black;
+    color: black; */
+    border: solid 2px white;
+    filter: brightness(90%) invert(1);
+}
+
+.contacto-miniBanners{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.contacto-miniBanners img{
+    /* filter: brightness(0) invert(0); */
+    padding: 20px;
+}
+
+.contacto-miniBanners p{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.contacto-miniBanners button{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 310px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #171717;
+    margin-bottom: 20px;
+}
+
+
+
+.contacto-miniBanners button:hover{
+    border: solid 2px white;
+    filter: brightness(90%) invert(1);
+}
+
+/* .contacto-miniBanners p :hover{
     color: black;
 }
+
+.contacto-miniBanners img :hover{
+    filter: brightness(100%) invert(1);
+} */

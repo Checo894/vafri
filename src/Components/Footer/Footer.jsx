@@ -5,6 +5,7 @@ import footer_logo from '../Assets/footer_logo.png'
 import mail_logo from '../Assets/mail_logo.svg'
 import facebook_logo from '../Assets/facebook_logo.svg'
 import whatsapp_logo from '../Assets/whatsapp_logo.svg'
+import tel_logo from '../Assets/phone_logo.svg'
 
 const Footer = () => {
 
@@ -24,6 +25,9 @@ const Footer = () => {
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
                     <Link to={"/contacto"}><img src={mail_logo} alt=""/></Link>
+                </div>
+                <div className="footer-icons-container">
+                    <Link to={"/contacto"}><img src={tel_logo} alt=""/></Link>
                 </div>
                 <div className="footer-icons-container">
                     <img onClick={handleRedirectFacebook} src={facebook_logo} alt=""/>
