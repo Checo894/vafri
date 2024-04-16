@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import banner_contacto from "../Components/Assets/banner_contacto.png"
 import emailjs from '@emailjs/browser';
-import Slider from "react-slick/lib/slider";
 import mail_logo from '../Components/Assets/mail_logo.svg'
 import tel_logo from '../Components/Assets/phone_logo.svg'
 import facebook_logo from '../Components/Assets/facebook_logo.svg'
 import whatsapp_logo from '../Components/Assets/whatsapp_logo.svg'
-// import smtpjs from "smtpjs";
+
 
 import './CSS/Contacto.css'
 
@@ -19,38 +18,36 @@ const Contacto = () => {
 
     const [nombre, setNombre] = useState('');
     const [email, setEmail] = useState('');
-    // const [numero, setNumero] = useState('');
-    // const [asunto, setAsunto] = useState('');
     const [message, setMensaje] = useState('');
+    const [alerta, setAlerta] = useState({ tipo: '', mensaje: '' });
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
         const templateId = 'template_l36qujw';
         const serviceID = 'service_cqzdhb8';
         const publicKey = 'CTcprWfxC2RiLM0dE';
-            // sendFeedback(templateId, {message: message, from_name: nombre, reply_to: email, numero: numero, asunto: asunto})
-
+      
         const templateParams = {
-            from_name: nombre,
-            from_email: email,
-            to_name: 'Vafri Ceramic',
-            // numero: numero,
-            // asunto: asunto,
-            message: message
+          from_name: nombre,
+          from_email: email,
+          to_name: 'Vafri Ceramic',
+          message: message
         };
-
+      
         emailjs.send(serviceID, templateId, templateParams, publicKey)
-        .then((response) => {
+          .then((response) => {
             console.log('Correo enviado', response.status, response.text);
+            mostrarAlertaExito();
             setNombre('');
             setEmail('');
-            // setNumero('');
-            // setAsunto('');
             setMensaje('');
-        }).catch((error) => {
+          }).catch((error) => {
             console.log('Error al enviar el correo', error);
-        });
-    }
+            mostrarAlertaError('Hubo un problema al enviar el correo. Inténtalo de nuevo más tarde.');
+          });
+      };
+      
 
     const handleRedirectFacebook = () => {
         window.open('https://www.facebook.com/people/Vafri/100071049796148/', '_blank')
@@ -59,6 +56,19 @@ const Contacto = () => {
     const handleRedirectWhatsapp = () => {
         window.open('https://wa.me/523315663639/', '_blank')
     }
+
+    const handleRedirectEmail = () => {
+        window.open('mailto:aa_vafri@hotmail.com', '_blank')
+    }
+
+    const mostrarAlertaExito = () => {
+        setAlerta({ tipo: 'exito', mensaje: '¡Correo enviado con éxito!' });
+      };
+      
+      const mostrarAlertaError = (mensaje) => {
+        setAlerta({ tipo: 'error', mensaje });
+      };
+      
 
     return (
         <div className="contacto">
@@ -70,7 +80,7 @@ const Contacto = () => {
                 <div className="contacto-miniBanners">
                     <button onClick={handleRedirectFacebook}>
                         <img src={facebook_logo} alt=""/>
-                        <p>FaceBook</p>
+                        <p>Facebook</p>
                     </button>
                     <button onClick={handleRedirectWhatsapp}>
                         <img src={whatsapp_logo} alt=""/>
@@ -80,13 +90,20 @@ const Contacto = () => {
                         <img src={tel_logo} alt=""/>
                         <p>(443) 520-8109</p>
                     </button>
-                    <button>
+                    <button onClick={handleRedirectEmail}>
                         <img src={mail_logo} alt=""/>
                         <p>aa_vafri@hotmail.com</p>
                     </button>
                 </div>
                 <div className="container-contact">
                     <h2>Contactanos!</h2>
+                    {alerta.tipo === 'exito' && (
+                            <div className="alerta exito">{alerta.mensaje}</div>
+                        )}
+
+                        {alerta.tipo === 'error' && (
+                            <div className="alerta error">{alerta.mensaje}</div>
+                        )}
                     <form className="form" onSubmit={handleSubmit}> 
                         <div className="input-box">
                             <div className="input-field field">
@@ -98,18 +115,6 @@ const Contacto = () => {
                                 <div className="error-txt">Email no puede estar vacío</div>
                             </div>
                         </div>
-
-                        {/* <div className="input-box">
-                            <div className="input-field field">
-                                <input type="text" id="numero" className="itemC" onChange={(e) => setNumero(e.target.value)}    
-                                value={numero} placeholder="Teléfono"required />
-                                <div className="error-txt">Teléfono no puede estar vacío</div>
-                                <input type="text" id="asunto" className="itemC" onChange={(e) => setAsunto(e.target.value)}
-                                value={asunto} placeholder="Asunto"required />
-                                <div className="error-txt">Asunto no puede estar vacío</div>
-                            </div>
-                        </div> */}
-
                         <div className="text-area field">
                             <textarea 
                                 name="" className="itemC" id="message" onChange={(e) => setMensaje(e.target.value)}
@@ -121,6 +126,7 @@ const Contacto = () => {
                     <button type="submit">Enviar Correo</button>
                     </div>
                     </form>
+                    
                     
                    
                 </div>

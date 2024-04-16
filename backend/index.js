@@ -183,6 +183,14 @@ app.get('/pastaP', async (req, res)=>{
 
 //Creating Endpoint for Related products
 
+app.get('/related', async (req, res)=>{
+    let products = await Product.find();
+    let related = products.slice(0,4);
+    console.log("Related Fetched");
+    res.send(related);
+})
+
+
 app.listen(port, (error)=>{
     if (!error){
         console.log("Server Running on Port " +port)
