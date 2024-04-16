@@ -14,6 +14,8 @@ import banner_tacon from "./Components/Assets/banner_tacon_final.png"
 import banner_pasta_tacon from "./Components/Assets/banner_pasta_tacon_final.png"
 import banner_pasta from "./Components/Assets/banner_pasta_final.png"
 import banner_miscelanea from "./Components/Assets/banner_miscelanea_final.png"
+import banner_remache from "./Components/Assets/banner_remache.png"
+import banner_balata from "./Components/Assets/banner_balata.png"
 //importamos el banner para cada una de las categorias (pasta, pasta tacón, miscelanea, tacón, etc)
 //Poner como props los banners
 
@@ -32,6 +34,8 @@ function App() {
           <Route path="/tacon" element={<ShopCategory banner={banner_tacon} category="tacon"/>}/>
           <Route path="/pastaTacon" element={<ShopCategory banner={banner_pasta_tacon} category="pastaTacon"/>}/>
           <Route path="/miscelanea" element={<ShopCategory banner={banner_miscelanea} category="miscelanea"/>}/>
+          <Route path="/remache" element={<ShopCategory banner={banner_remache} category="remache"/>}/>
+          <Route path="/balata" element={<ShopCategory banner={banner_balata} category="balata"/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/conocenos" element={<Conocenos/>}/>
           <Route path="/contacto" element={<Contacto/>}/>
