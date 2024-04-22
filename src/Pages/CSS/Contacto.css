@@ -159,6 +159,27 @@ form .text-area .field{
     filter: brightness(90%) invert(1);
 }
 
+.alerta {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 10px;
+    color: white; /* Texto blanco */
+    border-radius: 5px;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    position: fixed; /* Posición fija en la pantalla */
+    top: 0; /* En la parte superior de la pantalla */
+    left: 0; /* Alineado a la izquierda */
+    z-index: 1000; /* Asegura que la alerta se muestre por encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
+}
+
+.alerta.exito {
+    background-color: #4CAF50; /* Verde para éxito */
+}
+
+.alerta.error {
+    background-color: #f44336; /* Rojo para error */
+}
+
 /* .contacto-miniBanners p :hover{
     color: black;
 }

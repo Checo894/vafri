@@ -37,10 +37,7 @@ const ProductDisplay = (props) => {
         <div className="productdisplay">
             <div className="productdisplay-left">
                 <div className="productdisplay-img-list">
-                    {/* <img src={product.image} alt="" />
-                    <img src={product.image} alt="" />
-                    <img src={product.image} alt="" />
-                    <img src={product.image} alt="" /> */}
+                    
                 </div>
                 <div className="productdisplay-img">
                     <img className="productdisplay-main-img" src={product.image} alt="" />
@@ -51,20 +48,11 @@ const ProductDisplay = (props) => {
                  <p><strong>Aplicaciones</strong>: {product.application}</p>
                  <p><strong>Medidas</strong>: {product.measures}</p>
                  <p><strong>Material</strong>: {product.formula}</p>
-            <div className="productdisplay-right-description">
-                    {/* Las pastas para clutch, también conocidas como pastillas de 
-                    embrague, son componentes fundamentales en los sistemas de 
-                    embrague de los vehículos de transmisión manual. Estas pastas 
-                    están diseñadas para proporcionar la fricción necesaria que 
-                    permite la transferencia de potencia desde el motor hasta la transmisión, 
-                    permitiendo así el cambio de marchas y la conducción del vehículo. */}
-            </div>
             <Link style={{textDecoration: 'none'}} to='/contacto'>
                 <button>Contactar al Provedor</button>
             </Link>
             <button onClick={handleRedirect}>Descargar PDF en tamaño real</button>
-            <p className="productdisplay-right-category"><span>{Categoria({product})} </span></p>
-            {/* <p className="productdisplay-right-tags"><span>Tags : Carros</span></p> */}
+            <div className="productdisplay-right-category"><span>{Categoria({product})} </span></div>
             </div>
         </div>
     )

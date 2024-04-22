@@ -16,11 +16,7 @@ import banner_pasta from "./Components/Assets/banner_pasta_final.png"
 import banner_miscelanea from "./Components/Assets/banner_miscelanea_final.png"
 import banner_remache from "./Components/Assets/banner_remache.png"
 import banner_balata from "./Components/Assets/banner_balata.png"
-//importamos el banner para cada una de las categorias (pasta, pasta tacón, miscelanea, tacón, etc)
-//Poner como props los banners
 
-
-//Falta hacer el dropdown 
 
 function App() {
   return (

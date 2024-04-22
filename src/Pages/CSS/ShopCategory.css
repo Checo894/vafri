@@ -4,18 +4,67 @@
     width: 100%;
 }
 
-.shopcategory-indexSort{
+.shopcategory-indexSort {
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten según el ancho disponible */
 }
 
-.shopcategory-sort{
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: 1px solid #888;
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el texto y el select */
 }
+
+.sort-label {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding-right: 5px; /* Pequeño espacio entre el texto y el select */
+}
+
+.shopcategory-sort select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+
+/* Estilo para la flecha desplegable, usando un pseudo-elemento */
+.shopcategory-sort select::-ms-expand {
+    display: none; /* Oculta la flecha predeterminada en IE */
+}
+
+.shopcategory-sort select:after {
+    content: '\25BC'; /* Carácter Unicode para la flecha hacia abajo */
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Evita que la flecha interfiera con el clic */
+}
+
+/* Estilos para mejorar la apariencia de las opciones cuando se despliega el select */
+.shopcategory-sort select option {
+    padding: 8px 10px; /* Espaciado interno para hacer las opciones más accesibles */
+    background: white; /* Fondo blanco para las opciones */
+    color: #333; /* Texto oscuro para las opciones */
+}
+
+/* Añadir transiciones suaves al abrir y cerrar el select */
+.shopcategory-sort select {
+    transition: all 0.3s ease;
+}
+
+/* Estilos adicionales para hover y focus para mejorar la accesibilidad */
+.shopcategory-sort select:hover,
+.shopcategory-sort select:focus {
+    border-color: #555; /* Oscurece el borde al pasar el mouse o enfocar */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Sombra más pronunciada al interactuar */
+}
+
 
 .shopcategory-indexSort p span{
     font-weight: 600;

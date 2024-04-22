@@ -1,122 +1,87 @@
-.conocenos-banner{
-    display: block;
-    margin-bottom: 20px;
-    width: 100%;
+.conocenosBanner{
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .conocenos{
-    display: block;
-    margin-bottom: 20px;
-    width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-/* .conocenos p{
-    margin-bottom: 20px;
+.conocenosGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  margin-bottom: auto;
 }
 
-.conocenos h1{
-    align-content: center;
-    text-align: center;
-    margin-bottom: 20px;
+.conocenosImg{
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.conocenos h2{
-    align-content: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.about-us-content{
-    display: block;
-    justify-content: space-between;
-    align-content: center;
-    margin-bottom: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
-} */
-
-.conocenos-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-direction: column;
-    padding: 50px;
-    margin-bottom: auto;
-}
-
-.conocenos-img{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-/* .about-us-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-} */
 
 *, *::before, *::after {
-  padding: 0;
-  margin: 0 auto;
   box-sizing: border-box;
 }
 
 .accordion {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
-    line-height: 1.5;
-    
+  max-width: 100%;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .accordion :hover {
-  cursor: pointer;
-  /* background-color: #194197;
-  color: white; */
+cursor: pointer;
 }
 
 article {
-  border-bottom: 2px solid #9d9d9d;
-  padding: 1em;
-  content: "▶";
+border-bottom: 2px solid #9d9d9d;
+padding: 1em;
 }
 
 article h2 {
-  font-size: 30px;
-  color: #404040;
-  font-weight: 700;
+font-size: 30px;
+color: #404040;
+font-weight: 700;
 }
 
 article p {
-  font-size: 20px;
-  color: #404040;
-  margin-top: 20px;
+font-size: 20px;
+color: #404040;
+margin-top: 20px;
 }
 
 article ul {
-  list-style-type: square;
-  margin-top: 20px;
+list-style-type: square; /* Choose style that fits your design */
+padding-left: 20px; /* Indentation for the list */
+margin-top: 20px; /* Spacing above the list */
+font-size: 20px; /* Matches the paragraph text size */
+color: #404040; /* Matches the paragraph text color */
+}
+
+article li {
+margin-bottom: 10px; /* Space between list items */
 }
 
 input[type="radio"] {
-  appearance: none;
-  position: fixed;
-  top: -100vh; left: -100vh;
+appearance: none;
+position: absolute;
+opacity: 0; /* use opacity instead of moving off-screen for better accessibility */
+}
 
-  & ~ div {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-  }
+input[type="radio"] ~ div {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease-in-out;
+}
 
-  &:checked ~ div {
-    max-height: 1000px;
-  }
+input[type="radio"]:checked ~ div {
+max-height: 1000px; /* adjust according to content size */
 }

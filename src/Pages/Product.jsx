@@ -9,35 +9,37 @@ import DescriptionBox_t from "../Components/DescriptionBox/DescriptionBox_t";
 import RelatedProducts from "../Components/RelatedProducts/RelatedProducts";
 
 const Product = () => {
-    const {all_data}=useContext(ShopContext);
-    const {productId} = useParams();
+    const {all_data} = useContext(ShopContext);
+    const {productId} = useParams(); // Obtiene el productId de la URL con React Router
     const product = all_data.find((e) => e.id === Number(productId));
+    
+    if (!product) {
+        return <div>Producto no encontrado</div>; // Manejo en caso de que el producto no exista
+    }
+
     const category = product.category;
 
     const changeDescription = (category) => {
-        if (category === "pasta") {
-            return <DescriptionBox/>
+        switch (category) {
+            case "pasta":
+                return <DescriptionBox />;
+            case "pastaTacon":
+                return <DescriptionBox_pt />;
+            case "tacon":
+                return <DescriptionBox_t />;
+            default:
+                return null;
         }
-        else if (category === "pastaTacon") {
-            return <DescriptionBox_pt/>
-        }
-        else if (category === "tacon") {
-            return <DescriptionBox_t/>
-        }
-        else {
-            return null;
-        }
-    }
-   
+    };
+
     return (
         <div>
-            <Breadcrum  product={product}/>
-            <ProductDisplay product={product}/>
+            <Breadcrum product={product} />
+            <ProductDisplay product={product} />
             {changeDescription(category)}
-
-            <RelatedProducts />
+            <RelatedProducts productId={productId} />
         </div>
-    )
+    );
 }
 
-export default Product
+export default Product;

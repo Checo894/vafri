@@ -160,8 +160,25 @@ app.post('/removeproduct', async (req, res) => {
 //Creating API for getting all products
 
 app.get('/allproducts', async (req, res)=>{
-    let products = await Product.find({});
-    console.log("All products Fetched");
+    const sortParam = req.query.sort;
+    let sortOptions = {};
+
+    switch (sortParam) {
+        case 'newest':
+            sortOptions = { id: -1 };
+            break;
+        case 'oldest':
+            sortOptions = { id: 1 };
+            break;
+        case 'alphabetical_asc':
+            sortOptions = { application: 1 };
+            break;
+        case 'alphabetical_desc':
+            sortOptions = { application: -1 };
+            break;
+    }
+
+    const products = await Product.find({}).sort(sortOptions);
     res.send(products);
 })
 
@@ -183,12 +200,33 @@ app.get('/pastaP', async (req, res)=>{
 
 //Creating Endpoint for Related products
 
-app.get('/related', async (req, res)=>{
-    let products = await Product.find();
-    let related = products.slice(0,4);
-    console.log("Related Fetched");
-    res.send(related);
-})
+
+app.get('/related', async (req, res) => {
+    const productId = req.query.productId;
+    if (!productId) {
+        return res.status(400).json({ error: "productId is required" });
+    }
+
+    try {
+        // Buscar el producto actual para obtener su 'application'
+        const currentProduct = await Product.findOne({ id: productId });
+        if (!currentProduct) {
+            return res.status(404).json({ error: "Product not found" });
+        }
+
+        // Buscar productos con la misma 'application', excluyendo el producto actual
+        const relatedProducts = await Product.find({
+            application: currentProduct.application,
+            id: { $ne: currentProduct.id }
+        }).limit(4);  // Limita a 4 productos relacionados
+
+        res.json(relatedProducts);
+    } catch (error) {
+        res.status(500).json({ error: "Internal server error" });
+    }
+});
+
+
 
 
 app.listen(port, (error)=>{

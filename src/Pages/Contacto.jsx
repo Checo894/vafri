@@ -14,6 +14,8 @@ import './CSS/Contacto.css'
 //de la misma manera poner el template adecuado
 
 
+
+
 const Contacto = () => {
 
     const [nombre, setNombre] = useState('');
@@ -48,6 +50,17 @@ const Contacto = () => {
           });
       };
       
+    const handleCopyPhone = () => {
+    const phone = "(443) 520-8109";
+    navigator.clipboard.writeText(phone)
+        .then(() => {
+            setAlerta({ tipo: 'exito', mensaje: 'Número copiado con éxito!' });
+        })
+        .catch(err => {
+            setAlerta({ tipo: 'error', mensaje: 'Error al copiar el número. Inténtalo de nuevo.' });
+            console.error('Error al copiar el número:', err);
+        });
+    };
 
     const handleRedirectFacebook = () => {
         window.open('https://www.facebook.com/people/Vafri/100071049796148/', '_blank')
@@ -78,6 +91,10 @@ const Contacto = () => {
                 <h2>Información de Contacto</h2>
                 <p>Para consultas generales, comentarios o preguntas sobre nuestros productos, no dude en ponerse en contacto con nosotros.</p>
                 <div className="contacto-miniBanners">
+                    {/* Alerta de copiado exitoso o error */}
+                {alerta.tipo && (
+                    <div className={`alerta ${alerta.tipo}`}>{alerta.mensaje}</div>
+                )}
                     <button onClick={handleRedirectFacebook}>
                         <img src={facebook_logo} alt=""/>
                         <p>Facebook</p>
@@ -86,7 +103,7 @@ const Contacto = () => {
                         <img src={whatsapp_logo} alt=""/>
                         <p>WhatsApp</p>
                     </button>
-                    <button>
+                    <button onClick={handleCopyPhone}>
                         <img src={tel_logo} alt=""/>
                         <p>(443) 520-8109</p>
                     </button>
@@ -95,6 +112,7 @@ const Contacto = () => {
                         <p>aa_vafri@hotmail.com</p>
                     </button>
                 </div>
+                
                 <div className="container-contact">
                     <h2>Contactanos!</h2>
                     {alerta.tipo === 'exito' && (

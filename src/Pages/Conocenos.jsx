@@ -1,101 +1,84 @@
 import React from "react";
-import banner_conocenos from "../Components/Assets/banner_conocenos.png"
+import bannerConocenos from "../Components/Assets/banner_conocenos.png"
 import './CSS/Conocenos.css'
 import conocenosLogo from '../Components/Assets/conocenosLogo.png'
+
 
 const Conocenos = () => {
     return(
         <div className="conocenos">
-            <img className="conocenos-banner" src={banner_conocenos} alt="" />
-            {/* <h1>Bienvenidos a Vafri</h1> */}
-            
-            {/* <div className="about-us-content">
-                
-                <h2>Nuestra historia</h2>
-                <p>
-                    Empezamos en el negocio de las pastas para clutch hace 15 años, de la mano de la marca VALEO, defendiendo la calidad en la línea, siempre manejando la fibra de vidrio en combinación con el cobre, a la salida de la marca VALEO del país, seguimos ofreciendo a nuestros clientes la misma calidad en otras marcas como es TERMOLITE y FRAS-LE.
-                </p>
-                <p>
-                    Viendo la necesidad del mercado de contar con una pasta de calidad en la reparación de los embragues para los vehículos que se comercializan en México, es que nació VAFRI, la pasta para clutch que está elaborada en 4 formulaciones diferentes, todo esto para que el cliente tenga la mejor solución a su necesidad.
-                </p>
-
-                <h2>Misión</h2>
-                <p>
-                    Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren.
-                </p>
-
-                <h2>Visión</h2>
-                <p>
-                    Consolidarnos como lideres en el rango, expandiendo nuestra penetración en el mercado nacional sin descuidar la atención, servicio y calidad que ofrecemos día a día.
-                </p>
-
-                <h2>Valores</h2>
-                <p>
-                    Nuestros valores son los que nos ayudan a seguir nuestra misión y visión, por lo cual día a día los respetamos y usamos.
-                </p>
-                <ul>
-                    <li>Trabajo en equipo</li>
-                    <li>Crecimiento</li>
-                    <li>Responsabilidad Social</li>
-                    <li>Honestidad</li>
-                    <li>Calidad</li>
-                </ul>
-                
-                <h1>¡Gracias por elegir Vafri!</h1>
-            </div> */}
-            <div className="conocenos-grid">
-                <img className="conocenos-img" src={conocenosLogo} alt="" />
-                <div class="accordion">
-                    <article>
-                        <input id="article1" type="radio" name="articles" />
-                        <label for="article1">
-                            <h2>Nuestra Historia</h2>
-                        </label>
-                        <div>
-                            <p>Empezamos en el negocio de las pastas para clutch hace 15 años, de la mano de la marca VALEO, defendiendo la calidad en la línea, siempre manejando la fibra de vidrio en combinación con el cobre, a la salida de la marca VALEO del país, seguimos ofreciendo a nuestros clientes la misma calidad en otras marcas como es TERMOLITE y FRAS-LE.
-                            </p>
-                            <p>Viendo la necesidad del mercado de contar con una pasta de calidad en la reparación de los embragues para los vehículos que se comercializan en México, es que nació VAFRI, la pasta para clutch que está elaborada en 4 formulaciones diferentes, todo esto para que el cliente tenga la mejor solución a su necesidad.
-                            </p>
-                        </div>
-                    </article>
-                    <article>
-                        <input id="article2" type="radio" name="articles" />
-                        <label for="article2">
-                            <h2>Misión</h2>
-                        </label>
-                        <div>
-                            <p>Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <input id="article3" type="radio" name="articles" />
-                        <label for="article3">
-                            <h2>Visión</h2>
-                        </label>
-                        <div>
-                            <p>Consolidarnos como lideres en el rango, expandiendo nuestra penetración en el mercado nacional sin descuidar la atención, servicio y calidad que ofrecemos día a día.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <input id="article4" type="radio" name="articles" />
-                        <label for="article4">
-                            <h2>Valores</h2>
-                        </label>
-                        <div>
-                            <p>Nuestros valores son los que nos ayudan a seguir nuestra misión y visión, por lo cual día a día los respetamos y usamos.</p>
-                            <ul>
-                                <li>Trabajo en equipo</li>
-                                <li>Crecimiento</li>
-                                <li>Responsabilidad Social</li>
-                                <li>Honestidad</li>
-                                <li>Calidad</li>
-                            </ul>
-                        </div>
-                    </article>
+            <img className="conocenosBanner" src={bannerConocenos} alt="Banner de Conócenos" />
+            <div className="conocenosGrid">
+                <img className="conocenosImg" src={conocenosLogo} alt="Logotipo de Conócenos" />
+                <div className="accordion">
+                    {articles.map(article => (
+                        <Article key={article.id} article={article} />
+                    ))}
                 </div>
             </div>
         </div>
     )
 }
 
-export default Conocenos
+const articles = [
+    {
+        id: "article1",
+        title: "Nuestra Historia",
+        content: [
+            {type: "paragraph", data: "Empezamos en el negocio de las pastas para clutch hace 15 años, de la mano de la marca VALEO, defendiendo la calidad en la línea, siempre manejando la fibra de vidrio en combinación con el cobre, a la salida de la marca VALEO del país, seguimos ofreciendo a nuestros clientes la misma calidad en otras marcas como es TERMOLITE y FRAS-LE. "},
+            { type: "paragraph", data: "Viendo la necesidad del mercado de contar con una pasta de calidad en la reparación de los embragues para los vehículos que se comercializan en México, es que nació VAFRI, la pasta para clutch que está elaborada en 4 formulaciones diferentes, todo esto para que el cliente tenga la mejor solución a su necesidad."}
+        ]
+    },
+    {
+        id: "article2",
+        title: "Misión",
+        content: [
+            { type: "paragraph", data: "Ser líder de soluciones integrales en componentes para embragues a nivel Nacional, proporcionando a nuestros clientes un servicio de gran valor, incorporando al mercado pastas para clutch en diferentes fórmulas y otros productos con excelente calidad, a través del desarrollo tecnológico que nuestros clientes requieren."}
+        ]
+    },
+    {
+        id: "article3",
+        title: "Visión",
+        content: [
+            { type: "paragraph", data: "Consolidarnos como lideres en el rango, expandiendo nuestra penetración en el mercado nacional sin descuidar la atención, servicio y calidad que ofrecemos día a día."}
+        ]
+    },
+    {
+        id: "article4",
+        title: "Valores",
+        content: [
+            { type: "paragraph", data: "Nuestros valores son los que nos ayudan a seguir nuestra misión y visión, por lo cual día a día los respetamos y usamos." },
+            { type: "paragraph", data: "Día a día los respetamos y usamos, enfocándonos en:" },
+            { type: "list", data: ["Trabajo en equipo", "Crecimiento", "Responsabilidad Social", "Honestidad", "Calidad"] }
+        ]
+    },
+];
+
+const Article = ({ article }) => {
+    return (
+        <article>
+            <input id={article.id} type="radio" name="articles" />
+            <label htmlFor={article.id}>
+                <h2>{article.title}</h2>
+            </label>
+            <div>
+                {Array.isArray(article.content) ? article.content.map((item, index) => {
+                    if (item.type === "paragraph") {
+                        return <p key={index}>{item.data}</p>;
+                    } else if (item.type === "list") {
+                        return (
+                            <ul key={index}>
+                                {item.data.map((listItem, liIndex) => (
+                                    <li key={liIndex}>{listItem}</li>
+                                ))}
+                            </ul>
+                        );
+                    }
+                    return null;
+                }) : <p>Error: Article content is not formatted correctly.</p>}
+            </div>
+        </article>
+    );
+};
+
+export default Conocenos;
