@@ -1,0 +1,12 @@
+# Ignorar todos los archivos .log
+*.log
+
+# Ignorar el directorio node_modules/
+node_modules/
+
+# Ignorar archivos de configuración personal de IDE
+.idea/
+*.iml
+
+# Excluir un archivo específico que normalmente sería ignorado
+!important.log
