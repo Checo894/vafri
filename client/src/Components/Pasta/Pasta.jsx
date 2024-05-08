@@ -7,7 +7,7 @@ const Pasta = () => {
     const [pastaP, setPastaP] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/pastaP')
+        fetch('https://vafri-backend.vercel.app/pastaP')
         .then(res => res.json())
         .then(data => {
             setPastaP(data);

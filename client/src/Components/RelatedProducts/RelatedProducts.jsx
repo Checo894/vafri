@@ -11,7 +11,7 @@ const RelatedProducts = ({ productId }) => {
             return;
         }
 
-        fetch(`http://localhost:4000/related?productId=${productId}`)
+        fetch(`https://vafri-backend.vercel.app/related?productId=${productId}`)
             .then(res => res.json())
             .then(data => {
                 if (data.length > 0) {

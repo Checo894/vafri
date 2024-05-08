@@ -7,7 +7,7 @@ const PastaTacon = () => {
     const [nuevo, setNuevo] = useState([]);
 
     useEffect(() => {   
-        fetch('http://localhost:4000/nuevo')
+        fetch('https://vafri-backend.vercel.app/nuevo')
         .then(res => res.json())
         .then(data => {
             setNuevo(data);
