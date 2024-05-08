@@ -40,7 +40,7 @@ const AddProduct = () => {
         formData.append('product', image);
         formData.append('productPDF', pdf);
     
-        await fetch('http://localhost:4000/upload', {
+        await fetch('https://vafri-backend.vercel.app/upload', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
@@ -62,7 +62,7 @@ const AddProduct = () => {
                     });
                 
                     console.log(product);
-                    return fetch('http://localhost:4000/addproduct', {
+                    return fetch('https://vafri-backend.vercel.app/addproduct', {
                         method: 'POST',
                         headers: {
                             Accept: 'application/json',
