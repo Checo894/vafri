@@ -49,12 +49,12 @@ app.post("/upload", multipleUploads, (req, res) => {
     if (req.files) {
         // Access uploaded image details (if present)
         if (req.files.product) {
-          imageURL = `http://localhost:${port}/images/${req.files.product[0].filename}`;
+          imageURL = `https://vafri-backend.vercel.app/images/${req.files.product[0].filename}`;
         }
     
         // Access uploaded PDF details (if present)
         if (req.files.productPDF) {
-          pdfURL = `http://localhost:${port}/images/${req.files.productPDF[0].filename}`; // Adjust path if PDFs are stored elsewhere
+          pdfURL = `https://vafri-backend.vercel.app/images/${req.files.productPDF[0].filename}`; // Adjust path if PDFs are stored elsewhere
         }
       }
     
