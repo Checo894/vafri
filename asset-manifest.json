@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vafri/static/css/main.25be0136.css",
-    "main.js": "/vafri/static/js/main.9734cf58.js",
+    "main.js": "/vafri/static/js/main.3d4ebbb2.js",
     "static/js/592.0e161b22.chunk.js": "/vafri/static/js/592.0e161b22.chunk.js",
     "static/media/banner_pasta_tacon_final.png": "/vafri/static/media/banner_pasta_tacon_final.4d23fa27306922da2d90.png",
     "static/media/banner_tacon_final.png": "/vafri/static/media/banner_tacon_final.364761d9433587614e56.png",
@@ -40,11 +40,11 @@
     "static/media/arrow_icon.svg": "/vafri/static/media/arrow_icon.1a79cd9e1bb38ee4943790c8c17d8769.svg",
     "static/media/dropdown_icon2.svg": "/vafri/static/media/dropdown_icon2.f38759a838483615524e8cb7bef3ed2f.svg",
     "main.25be0136.css.map": "/vafri/static/css/main.25be0136.css.map",
-    "main.9734cf58.js.map": "/vafri/static/js/main.9734cf58.js.map",
+    "main.3d4ebbb2.js.map": "/vafri/static/js/main.3d4ebbb2.js.map",
     "592.0e161b22.chunk.js.map": "/vafri/static/js/592.0e161b22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25be0136.css",
-    "static/js/main.9734cf58.js"
+    "static/js/main.3d4ebbb2.js"
   ]
 }
