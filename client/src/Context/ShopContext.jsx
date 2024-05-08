@@ -8,7 +8,7 @@ const ShopContextProvider = (props) => {
     const [all_data,setAll_product] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:4000/allproducts')
+        fetch('https://vafri-backend.vercel.app/allproducts')
         .then((Response)=>Response.json())
         .then((data)=>setAll_product(data)) 
     },[])
