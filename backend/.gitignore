@@ -11,3 +11,6 @@ node_modules/
 # Excluir un archivo específico que normalmente sería ignorado
 !important.log
 
+# Ignorar archivos de configuración de entorno
+/.env
+

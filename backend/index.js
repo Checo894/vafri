@@ -1,5 +1,8 @@
+require('dotenv').config();
+
 const port = 4000;
 const express = require("express")
+const AWS = require("aws-sdk");
 const app = express();
 const mongoose = require("mongoose")
 const jwt = require("jsonwebtoken")
@@ -13,7 +16,7 @@ app.use(cors())
 
 // Database connection with MongoDB 
 
-mongoose.connect("mongodb+srv://sebastiancerveramaltos:6R4eLYt4DFcdzb2m@cluster0.uzfwls6.mongodb.net/vafri")
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 //API Creation 
 
@@ -33,6 +36,15 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage:storage})
 
+// Configura tus credenciales y región de AWS S3
+AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    region: process.env.AWS_REGION
+  });
+  
+  const s3 = new AWS.S3();
+
 
 var multipleUploads = upload.fields([
     { name: 'product', maxCount: 1 }, 
@@ -43,29 +55,44 @@ var multipleUploads = upload.fields([
 //Creating upload endpoint for images
 
 app.use('/images', express.static('upload/images'))
-app.post("/upload", multipleUploads, (req, res) => {
-    let imageURL = "";
-    let pdfURL = "";
-    if (req.files) {
-        // Access uploaded image details (if present)
-        if (req.files.product) {
-          imageURL = `https://vafri-backend.vercel.app/images/${req.files.product[0].filename}`;
-        }
-    
-        // Access uploaded PDF details (if present)
-        if (req.files.productPDF) {
-          pdfURL = `https://vafri-backend.vercel.app/images/${req.files.productPDF[0].filename}`; // Adjust path if PDFs are stored elsewhere
-        }
-      }
-    
-      // Respond with image and PDF URLs (if uploaded)
-      res.json({
-        success: 1,
-        imageURL: imageURL,
-        pdfURL: pdfURL,
-      });
-    })
+app.post("/upload", upload.fields([{ name: 'product', maxCount: 1 }, { name: 'productPDF', maxCount: 1 }]), (req, res) => {
+    const files = req.files;
+    let responses = [];
 
+    const uploadFileToS3 = (file, cb) => {
+        const fileName = `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`;
+        const params = {
+            Bucket: 'vafri', // Asegúrate de reemplazar esto con el nombre de tu bucket
+            Key: fileName,
+            Body: file.buffer,
+            ACL: 'public-read'
+        };
+
+        s3.upload(params, function(err, data) {
+            if (err) {
+                console.log("Error uploading to S3: ", err);
+                return cb(err, null);
+            }
+            console.log("Upload successful: ", data);
+            cb(null, data.Location);
+        });
+    };
+
+    Object.keys(files).forEach(field => {
+        files[field].forEach(file => {
+            uploadFileToS3(file, (err, location) => {
+                if (err) {
+                    res.status(500).send("Error uploading file.");
+                } else {
+                    responses.push({ field: field, url: location });
+                    if (responses.length === (files.product ? files.product.length : 0) + (files.productPDF ? files.productPDF.length : 0)) {
+                        res.json({ success: 1, files: responses });
+                    }
+                }
+            });
+        });
+    });
+});
 
 //Schema for Creating Products
 
@@ -116,35 +143,27 @@ const Product = mongoose.model("Product", {
     },
 })
 
-app.post('/addproduct', async (req, res)=>{
-    let products = await Product.find({});
-    let id;
-    if(products.length>0){
-        let last_product_array = products.slice(-1);
-        let last_product = last_product_array[0];
-        id = last_product.id+1;
-    } else{
-        id=1;
+app.post('/addproduct', async (req, res) => {
+    const { id, fmsi, brand, category, application, formula, measures, image, pdf } = req.body;
+    try {
+        const product = new Product({
+            id,
+            fmsi,
+            brand,
+            category,
+            application,
+            formula,
+            measures,
+            image,  // URL de la imagen de S3
+            pdf     // URL del PDF de S3
+        });
+        await product.save();
+        res.json({ success: true, message: "Producto añadido correctamente", product });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ success: false, message: "Error al añadir el producto" });
     }
-    const product = new Product({
-        id:id,
-        fmsi:req.body.fmsi,
-        brand:req.body.brand,
-        image:req.body.image,
-        category:req.body.category,
-        application:req.body.application,
-        formula:req.body.formula,
-        measures:req.body.measures,
-        pdf:req.body.pdf,
-    });
-    console.log(product);
-    await product.save()
-    console.log("Saved");
-    res.json({
-        success:true,
-        fmsi:req.body.fmsi,
-    })
-})
+});
 
 //Creating API for dleeting products
 
