@@ -71,11 +71,12 @@
 }
 
 .shopcategory-products{
-    margin: 20px 170px;
+    padding: 40px 170px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
     align-items: space-between; 
+    background-image: url('../../Components/Assets/background.png');
 }
 
 .shopcategory-loadmore{
@@ -83,7 +84,7 @@
     color:white;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: 100px auto;
     width: 233px;
     height: 69px;
     border-radius: 75px;
