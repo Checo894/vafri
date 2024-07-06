@@ -48,7 +48,6 @@ const articles = [
         title: "Valores",
         content: [
             { type: "paragraph", data: "Nuestros valores son los que nos ayudan a seguir nuestra misión y visión, por lo cual día a día los respetamos y usamos." },
-            { type: "paragraph", data: "Día a día los respetamos y usamos, enfocándonos en:" },
             { type: "list", data: ["Trabajo en equipo", "Crecimiento", "Responsabilidad Social", "Honestidad", "Calidad"] }
         ]
     },
