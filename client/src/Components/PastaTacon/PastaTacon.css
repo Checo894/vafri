@@ -1,106 +1,85 @@
-.pasta-tacon{
+.pasta-tacon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 90vh;
-    margin-left: 50px;
+    gap: 20px; /* Aumentar el gap para mayor espaciado */
+    padding: 20px; /* Agregar padding para mayor espaciado interno */
+    width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluir padding y border en el tamaño */
+    margin: 0 auto; /* Centrar el contenedor */
 }
 
-.pasta-tacon h1{
+.pasta-tacon h1 {
     color: #171717;
-    font-size: 50px;
+    font-size: 3rem; /* Usar rem para tamaño de fuente flexible */
     font-weight: 600;
-    margin-left: -50px;
+    margin: 0; /* Eliminar margen para mejor control */
+    text-align: center; /* Centrar el texto */
 }
 
-.nuevo-products{
-    margin-top: 50px;
+.nuevo-products {
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px; 
-    height: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Hacer que las columnas sean flexibles */
+    gap: 30px;
+    width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+    justify-items: center; /* Centrar los elementos dentro de la cuadrícula */
+    box-sizing: border-box; /* Incluir padding y border en el tamaño */
 }
 
-.pasta-tacon hr{
-    width: 350px;
+.pasta-tacon hr {
+    width: 100px; /* Ajustar ancho del hr */
     height: 6px;
     border-radius: 10px;
     background: #252525;
-    margin-left: -50px;
+    margin: 0; /* Eliminar margen para mejor control */
 }
 
-
-
-@media(max-width:1280px){
-    .pasta-tacon{
-        height: 40vh;
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1280px) {
+    .pasta-tacon h1 {
+        font-size: 2.5rem; /* Ajustar tamaño de fuente */
     }
 
-    .pasta-tacon h1{
-        font-size: 40px;
-    }
-
-    .pasta-tacon hr{
-        width: 160px;
+    .pasta-tacon hr {
+        width: 80px;
         height: 4px;
     }
-
-    .pasta-tacon-item{
-        gap: 20px;
-        margin-top: 30px ;
-    }
 }
 
-@media(max-width:1024px){
-    .pasta-tacon{
-        height: 50vh;
+@media (max-width: 1024px) {
+    .pasta-tacon h1 {
+        font-size: 2rem; /* Ajustar tamaño de fuente */
     }
 
-    .pasta-tacon h1{
-        font-size: 30px;
-    }
-
-    .pasta-tacon hr{
-        width: 120px;
+    .pasta-tacon hr {
+        width: 60px;
         height: 3px;
     }
+}
 
-    .pasta-tacon-item{
-        gap: 15px;
-        margin-top: 20px ;
+@media (max-width: 800px) {
+    .pasta-tacon h1 {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente */
+    }
+
+    .pasta-tacon hr {
+        width: 50px;
     }
 }
 
-@media(max-width:800px){
-    .pasta-tacon{
-        height: 30vh;
-        gap: 6px;
+@media (max-width: 500px) {
+    .pasta-tacon h1 {
+        font-size: 1.2rem; /* Ajustar tamaño de fuente */
     }
 
-    .pasta-tacon h1{
-        font-size: 20px;
+    .pasta-tacon hr {
+        width: 40px;
     }
 
-    .pasta-tacon hr{
-        width: 100px;
-    }
-
-    .pasta-tacon-item{
-        gap: 5px;
+    .nuevo-products {
+        grid-template-columns: 1fr; /* Ajustar a una columna en pantallas muy pequeñas */
+        gap: 10px;
     }
 }
 
-@media(max-width:500px){
-    .pasta-tacon{
-        height: 35vh;
-        gap: 5px;
-    }
-
-    .pasta-tacon-item{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-right: 40px;
-        gap: 5px;
-    }
-}

@@ -1,7 +1,5 @@
 import React from "react";
 import './Hero.css';
-import hero_icon_right from '../Assets/hero_icon_right.png';
-import pag_inicio_banner from '../Assets/pag_inicio_banner.jpg';
 import { Link } from "react-router-dom";
 import Slider from "react-slick/lib/slider";
 import "slick-carousel/slick/slick.css";
@@ -23,9 +21,8 @@ const Hero = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 4000, // Set autoplay interval (in milliseconds)
-    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     appendDots: dots => (
       <div
         style={{
@@ -37,17 +34,11 @@ const Hero = () => {
           padding: "10px",
         }}
       >
-        <ul style={{ margin: "0px", padding: "0", display: 'inline-block'}}> {dots} </ul>
+        <ul style={{ margin: "0px", padding: "0", display: 'inline-block' }}> {dots} </ul>
       </div>
     ),
-    prevArrow: <CustomPrevArrow />, // Custom component for left arrow
-    nextArrow: <CustomNextArrow />, // Custom component for right arrow
-  };
-
-  const carouselStyles = {
-    margin: '0 auto',
-    width: '100%',
-    height: 'auto',
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
   };
 
   return (
@@ -55,7 +46,7 @@ const Hero = () => {
       <Slider {...settings}>
         {images.map((image, i) => (
           <Link key={i} to={i === 0 ? "/catalogo" : "/buscar"}>
-            <img src={image} alt="slide" style={{ width: '100%', height: '90%' }} />
+            <img src={image} alt="slide" style={{ width: '100%', height: 'auto' }} />
           </Link>
         ))}
       </Slider>
@@ -66,16 +57,15 @@ const Hero = () => {
   );
 };
 
-// Custom arrow components to style them with gray color
 const CustomPrevArrow = ({ onClick }) => (
   <div
     className="slick-arrow slick-prev"
     style={{
-      color: 'gray', // Set arrow color to gray
-      fontSize: '30px', // Adjust font size as needed
+      color: 'gray',
+      fontSize: '30px',
       position: 'absolute',
       top: '50%',
-      left: '10px', // Adjust left position as needed
+      left: '10px',
       transform: 'translateY(-50%)',
     }}
     onClick={onClick}
@@ -88,11 +78,11 @@ const CustomNextArrow = ({ onClick }) => (
   <div
     className="slick-arrow slick-next"
     style={{
-      color: 'gray', // Set arrow color to gray
-      fontSize: '30px', // Adjust font size as needed
+      color: 'gray',
+      fontSize: '30px',
       position: 'absolute',
       top: '50%',
-      right: '10px', // Adjust right position as needed
+      right: '10px',
       transform: 'translateY(-50%)',
     }}
     onClick={onClick}
