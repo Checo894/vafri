@@ -1,53 +1,62 @@
-.productdisplay{
+.productdisplay {
     display: flex;
-    margin: 0px 170px;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas más pequeñas */
+    margin: 20px; /* Ajustar el margen para que sea más flexible */
 }
 
-.productdisplay-left{
+.productdisplay-left {
     display: flex;
+    flex-direction: column;
     gap: 17px;
+    flex: 1; /* Permitir que se expanda en el contenedor */
+    max-width: 50%; /* Asegurar que no ocupe más de la mitad del contenedor */
 }
 
-.productdisplay-img-list{
+.productdisplay-img-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.productdisplay-img-list img{
+.productdisplay-img-list img {
     height: 163px;
+    max-width: 100%; /* Asegurar que las imágenes no se desborden */
 }
 
-.productdisplay-main-img{
+.productdisplay-main-img {
     height: 500px;
+    max-width: 100%; /* Asegurar que la imagen principal no se desborde */
 }
 
-.productdisplay-right{
-    margin: 0px 70px;
+.productdisplay-right {
+    flex: 1; /* Permitir que se expanda en el contenedor */
+    max-width: 50%; /* Asegurar que no ocupe más de la mitad del contenedor */
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 
-.productdisplay-right h1{
+.productdisplay-right h1 {
     color: #3d3d3d;
-    font-size: 50px;
+    font-size: 2.5rem; /* Usar rem para tamaño de fuente flexible */
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-.productdisplay-right p{
+.productdisplay-right p {
     color: #3d3d3d;
     font-weight: 400;
     line-height: 1.5;
 }
 
-.productdisplay-right-description{
+.productdisplay-right-description {
     margin: 10px 0px 10px 0px;
 }
 
-.productdisplay-right button{
-    padding: 20px 40px;
-    width: 350px;
+.productdisplay-right button {
+    padding: 10px 20px; /* Ajustar padding para mejor adaptación */
+    width: 100%; /* Usar 100% de ancho */
+    max-width: 350px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
@@ -56,49 +65,83 @@
     border: none;
     margin-bottom: 10px;
     outline: none;
-    display: center;
+    align-self: center; /* Centrar el botón horizontalmente */
 }
 
 .productdisplay-right button:hover {
     background-color: #0d2a4e;
 }
 
-.productdisplay-right-category{
+.productdisplay-right-category {
     margin-top: 10px;
 }
 
-.productdisplay-right-category span{
-    font-weight: 600px;
+.productdisplay-right-category span {
+    font-weight: 600;
 }
 
-.productdisplay-right-tags{
+.productdisplay-right-tags {
     margin-top: 10px;
 }
 
-@media(max-width:1280px){
-    .productdisplay{
+@media (max-width: 1280px) {
+    .productdisplay {
+        flex-direction: column; /* Cambiar a columna en pantallas más pequeñas */
         margin: 0px 60px;
     }
 
-    .productdisplay-left{
-        gap: 10px;
+    .productdisplay-left,
+    .productdisplay-right {
+        max-width: 100%; /* Asegurar que los elementos ocupen todo el ancho */
+        margin: 10px 0; /* Añadir margen entre secciones */
     }
 
-    .productdisplay-img-list{
-        gap: 10px;
-    }
-
-    .productdisplay-img-list img{
+    .productdisplay-img-list img {
         height: 128px;
-
     }
 
-    .productdisplay-main-img{
-        width: 250px;
-        height: 250px;
+    .productdisplay-main-img {
+        width: 100%; /* Usar todo el ancho disponible */
+        height: auto; /* Mantener la proporción de la imagen */
     }
 
-    .productdisplay-right{
-        margin: 0px 30px;
+    .productdisplay-right h1 {
+        font-size: 2rem; /* Ajustar tamaño de fuente */
+    }
+}
+
+@media (max-width: 800px) {
+    .productdisplay {
+        margin: 0px 20px;
+    }
+
+    .productdisplay-right h1 {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente */
+    }
+
+    .productdisplay-right p {
+        font-size: 1rem; /* Ajustar tamaño de fuente */
+    }
+
+    .productdisplay-right button {
+        padding: 8px 16px; /* Ajustar padding */
+    }
+}
+
+@media (max-width: 500px) {
+    .productdisplay {
+        margin: 0px 10px;
+    }
+
+    .productdisplay-right h1 {
+        font-size: 1.2rem; /* Ajustar tamaño de fuente */
+    }
+
+    .productdisplay-right p {
+        font-size: 0.9rem; /* Ajustar tamaño de fuente */
+    }
+
+    .productdisplay-right button {
+        padding: 6px 12px; /* Ajustar padding */
     }
 }

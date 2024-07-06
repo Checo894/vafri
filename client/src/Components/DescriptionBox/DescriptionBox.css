@@ -1,27 +1,96 @@
-.descriptionbox{
-    margin: 120px 170px;
+.descriptionbox {
+    margin: 40px; /* Reducir el margen para hacerlo más flexible */
 }
 
-.descriptionbox-navigator{
-    display:flex;
+.descriptionbox-navigator {
+    display: flex;
     width: 100%;
     border: 2px solid #d0d0d0;
     justify-content: center;
+    flex-wrap: wrap; /* Permitir que los botones se envuelvan en pantallas pequeñas */
 }
 
-.descriptionbox-navigator button{
-    display: flex;
+.descriptionbox-navigator button {
     background-color: #fbfbfb;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
+    font-size: 1rem; /* Usar rem para tamaño de fuente flexible */
     font-weight: 600;
     width: 100%;
+    max-width: 200px; /* Limitar el ancho máximo */
     height: 70px;
     border: 1px solid #d0d0d0;
     color: #555;
     cursor: pointer;
+    flex: 1; /* Permitir que los botones se expandan igualmente */
+    box-sizing: border-box; /* Incluir padding y border en el ancho y alto */
+    margin: 5px; /* Añadir margen entre botones */
 }
+
+.descriptionbox-navigator button.active {
+    background-color: #e0e0e0; /* Indicar el botón activo */
+}
+
+.descriptionbox-description {
+    margin-top: 20px;
+    text-align: center; /* Centrar el texto y la imagen */
+}
+
+.descriptionbox-description p {
+    font-size: 1rem; /* Usar rem para tamaño de fuente flexible */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.descriptionbox-description img {
+    max-width: 100%; /* Asegurar que la imagen sea responsiva */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1280px) {
+    .descriptionbox {
+        margin: 20px;
+    }
+
+    .descriptionbox-navigator button {
+        font-size: 0.9rem; /* Ajustar tamaño de fuente */
+        height: 60px; /* Ajustar altura */
+    }
+
+    .descriptionbox-description p {
+        font-size: 0.9rem; /* Ajustar tamaño de fuente */
+    }
+}
+
+@media (max-width: 800px) {
+    .descriptionbox {
+        margin: 10px;
+    }
+
+    .descriptionbox-navigator button {
+        font-size: 0.8rem; /* Ajustar tamaño de fuente */
+        height: 50px; /* Ajustar altura */
+    }
+
+    .descriptionbox-description p {
+        font-size: 0.8rem; /* Ajustar tamaño de fuente */
+    }
+}
+
+@media (max-width: 500px) {
+    .descriptionbox {
+        margin: 5px;
+    }
+
+    .descriptionbox-navigator button {
+        font-size: 0.7rem; /* Ajustar tamaño de fuente */
+        height: 40px; /* Ajustar altura */
+    }
+
+    .descriptionbox-description p {
+        font-size: 0.7rem; /* Ajustar tamaño de fuente */
+    }
+}
+
 
 .descriptionbox-navigator button.active{
     background: #16437E;
