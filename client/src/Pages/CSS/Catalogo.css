@@ -1,41 +1,42 @@
-.catalogo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px; /* Agregar padding para mayor espaciado interno */
-}
-
-.catalogo-banner {
+.catalogo-banner{
     display: block;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 1200px; /* Limitar el ancho máximo del banner */
 }
 
-.catalogo-info h2 {
-    text-align: center;
+.catalogo-info h2{
+    align-content: center;
 }
 
-.catalogo-type1,
-.catalogo-type2 {
+.catalogo-type1{
     margin-top: 25px;
     display: flex;
     gap: 50px;
-    justify-content: center; /* Centrar los elementos */
-    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas pequeñas */
-    width: 100%; /* Asegurar que ocupe todo el ancho disponible */
-    max-width: 1200px; /* Limitar el ancho máximo del contenedor */
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.catalogo-elements {
+.catalogo-type2{
+    margin-top: 25px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.catalogo-elements{
     display: block;
-    width: calc(50% - 25px); /* Ajustar el ancho de los elementos y mantener el gap */
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    /* border: solid 2px #ccc;*/
     border-radius: 1%;
     box-shadow: 10px 10px 10px gray;
 }
 
-.catalogo-elements:hover {
+.catalogo-elements:hover{
     transform: scale(1.05);
     transition: 0.6s;
 }

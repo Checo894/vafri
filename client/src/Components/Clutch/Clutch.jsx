@@ -1,6 +1,6 @@
 import React from "react";
 import './Clutch.css'
-import img_clutch from '../Assets/img_clutch.png'
+import img_clutch from '../Assets/pasta_tacon_hero.png'
 import { Link } from "react-router-dom";
 
 const Clutch = () => {

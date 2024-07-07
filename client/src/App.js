@@ -15,7 +15,7 @@ import banner_pasta_tacon from "./Components/Assets/banner_pasta_tacon_final.png
 import banner_pasta from "./Components/Assets/banner_pasta_final.png"
 import banner_miscelanea from "./Components/Assets/banner_miscelanea_final.png"
 import banner_remache from "./Components/Assets/banner_remache.png"
-import banner_balata from "./Components/Assets/banner_balata.png"
+import banner_kit from "./Components/Assets/banner_kits.png"
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           <Route path="/pastaTacon" element={<ShopCategory banner={banner_pasta_tacon} category="pastaTacon"/>}/>
           <Route path="/miscelanea" element={<ShopCategory banner={banner_miscelanea} category="miscelanea"/>}/>
           <Route path="/remache" element={<ShopCategory banner={banner_remache} category="remache"/>}/>
-          <Route path="/balata" element={<ShopCategory banner={banner_balata} category="balata"/>}/>
+          <Route path="/balata" element={<ShopCategory banner={banner_kit} category="balata"/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/conocenos" element={<Conocenos/>}/>
           <Route path="/contacto" element={<Contacto/>}/>
