@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     gap: 20px; /* Aumentar el gap para mayor espaciado */
     padding: 20px; /* Agregar padding para mayor espaciado interno */
     width: 80%; /* Asegurar que ocupe todo el ancho disponible */
@@ -12,11 +13,14 @@
 
 .pasta-tacon h1 {
 =======
+=======
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
     gap: 10px;
     margin-left: 50px;
   }
   
   .pasta-tacon h1 {
+<<<<<<< HEAD
 >>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
     color: #171717;
     font-size: 50px;
@@ -31,6 +35,18 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Hacer que las columnas sean flexibles */
 =======
+    margin-left: -50px;
+  }
+  
+  .nuevo-products {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas en pantallas grandes */
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
+=======
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
     margin-left: -50px;
   }
   
