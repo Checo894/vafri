@@ -1,36 +1,34 @@
 .hero {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .hero .slick-slide a {
     width: 100%;
     height: 100%;
-  }
-  
-.hero .slick-slide img {
-object-fit: cover;
 }
 
-.contenedor-texto{
+.hero .slick-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenedor-texto {
     display: flex;
     justify-content: center;
-    align-items: column;
-    height: 100%;
-}
-.contenedor-texto h1{
-    margin-top: 50px ;
-   font-size: 60px;
-}
-
-p{
-    color: #171717;
-    font-size: 20px;
-    font-weight: 500;
+    align-items: center;
+    height: 100px;
+    background-color: #194197; /* Fondo para resaltar el texto */
+    color: white;
+    padding: 20px;
 }
 
+.contenedor-texto h1 {
+    font-size: 3rem; /* Usar rem para tamaño de fuente flexible */
+    margin: 0; /* Eliminar márgenes para mejor control */
+}
 
-
-.contacto-btn button{
+.contacto-btn button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,114 +40,59 @@ p{
     cursor: pointer;
     margin-top: 30px;
     background-color: #171717;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 500;
 }
 
-@media(max-width:1280px){
-    .hero{
-        height: 60vh;
-    }
-    .hero-left{
-        padding: 100px;
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1280px) {
+    .contenedor-texto h1 {
+        font-size: 2.5rem; /* Ajustar tamaño de fuente */
     }
 
-    .hero-left h2{
-        font-size: 22px;
-    }
-
-    .hero-left p{
-        font-size: 60px;
-    }
-
-    .contacto-btn button{
+    .contacto-btn button {
         gap: 10px;
         width: 250px;
         height: 60px;
         margin-top: 10px;
     }
-    .hero-right img{
-        width: 550px;
-    }
 }
-@media(max-width:1024px){
-    .hero-left{
-        padding: 80px;
+
+@media (max-width: 1024px) {
+    .contenedor-texto h1 {
+        font-size: 2rem; /* Ajustar tamaño de fuente */
     }
 
-    .hero-left h2{
-        font-size: 18px;
-    }
-
-    .hero-left p{
-        font-size: 50px;
-    }
-
-    .contacto-btn button{
+    .contacto-btn button {
         gap: 10px;
         width: 220px;
         height: 50px;
-
-    }
-    .hero-right img{
-        width: 500px;
     }
 }
 
-@media(max-width:800px){
-    .hero{
-        height: 40vh;
-    }
-    .hero-left{
-        padding: 40px;
+@media (max-width: 800px) {
+    .contenedor-texto h1 {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente */
     }
 
-    .hero-left h2{
-        font-size: 15px;
-    }
-
-    .hero-left p{
-        font-size: 40px;
-    }
-
-    .contacto-btn button{
+    .contacto-btn button {
         gap: 10px;
         width: 200px;
         height: 40px;
-
-    }
-    .hero-right img{
-        width: 400px;
     }
 }
 
-@media(max-width:500px){
-    .hero{
-        flex-direction: column;
-        height: 40vh;
-    }
-    .hero-left{
-        padding: 40px;
+@media (max-width: 500px) {
+    .contenedor-texto h1 {
+        font-size: 1.2rem; /* Ajustar tamaño de fuente */
     }
 
-    .hero-left h2{
-        font-size: 18px;
-    }
-
-    .hero-left p{
-        font-size: 50px;
-    }
-
-    .contacto-btn button{
+    .contacto-btn button {
         font-size: 14px;
         gap: 10px;
         width: 200px;
         height: 40px;
-
-    }
-    .hero-right img{
-        display: none;
-        width: 400px;
     }
 }
+

@@ -1,36 +1,38 @@
-.clutch{
+.clutch {
     width: 65%;
     height: 40vh;
     display: flex;
+    flex-direction: row;
     margin: auto;
     margin-top: 70px;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #194197,#ffffff );
+    background: linear-gradient(180deg, #194197, #ffffff);
+    align-items: center; /* Asegurar que los elementos se centren verticalmente */
+    justify-content: space-between; /* Asegurar que los elementos se distribuyan adecuadamente */
 }
 
-.clutch-left{
-    flex:1;
+.clutch-left {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .clutch-left h1 {
     color: #171717;
-    font-size: 80px;
+    font-size: 4rem; /* Usar rem para tamaño de fuente flexible */
     font-weight: 600;
 }
 
-.clutch-left p{
+.clutch-left p {
     margin-top: 10px;
-    color:#171717;
-    font-size: 22px;
+    color: #171717;
+    font-size: 1.375rem; /* Usar rem para tamaño de fuente flexible */
     font-weight: 600;
 }
 
-.clutch-left button{
+.clutch-left button {
     width: 228px;
     height: 70px;
     border-radius: 5px;
@@ -38,114 +40,139 @@
     border: none;
     cursor: pointer;
     color: white;
-    font-size: 22px;
-    font-weight:500;
+    font-size: 1.375rem; /* Usar rem para tamaño de fuente flexible */
+    font-weight: 500;
     margin-top: 30px;
 }
 
-.clutch.clutch-left button:hover{
+.clutch-left button:hover {
     background: #a12e2e;
 }
 
-.clutch-right{
+.clutch-right {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 50px;
-
 }
 
-@media(max-width: 1280px){
-    .clutch{
+.clutch-right img {
+    width: 100%;
+    max-width: 600px; /* Limitar el ancho máximo de la imagen */
+    height: auto;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1280px) {
+    .clutch {
         padding: 0px 80px;
         margin-bottom: 120px;
     }
-    .clutch-left h1{
-        font-size: 40px;
+
+    .clutch-left h1 {
+        font-size: 3rem; /* Ajustar tamaño de fuente */
     }
 
-    .clutch-left p{
-        font-size: 18px;
-    }
-    .clutch-right img{
-        width: 600px;
+    .clutch-left p {
+        font-size: 1.25rem; /* Ajustar tamaño de fuente */
     }
 
-    .clutch-right{
-        padding-top: 30px;
+    .clutch-right img {
+        max-width: 500px; /* Ajustar tamaño de imagen */
     }
 
-    .clutch-left button{
-        width: 220px;
+    .clutch-left button {
+        width: 200px;
         height: 50px;
-        font-size: 18px;
+        font-size: 1.25rem; /* Ajustar tamaño de fuente */
     }
 }
 
-@media(max-width: 1024px){
-    .clutch{
+@media (max-width: 1024px) {
+    .clutch {
         padding: 0px 60px;
         margin-bottom: 80px;
         height: 30vh;
-    }
-    .clutch-left h1{
-        font-size: 30px;
+        flex-direction: column; /* Cambiar a columna en pantallas más pequeñas */
+        align-items: center; /* Centrar elementos verticalmente */
     }
 
-    .clutch-left p{
-        font-size: 16px;
+    .clutch-left h1 {
+        font-size: 2.5rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-right img{
-        width: 500px;
+
+    .clutch-left p {
+        font-size: 1.125rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-left button{
-        width: 200px;
+
+    .clutch-right img {
+        max-width: 400px; /* Ajustar tamaño de imagen */
+    }
+
+    .clutch-left button {
+        width: 180px;
         height: 40px;
-        font-size: 16px;
+        font-size: 1rem; /* Ajustar tamaño de fuente */
     }
 }
 
-@media(max-width: 800px){
-    .clutch{
+@media (max-width: 800px) {
+    .clutch {
         margin-bottom: 60px;
-    }
-    .clutch-left h1{
-        font-size: 22px;
+        padding: 0 40px; /* Ajustar padding para mejor adaptación */
     }
 
-    .clutch-left p{
-        font-size: 13px;
+    .clutch-left h1 {
+        font-size: 2rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-right img{
-        width: 350px;
+
+    .clutch-left p {
+        font-size: 1rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-left button{
-        width: 150px;
-        height: 30px;
-        font-size: 12px;
+
+    .clutch-right img {
+        max-width: 300px; /* Ajustar tamaño de imagen */
+    }
+
+    .clutch-left button {
+        width: 160px;
+        height: 35px;
+        font-size: 0.875rem; /* Ajustar tamaño de fuente */
     }
 }
 
-@media(max-width: 500px){
-    .clutch{
-        height: 25vh;
+@media (max-width: 500px) {
+    .clutch {
+        height: auto; /* Ajustar la altura automáticamente */
         margin-bottom: 50px;
-    }
-    .clutch-left h1{
-        font-size: 16px;
+        flex-direction: column; /* Cambiar a columna en pantallas más pequeñas */
+        align-items: center; /* Centrar elementos verticalmente */
+        padding: 0 20px; /* Ajustar padding para mejor adaptación */
     }
 
-    .clutch-left p{
-        font-size: 10px;
+    .clutch-left h1 {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-right img{
-        width: 250px;
+
+    .clutch-left p {
+        font-size: 0.875rem; /* Ajustar tamaño de fuente */
+        text-align: center; /* Centrar el texto */
     }
-    .clutch-left button{
-        width: 90px;
+
+    .clutch-right img {
+        max-width: 250px; /* Ajustar tamaño de imagen */
+    }
+
+    .clutch-left button {
+        width: 140px;
         height: 30px;
-        font-size: 10px;
+        font-size: 0.75rem; /* Ajustar tamaño de fuente */
         margin-top: 12px;
     }
 }
