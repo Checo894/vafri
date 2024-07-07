@@ -71,10 +71,11 @@
 }
 
 .shopcategory-products{
-    padding: 40px 170px;
+    padding: 40px 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+    column-gap: 40px;
     align-items: space-between; 
     background-image: url('../../Components/Assets/background.png');
 }
@@ -120,6 +121,7 @@
 .searchButton:hover {
     background-color: #e0e0e0;
   }
+  
 @media(max-width:1280px){
     .shopcategory-banner{
         margin: 20px auto;

@@ -1,108 +1,44 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .catalogo-banner{
-    display: block;
-    margin-bottom: 20px;
-    width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .catalogo-info h2{
-    align-content: center;
+  align-content: center;
 }
 
 .catalogo-type1{
-    margin-top: 25px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-top: 25px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .catalogo-type2{
-    margin-top: 25px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+  margin-top: 25px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .catalogo-elements{
-    display: block;
-    margin-bottom: 2px;
-    width: 100%;
-    /* border: solid 2px #ccc;*/
-    border-radius: 1%;
-    box-shadow: 10px 10px 10px gray;
+  display: block;
+  margin-bottom: 2px;
+  width: 100%;
+  /* border: solid 2px #ccc;*/
+  border-radius: 1%;
+  box-shadow: 10px 10px 10px gray;
 }
 
 .catalogo-elements:hover{
-    transform: scale(1.05);
-    transition: 0.6s;
-=======
-.catalogo-banner {
-  display: block;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.catalogo-info h2 {
-  align-content: center;
-}
-
-.catalogo-type1, .catalogo-type2 {
-  margin: 25px auto;
-  display: grid;
-  gap: 50px;
-  align-items: center;
-  width: 90%; /* Ajuste del ancho del contenedor */
-}
-
-.catalogo-elements {
-  display: block;
-  margin: 20px;
-  padding: 10px;
-  width: 100%;
-  border-radius: 1%;
-}
-
-.catalogo-elements:hover {
   transform: scale(1.05);
   transition: 0.6s;
->>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
-=======
-.catalogo-banner {
-  display: block;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.catalogo-info h2 {
-  align-content: center;
-}
-
-.catalogo-type1, .catalogo-type2 {
-  margin: 25px auto;
-  display: grid;
-  gap: 50px;
-  align-items: center;
-  width: 90%; /* Ajuste del ancho del contenedor */
-}
-
-.catalogo-elements {
-  display: block;
-  margin: 20px;
-  padding: 10px;
-  width: 100%;
-  border-radius: 1%;
-}
-
-.catalogo-elements:hover {
-  transform: scale(1.05);
-  transition: 0.6s;
->>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
 }
 
 /* Media queries para diferentes tamaños de pantalla */
