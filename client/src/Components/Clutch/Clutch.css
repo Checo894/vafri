@@ -1,5 +1,9 @@
 .clutch {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 90%;
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
     height: 40vh;
     display: flex;
     flex-direction: row;

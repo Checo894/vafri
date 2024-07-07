@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .catalogo-banner{
     display: block;
     margin-bottom: 20px;
@@ -39,23 +40,58 @@
 .catalogo-elements:hover{
     transform: scale(1.05);
     transition: 0.6s;
+=======
+.catalogo-banner {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.catalogo-info h2 {
+  align-content: center;
+}
+
+.catalogo-type1, .catalogo-type2 {
+  margin: 25px auto;
+  display: grid;
+  gap: 50px;
+  align-items: center;
+  width: 90%; /* Ajuste del ancho del contenedor */
+}
+
+.catalogo-elements {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 1%;
+}
+
+.catalogo-elements:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
 }
 
 /* Media queries para diferentes tamaños de pantalla */
+@media (min-width: 1024px) {
+  .catalogo-type1, .catalogo-type2 {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas grandes */
+  }
+}
+
 @media (max-width: 1024px) {
-    .catalogo-type1,
-    .catalogo-type2 {
-        gap: 20px;
-    }
+  .catalogo-banner {
+    width: 100%; /* Asegura que el banner ocupe todo el ancho disponible */
+  }
 
-    .catalogo-elements {
-        width: calc(50% - 10px); /* Ajustar el ancho de los elementos y mantener el gap */
-    }
+  .catalogo-type1, .catalogo-type2 {
+    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+  }
+
+  .catalogo-elements {
+    width: 100%;
+  }
 }
 
-@media (max-width: 768px) {
-    .catalogo-elements {
-        width: 100%; /* Ajustar el ancho de los elementos a 100% en pantallas pequeñas */
-    }
-}
-
+  

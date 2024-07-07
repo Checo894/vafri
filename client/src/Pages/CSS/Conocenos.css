@@ -1,23 +1,24 @@
-.conocenosBanner{
+.conocenosBanner {
   display: block;
   margin-bottom: 20px;
   width: 100%;
 }
 
-.conocenos{
+.conocenos {
   display: block;
   margin-bottom: 20px;
   width: 100%;
 }
 
-.conocenosGrid{
+.conocenosGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
   margin-bottom: auto;
+  gap: 20px; /* Añadir espacio entre los elementos */
 }
 
-.conocenosImg{
+.conocenosImg {
   max-width: 100%;
   margin: auto;
   padding: 20px;
@@ -38,50 +39,98 @@
 }
 
 .accordion :hover {
-cursor: pointer;
+  cursor: pointer;
 }
 
 article {
-border-bottom: 2px solid #9d9d9d;
-padding: 1em;
+  border-bottom: 2px solid #9d9d9d;
+  padding: 1em;
 }
 
 article h2 {
-font-size: 30px;
-color: #404040;
-font-weight: 700;
+  font-size: 2rem; /* Usar rem para tamaño de fuente flexible */
+  color: #404040;
+  font-weight: 700;
 }
 
 article p {
-font-size: 20px;
-color: #404040;
-margin-top: 20px;
+  font-size: 1.25rem; /* Usar rem para tamaño de fuente flexible */
+  color: #404040;
+  margin-top: 20px;
 }
 
 article ul {
-list-style-type: square; /* Choose style that fits your design */
-padding-left: 20px; /* Indentation for the list */
-margin-top: 20px; /* Spacing above the list */
-font-size: 20px; /* Matches the paragraph text size */
-color: #404040; /* Matches the paragraph text color */
+  list-style-type: square; /* Estilo de lista */
+  padding-left: 20px; /* Sangría para la lista */
+  margin-top: 20px; /* Espaciado encima de la lista */
+  font-size: 1.25rem; /* Tamaño de fuente para que coincida con el texto del párrafo */
+  color: #404040; /* Color de fuente para que coincida con el texto del párrafo */
 }
 
 article li {
-margin-bottom: 10px; /* Space between list items */
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
 }
 
 input[type="radio"] {
-appearance: none;
-position: absolute;
-opacity: 0; /* use opacity instead of moving off-screen for better accessibility */
+  appearance: none;
+  position: absolute;
+  opacity: 0; /* Usar opacidad en lugar de mover fuera de pantalla para mejor accesibilidad */
 }
 
 input[type="radio"] ~ div {
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.5s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
 }
 
 input[type="radio"]:checked ~ div {
-max-height: 1000px; /* adjust according to content size */
+  max-height: 1000px; /* Ajustar según el tamaño del contenido */
 }
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1024px) {
+  .conocenosGrid {
+      grid-template-columns: 1fr; /* Una sola columna en pantallas más pequeñas */
+      padding: 20px; /* Reducir padding */
+  }
+
+  article h2 {
+      font-size: 1.75rem; /* Ajustar tamaño de fuente */
+  }
+
+  article p,
+  article ul {
+      font-size: 1.125rem; /* Ajustar tamaño de fuente */
+  }
+}
+
+@media (max-width: 768px) {
+  .conocenosGrid {
+      padding: 10px; /* Reducir padding */
+  }
+
+  article h2 {
+      font-size: 1.5rem; /* Ajustar tamaño de fuente */
+  }
+
+  article p,
+  article ul {
+      font-size: 1rem; /* Ajustar tamaño de fuente */
+  }
+}
+
+@media (max-width: 480px) {
+  .conocenosGrid {
+      padding: 5px; /* Reducir padding */
+  }
+
+  article h2 {
+      font-size: 1.25rem; /* Ajustar tamaño de fuente */
+  }
+
+  article p,
+  article ul {
+      font-size: 0.875rem; /* Ajustar tamaño de fuente */
+  }
+}
+

@@ -1,25 +1,27 @@
-.buscar-banner{
+.buscar-banner {
   display: block;
   margin-bottom: 20px;
   width: 100%;
 }
 
 .container {
-  display: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .search-input {
   font-size: 16px;
   margin-top: 20px;
-  display: flex;
-  justify-content: center;
   background-size: 24px;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 55px;
   border-bottom: solid 1px #ccc;
   border-top: solid 1px #ccc;
   border-left: solid 1px #ccc;
-  /* border-right: solid 1px #ccc; */
   border-radius: 15px;
   padding: 10px 10px 10px 30px;
   outline: none;
@@ -28,7 +30,8 @@
 
 .search-button {
   height: 55px;
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
   font-size: 16px;
   margin-top: 20px;
   background-color: #f82a27;
@@ -36,7 +39,6 @@
   color: white;
   padding: 10px 20px;
   border-radius: 15px;
-  margin-left: -40px; 
   cursor: pointer;
 }
 
@@ -45,3 +47,76 @@
   color: #f82a27;
   font-weight: 600;
 }
+
+.shopcategory-indexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.shopcategory-indexSort p {
+  margin: 0;
+}
+
+.shopcategory-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shopcategory-sort select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas en pantallas grandes */
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .search-input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search-button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .shopcategory-indexSort {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .shopcategory-products {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 14px;
+    height: 45px;
+  }
+
+  .search-button {
+    font-size: 14px;
+    height: 45px;
+    padding: 5px 15px;
+  }
+
+  .shopcategory-sort select {
+    font-size: 14px;
+  }
+}
+

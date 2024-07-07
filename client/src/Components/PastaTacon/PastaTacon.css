@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     gap: 20px; /* Aumentar el gap para mayor espaciado */
     padding: 20px; /* Agregar padding para mayor espaciado interno */
     width: 80%; /* Asegurar que ocupe todo el ancho disponible */
@@ -10,9 +11,17 @@
 }
 
 .pasta-tacon h1 {
+=======
+    gap: 10px;
+    margin-left: 50px;
+  }
+  
+  .pasta-tacon h1 {
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
     color: #171717;
-    font-size: 3rem; /* Usar rem para tamaño de fuente flexible */
+    font-size: 50px;
     font-weight: 600;
+<<<<<<< HEAD
     margin: 0; /* Eliminar margen para mejor control */
     text-align: center; /* Centrar el texto */
 }
@@ -21,65 +30,85 @@
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Hacer que las columnas sean flexibles */
+=======
+    margin-left: -50px;
+  }
+  
+  .nuevo-products {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas en pantallas grandes */
+>>>>>>> d5555f28b46425a92266a25334bf963f5b2bceab
     gap: 30px;
-    width: 100%; /* Asegurar que ocupe todo el ancho disponible */
-    justify-items: center; /* Centrar los elementos dentro de la cuadrícula */
-    box-sizing: border-box; /* Incluir padding y border en el tamaño */
-}
-
-.pasta-tacon hr {
-    width: 100px; /* Ajustar ancho del hr */
+  }
+  
+  .pasta-tacon hr {
+    width: 350px;
     height: 6px;
     border-radius: 10px;
     background: #252525;
-    margin: 0; /* Eliminar margen para mejor control */
-}
-
-/* Media queries para diferentes tamaños de pantalla */
-@media (max-width: 1280px) {
+    margin-left: -50px;
+  }
+  
+  /* Media queries para diferentes tamaños de pantalla */
+  @media (max-width: 1280px) {
+    .pasta-tacon {
+      gap: 20px;
+    }
+  
     .pasta-tacon h1 {
-        font-size: 2.5rem; /* Ajustar tamaño de fuente */
+      font-size: 40px;
     }
-
+  
     .pasta-tacon hr {
-        width: 80px;
-        height: 4px;
+      width: 160px;
+      height: 4px;
     }
-}
-
-@media (max-width: 1024px) {
-    .pasta-tacon h1 {
-        font-size: 2rem; /* Ajustar tamaño de fuente */
-    }
-
-    .pasta-tacon hr {
-        width: 60px;
-        height: 3px;
-    }
-}
-
-@media (max-width: 800px) {
-    .pasta-tacon h1 {
-        font-size: 1.5rem; /* Ajustar tamaño de fuente */
-    }
-
-    .pasta-tacon hr {
-        width: 50px;
-    }
-}
-
-@media (max-width: 500px) {
-    .pasta-tacon h1 {
-        font-size: 1.2rem; /* Ajustar tamaño de fuente */
-    }
-
-    .pasta-tacon hr {
-        width: 40px;
-    }
-
+  
     .nuevo-products {
-        grid-template-columns: 1fr; /* Ajustar a una columna en pantallas muy pequeñas */
-        gap: 10px;
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+      gap: 20px;
     }
-}
+  }
+  
+  @media (max-width: 1024px) {
+    .pasta-tacon {
+      gap: 15px;
+    }
+  
+    .pasta-tacon h1 {
+      font-size: 30px;
+    }
+  
+    .pasta-tacon hr {
+      width: 120px;
+      height: 3px;
+    }
+  
+    .nuevo-products {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .pasta-tacon {
+      gap: 10px;
+    }
+  
+    .pasta-tacon h1 {
+      font-size: 20px;
+    }
+  
+    .pasta-tacon hr {
+      width: 100px;
+    }
+  
+    .nuevo-products {
+      grid-template-columns: 1fr; /* Una columna en pantallas muy pequeñas */
+      gap: 10px;
+    }
+  }
+  
+
 
