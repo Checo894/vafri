@@ -164,6 +164,7 @@
 
     .shopcategory-products{
         width: 95%;
+        height: auto;
     }
     .shopcategory-products .item{
         margin: auto;
