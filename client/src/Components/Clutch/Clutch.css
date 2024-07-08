@@ -1,38 +1,37 @@
-.clutch {
-    width: 90%;
+.clutch{
+    width: 100%;
     height: 40vh;
     display: flex;
-    flex-direction: row;
     margin: auto;
     margin-top: 70px;
     padding: 0px 140px;
+    padding-top: 40px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #194197, #ffffff);
-    align-items: center; /* Asegurar que los elementos se centren verticalmente */
-    justify-content: space-between; /* Asegurar que los elementos se distribuyan adecuadamente */
+    background: linear-gradient(180deg, #194197,#ffffff );
 }
 
-.clutch-left {
-    flex: 1;
+.clutch-left{
+    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .clutch-left h1 {
     color: #171717;
-    font-size: 4rem; /* Usar rem para tamaño de fuente flexible */
+    font-size: 80px;
     font-weight: 600;
 }
 
-.clutch-left p {
+.clutch-left p{
     margin-top: 10px;
-    color: #171717;
-    font-size: 1.375rem; /* Usar rem para tamaño de fuente flexible */
+    color:#171717;
+    font-size: 22px;
     font-weight: 600;
 }
 
-.clutch-left button {
+.clutch-left button{
     width: 228px;
     height: 70px;
     border-radius: 5px;
@@ -40,26 +39,27 @@
     border: none;
     cursor: pointer;
     color: white;
-    font-size: 1.375rem; /* Usar rem para tamaño de fuente flexible */
-    font-weight: 500;
+    font-size: 22px;
+    font-weight:500;
     margin-top: 30px;
 }
 
-.clutch-left button:hover {
+.clutch.clutch-left button:hover{
     background: #a12e2e;
 }
 
-.clutch-right {
+.clutch-right{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 50px;
+
 }
 
 .clutch-right img {
     width: 100%;
-    max-width: 600px; /* Limitar el ancho máximo de la imagen */
+    max-width: 600px; /* Ajustar tamaño de imagen */
     height: auto;
 }
 

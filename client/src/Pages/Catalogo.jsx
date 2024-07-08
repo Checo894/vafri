@@ -5,7 +5,7 @@ import banner_pasta_tacon from "../Components/Assets/banner_pasta_tacon_square.p
 import banner_tacon from "../Components/Assets/banner_tacon_square.png"
 import banner_miscelanea from "../Components/Assets/banner_miscelanea_square.png"
 import banner_remache from "../Components/Assets/banner_remache_square.png"
-import banner_balata from "../Components/Assets/banner_balata_square.png"
+import banner_balata from "../Components/Assets/banner_kits_square.png"
 import './CSS/Catalogo.css'
 import { Link } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const Catalogo = () => {
                     <img  className="catalogo-elements" src={banner_pasta_tacon} alt="" />
                 </Link>
             </div>
-            <div className="catalogo-type2">
+            <div className="catalogo-type1">
                 <Link to='/tacon'>
                     <img  className="catalogo-elements" src={banner_tacon} alt="" />
                 </Link>

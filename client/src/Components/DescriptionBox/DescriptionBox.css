@@ -1,48 +1,75 @@
-.descriptionbox {
-    margin: 40px; /* Reducir el margen para hacerlo más flexible */
+.descriptionbox{
+    margin: 120px 170px;
 }
 
-.descriptionbox-navigator {
-    display: flex;
+.descriptionbox-navigator{
+    display:flex;
     width: 100%;
     border: 2px solid #d0d0d0;
     justify-content: center;
-    flex-wrap: wrap; /* Permitir que los botones se envuelvan en pantallas pequeñas */
 }
 
-.descriptionbox-navigator button {
+.descriptionbox-navigator button{
+    display: flex;
     background-color: #fbfbfb;
-    font-size: 1rem; /* Usar rem para tamaño de fuente flexible */
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
     font-weight: 600;
     width: 100%;
-    max-width: 200px; /* Limitar el ancho máximo */
     height: 70px;
     border: 1px solid #d0d0d0;
     color: #555;
     cursor: pointer;
-    flex: 1; /* Permitir que los botones se expandan igualmente */
-    box-sizing: border-box; /* Incluir padding y border en el ancho y alto */
-    margin: 5px; /* Añadir margen entre botones */
 }
 
-.descriptionbox-navigator button.active {
-    background-color: #e0e0e0; /* Indicar el botón activo */
+.descriptionbox-navigator button.active{
+    background: #16437E;
+    color: white;
 }
 
-.descriptionbox-description {
-    margin-top: 20px;
-    text-align: center; /* Centrar el texto y la imagen */
+.descriptionbox-navigator button:hover{
+    background: #0d2a4e;
+    color: white;
 }
 
-.descriptionbox-description p {
-    font-size: 1rem; /* Usar rem para tamaño de fuente flexible */
-    color: #333;
-    margin-bottom: 20px;
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
 }
 
-.descriptionbox-description img {
-    max-width: 100%; /* Asegurar que la imagen sea responsiva */
-    height: auto; /* Mantener la proporción de la imagen */
+.descriptionbox-nav-box.fade{
+    background: #fbfbfb;
+    color: #555;
+}
+
+.descriptionbox-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 60px;
+    padding-bottom: 70px;
+    background: white;
+}
+
+.descriptionbox-description p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #3d3d3d;
+    text-align: justify;
+}
+
+.descriptionbox-description img{
+    height: auto;
+    width: 100%;
 }
 
 /* Media queries para diferentes tamaños de pantalla */
