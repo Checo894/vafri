@@ -1,0 +1,2971 @@
+[
+  {
+  "id": 1,
+  "fmsi": "512P",
+  "brand": "Vafri",
+  "formula": "VFB",
+  "measures": "140*85*3.18",
+  "application": "Agrícola",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687742745.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687742745.pdf",
+  "available": true,
+  "date": "2024-03-29T04:49:02.804Z"
+  },
+{
+  
+  "id": 2,
+  "fmsi": "A600P",
+  "brand": "Vafri",
+  "formula": "VFB",
+  "measures": "151*91*3.18",
+  "application": "Agrícola",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687757892.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687757892.pdf",
+  "available": true,
+  "date": {
+    "date": "2024-03-29T04:49:17.952Z"
+  }
+},
+{
+  
+  "id": 3,
+  "fmsi": "600P",
+  "brand": "Vafri",
+  "formula": "VFB",
+  "measures": "152*62*3.18",
+  "application": "Agrícola",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687779803.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687779803.pdf",
+  "available": true,
+  "date": "2024-03-29T04:49:39.865Z"
+  },
+{
+  
+  "id": 4,
+  "fmsi": "614P",
+  "brand": "Vafri",
+  "formula": "VFB",
+  "measures": "158*99*3.18",
+  "application": "Agricola",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687843304.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687843304.pdf",
+  "available": true,
+  "date": "2024-03-29T04:50:43.363Z"
+  },
+{
+  
+  "id": 5,
+  "fmsi": "736E",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "200*137*3.3/24",
+  "application": "Nissan Platina",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687877630.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687877630.pdf",
+  "available": true,
+  "date": "2024-03-29T04:51:17.755Z"
+  },
+{
+  
+  "id": 6,
+  "fmsi": "736G",
+  "brand": "Vafri",
+  "formula": "VFB / VFC",
+  "measures": "200*130*3.18/24",
+  "application": "VW Sedán Doble Laina",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687906628.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687906628.pdf",
+  "available": true,
+  "date": "2024-03-29T04:51:46.688Z"
+  },
+{
+  
+  "id": 7,
+  "fmsi": "736P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "200*130*3.18/24",
+  "application": "Nissan Platina, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687926271.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687926271.pdf",
+  "available": true,
+  "date": "2024-03-29T04:52:06.329Z"
+  },
+{
+  
+  "id": 8,
+  "fmsi": "743",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "180*127*3.5/18",
+  "application": "Dodge Atos, Matiz 6 lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687946842.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687946842.pdf",
+  "available": true,
+  "date": "2024-03-29T04:52:26.904Z"
+  },
+{
+  
+  "id": 9,
+  "fmsi": "743B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "184*127*3.5",
+  "application": "Chevrolet Matiz, Dodge Atos Pista ancha",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687964850.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687964850.pdf",
+  "available": true,
+  "date": "2024-03-29T04:52:44.912Z"
+  },
+{
+  
+  "id": 10,
+  "fmsi": "747",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "180*127*3.5/18",
+  "application": "Dodge Atos, Matiz 8 lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711687987956.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711687987956.pdf",
+  "available": true,
+  "date": "2024-03-29T04:53:08.017Z"
+  },
+{
+  
+  "id": 11,
+  "fmsi": "750C",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "200*134*3.5/24",
+  "application": "VW Sedán, Datsun 1600",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688006830.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688006830.pdf",
+  "available": true,
+  "date": "2024-03-29T04:53:26.890Z"
+  },
+{
+  
+  "id": 12,
+  "fmsi": "750P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "200*134*3.5/24",
+  "application": "VW Sedán, Datsun 1600, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688032708.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688032708.pdf",
+  "available": true,
+  "date": "2024-03-29T04:53:52.773Z"
+  },
+{
+  
+  "id": 13,
+  "fmsi": "785 / 7088",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "190*132*3.2/16",
+  "application": "Ford Fiesta Ikon",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688060829.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688060829.pdf",
+  "available": true,
+  "date": "2024-03-29T04:54:20.891Z"
+  },
+{
+  
+  "id": 14,
+  "fmsi": "785P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "190*132*3.2/16",
+  "application": "Nissan Tsuru III, VW Caribe, VW Atlantic, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688087797.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688087797.pdf",
+  "available": true,
+  "date": "2024-03-29T04:54:47.857Z"
+  },
+{
+  
+  "id": 15,
+  "fmsi": "750C_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "200*134*3.5/24",
+  "application": "VW Sedán, Datsun 1600",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688390356.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688390356.pdf",
+  "available": true,
+  "date": "2024-03-29T04:59:50.419Z"
+  },
+{
+  
+  "id": 16,
+  "fmsi": "785A_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "190*132*3.5/16",
+  "application": "Nissan Tsuru III, VW Caribe, Atlantic",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688412358.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688412358.pdf",
+  "available": true,
+  "date": "2024-03-29T05:00:12.423Z"
+  },
+{
+  
+  "id": 17,
+  "fmsi": "785AP",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "190*132*3.5/16",
+  "application": "Nissan Tsuru III, VW Caribe, VW Atlantic, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688607966.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688607966.pdf",
+  "available": true,
+  "date": "2024-03-29T05:03:28.029Z"
+  },
+{
+  
+  "id": 18,
+  "fmsi": "785A",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "190*132*3.5/16",
+  "application": "Nissan Tsuru III, VW Caribe, VW Atlantic",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688412358.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688412358.pdf",
+  "available": true,
+  "date": "2024-03-29T05:03:49.714Z"
+  },
+{
+  
+  "id": 19,
+  "fmsi": "788P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "190*132*3.8/16",
+  "application": "VW Caribe, VW Atlantic, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688668611.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688668611.pdf",
+  "available": true,
+  "date": "2024-03-29T05:04:28.682Z"
+  },
+{
+  
+  "id": 20,
+  "fmsi": "796",
+  "brand": "Vafri",
+  "formula": "VFB / VFC",
+  "measures": "180*127*3.5/16",
+  "application": "Nissan Tsuru I, Nissan Tsuru II",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688703087.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688703087.pdf",
+  "available": true,
+  "date": "2024-03-29T05:05:03.150Z"
+  },
+{
+  
+  "id": 21,
+  "fmsi": "796P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "180*127*3.5/16",
+  "application": "Nissan Tsuru I, Nissan Tsuru II, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688724375.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688724375.pdf",
+  "available": true,
+  "date": "2024-03-29T05:05:24.438Z"
+  },
+{
+  
+  "id": 22,
+  "fmsi": "8002P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "200*134*3.43/24",
+  "application": "Nissan Datsun 1500, Nissan Datsun 1600, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688876274.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688876274.pdf",
+  "available": true,
+  "date": "2024-03-29T05:07:56.341Z"
+  },
+{
+  
+  "id": 23,
+  "fmsi": "8002",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "200*134*3.43/24",
+  "application": "Nissan Datsun 1500, Nissan Datsun 1600",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688935814.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688935814.pdf",
+  "available": true,
+  "date": "2024-03-29T05:08:55.878Z"
+  },
+{
+  
+  "id": 24,
+  "fmsi": "8013A",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "225*150*3.5/24",
+  "application": "Nissan Datsun 1800",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688975781.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688975781.pdf",
+  "available": true,
+  "date": "2024-03-29T05:09:35.853Z"
+  },
+{
+  
+  "id": 25,
+  "fmsi": "8013P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "225*150*3.5/24",
+  "application": "Nissan Datsun 1800, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711688998204.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711688998204.pdf",
+  "available": true,
+  "date": "2024-03-29T05:09:58.268Z"
+  },
+{
+  
+  "id": 26,
+  "fmsi": "8013EP",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "225*150*3.0/24",
+  "application": "Nissan Datsun 1800, Adaptaciones sobre medida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689017980.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689017980.pdf",
+  "available": true,
+  "date": "2024-03-29T05:10:18.045Z"
+  },
+{
+  
+  "id": 27,
+  "fmsi": "8021",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "205*135*3.5/8",
+  "application": "Tornado, Corsa, Astra",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689039445.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689039445.pdf",
+  "available": true,
+  "date": "2024-03-29T05:10:39.514Z"
+  },
+{
+  
+  "id": 28,
+  "fmsi": "8036",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "225*160*3.6/24",
+  "application": "Toyota",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689060953.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689060953.pdf",
+  "available": true,
+  "date": "2024-03-29T05:11:01.015Z"
+  },
+{
+  
+  "id": 29,
+  "fmsi": "8036P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "225*160*3.6/24",
+  "application": "Toyota, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689077547.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689077547.pdf",
+  "available": true,
+  "date": "2024-03-29T05:11:17.613Z"
+  },
+{
+  
+  "id": 30,
+  "fmsi": "8036T",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "225*160*3.2/24",
+  "application": "Nissan Tida, Nissan Sentra",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689105220.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689105220.pdf",
+  "available": true,
+  "date": "2024-03-29T05:11:45.287Z"
+  },
+{
+  
+  "id": 31,
+  "fmsi": "8037A",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "225*150*3.5/24",
+  "application": "Toyota 9 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689146288.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689146288.pdf",
+  "available": true,
+  "date": "2024-03-29T05:12:26.348Z"
+  },
+{
+  
+  "id": 32,
+  "fmsi": "8037B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "225*150*4.2/24",
+  "application": "Ford, Toyota 8 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689167566.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689167566.pdf",
+  "available": true,
+  "date": "2024-03-29T05:12:47.630Z"
+  },
+{
+  
+  "id": 33,
+  "fmsi": "8038",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "225*150*3.4/24",
+  "application": "Volkswagen Beetle, Volkswagen Bora",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689195280.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689195280.pdf",
+  "available": true,
+  "date": "2024-03-29T05:13:15.342Z"
+  },
+{
+  
+  "id": 34,
+  "fmsi": "8048 / 8098",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "210*144*3.4/24",
+  "application": "VW Golf, VW Jetta",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689224483.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689224483.pdf",
+  "available": true,
+  "date": "2024-03-29T05:13:44.543Z"
+  },
+{
+  
+  "id": 35,
+  "fmsi": "8048P / 8098P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "210*144*3.4/24",
+  "application": "VW Golf, VW Jetta, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689370739.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689370739.pdf",
+  "available": true,
+  "date": "2024-03-29T05:16:10.803Z"
+  },
+{
+  
+  "id": 36,
+  "fmsi": "8048T",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "225*148*3.0/24",
+  "application": "VW Jetta Turbo",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689391479.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689391479.pdf",
+  "available": true,
+  "date": "2024-03-29T05:16:31.543Z"
+  },
+{
+  
+  "id": 37,
+  "fmsi": "8056A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "215*145*3.6/24",
+  "application": "Chevrolet Aveo",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689409762.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689409762.pdf",
+  "available": true,
+  "date": "2024-03-29T05:16:49.827Z"
+  },
+{
+  
+  "id": 38,
+  "fmsi": "8058",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "220*150*3.2/24",
+  "application": "Seat Ibiza",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689430724.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689430724.pdf",
+  "available": true,
+  "date": "2024-03-29T05:17:10.788Z"
+  },
+{
+  
+  "id": 39,
+  "fmsi": "8058A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "225*150*3.45/24",
+  "application": "Ford Ranger, Ford Aerostar",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689446067.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689446067.pdf",
+  "available": true,
+  "date": "2024-03-29T05:17:26.140Z"
+  },
+{
+  
+  "id": 40,
+  "fmsi": "8058B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "225*150*3.75/24",
+  "application": "Ford Ranger 2.3 L, Ford Ranger 3.0 L",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689464795.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689464795.pdf",
+  "available": true,
+  "date": "2024-03-29T05:17:44.860Z"
+  },
+{
+  
+  "id": 41,
+  "fmsi": "8064",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "218*162*3.4/8",
+  "application": "Ford Ecosport",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689482150.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689482150.pdf",
+  "available": true,
+  "date": "2024-03-29T05:18:02.264Z"
+  },
+{
+  
+  "id": 42,
+  "fmsi": "8204",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "228*150*3.85/24",
+  "application": "Combi Caravelle",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689524560.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689524560.pdf",
+  "available": true,
+  "date": "2024-03-29T05:18:25.439Z"
+  },
+{
+  
+  "id": 44,
+  "fmsi": "V8204",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "228*150*4.75/24",
+  "application": "Combi Caravelle",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689536982.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689536982.pdf",
+  "available": true,
+  "date": "2024-03-29T05:18:57.099Z"
+  },
+{
+  
+  "id": 45,
+  "fmsi": "8204P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "228*150*3.85/24",
+  "application": "Combi Caravelle, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689667764.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689667764.pdf",
+  "available": true,
+  "date": "2024-03-29T05:21:07.876Z"
+  },
+{
+  
+  "id": 46,
+  "fmsi": "831 / 8007",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "215*145*3.6/24",
+  "application": "Chrysler Dart K, Topaz",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689693822.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689693822.pdf",
+  "available": true,
+  "date": "2024-03-29T05:21:33.936Z"
+  },
+{
+  
+  "id": 47,
+  "fmsi": "831P / 8007P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "215*145*3.6/24",
+  "application": "Chrysler Dart K, Topaz, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689720331.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689720331.pdf",
+  "available": true,
+  "date": "2024-03-29T05:22:00.443Z"
+  },
+{
+  
+  "id": 48,
+  "fmsi": "831AP",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "215*145*4.0/24",
+  "application": "Chrysler Dart K, Topaz, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689740470.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689740470.pdf",
+  "available": true,
+  "date": "2024-03-29T05:22:20.591Z"
+  },
+{
+  
+  "id": 49,
+  "fmsi": "831A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "215*145*4.0/24",
+  "application": "Chrysler Dart K, Topaz",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689760191.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689760191.pdf",
+  "available": true,
+  "date": "2024-03-29T05:22:40.300Z"
+  },
+{
+  
+  "id": 50,
+  "fmsi": "852",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "210*134*3.4/24",
+  "application": "VW Pointer",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689786364.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689786364.pdf",
+  "available": true,
+  "date": "2024-03-29T05:23:06.474Z"
+  },
+{
+  
+  "id": 51,
+  "fmsi": "8659",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "219*150*3.56",
+  "application": "Ford Ecosport, Pista ancha",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689804478.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689804478.pdf",
+  "available": true,
+  "date": "2024-03-29T05:23:24.592Z"
+  },
+{
+  
+  "id": 52,
+  "fmsi": "8805 / 8096",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "228*155*3.5",
+  "application": "Volkswagen Eurovan",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689858486.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689858486.pdf",
+  "available": true,
+  "date": "2024-03-29T05:24:18.596Z"
+  },
+{
+  
+  "id": 53,
+  "fmsi": "8907",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "230*171*3.5/8",
+  "application": "Mondeo, Focus",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689876511.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689876511.pdf",
+  "available": true,
+  "date": "2024-03-29T05:24:36.624Z"
+  },
+{
+  
+  "id": 54,
+  "fmsi": "8907P",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "230*171*3.5/8",
+  "application": "Mondeo, Focus, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689894688.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689894688.pdf",
+  "available": true,
+  "date": "2024-03-29T05:24:54.803Z"
+  },
+{
+  
+  "id": 55,
+  "fmsi": "8909",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "230*171*3.5/8",
+  "application": "Mondeo, Focus Perforación de 1029",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689953108.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689953108.pdf",
+  "available": true,
+  "date": "2024-03-29T05:25:53.230Z"
+  },
+{
+  
+  "id": 56,
+  "fmsi": "9038",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "240*150*3.5/18",
+  "application": "Nissan 2.4 L 9 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711689971678.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711689971678.pdf",
+  "available": true,
+  "date": "2024-03-29T05:26:11.790Z"
+  },
+{
+  
+  "id": 57,
+  "fmsi": "9040 / 9240L",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "240*150*3.55/24",
+  "application": "Ichi-Van 2.4 L (Luk)",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690055673.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690055673.pdf",
+  "available": true,
+  "date": "2024-03-29T05:27:35.787Z"
+  },
+{
+  
+  "id": 58,
+  "fmsi": "9040H",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "240*150*3.5/24",
+  "application": "Hyundai H100",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690074151.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690074151.pdf",
+  "available": true,
+  "date": "2024-03-29T05:27:54.261Z"
+  },
+{
+  
+  "id": 59,
+  "fmsi": "9040P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "240*150*3.55/24",
+  "application": "Nissan 2.4 L, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690094719.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690094719.pdf",
+  "available": true,
+  "date": "2024-03-29T05:28:14.828Z"
+  },
+{
+  
+  "id": 60,
+  "fmsi": "9040S",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "240*150*3.55/24",
+  "application": "Nissan 2.4 L",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690112602.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690112602.pdf",
+  "available": true,
+  "date": "2024-03-29T05:28:32.725Z"
+  },
+{
+  
+  "id": 61,
+  "fmsi": "9040U / 9045",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "240*160*3.55/24",
+  "application": "Nissan Urvan 2.5 L",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690201794.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690201794.pdf",
+  "available": true,
+  "date": "2024-03-29T05:30:01.905Z"
+  },
+{
+  
+  "id": 62,
+  "fmsi": "9042",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "236*150*3.56/24",
+  "application": "Toyota V6",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690222956.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690222956.pdf",
+  "available": true,
+  "date": "2024-03-29T05:30:23.068Z"
+  },
+{
+  
+  "id": 63,
+  "fmsi": "9049",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "252*182*3.6/8",
+  "application": "Ford Explorer",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690241722.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690241722.pdf",
+  "available": true,
+  "date": "2024-03-29T05:30:41.841Z"
+  },
+{
+  
+  "id": 64,
+  "fmsi": "9049P",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "252*182*3.6/8",
+  "application": "Ford Explorer, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690260450.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690260450.pdf",
+  "available": true,
+  "date": "2024-03-29T05:31:00.562Z"
+  },
+{
+  
+  "id": 65,
+  "fmsi": "9050 / 9087",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "252*182*3.6/8",
+  "application": "Ford V6. Doble Perforación",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690285212.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690285212.pdf",
+  "available": true,
+  "date": "2024-03-29T05:31:25.326Z"
+  },
+{
+  
+  "id": 66,
+  "fmsi": "9051 / 9086",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "250*160*3.7/24",
+  "application": "Nissan V6",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690310046.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690310046.pdf",
+  "available": true,
+  "date": "2024-03-29T05:31:50.159Z"
+  },
+{
+  
+  "id": 67,
+  "fmsi": "V9051",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "250*160*3.7/24",
+  "application": "Nissan Turbo Diesel",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690329116.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690329116.pdf",
+  "available": true,
+  "date": "2024-03-29T05:32:09.229Z"
+  },
+{
+  
+  "id": 68,
+  "fmsi": "9051P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "250*160*3.7/26",
+  "application": "Nissan V6, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690347488.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690347488.pdf",
+  "available": true,
+  "date": "2024-03-29T05:32:27.601Z"
+  },
+{
+  
+  "id": 69,
+  "fmsi": "9051AP",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "250*160*4.2/27",
+  "application": "Nissan V6, Sobre medida, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690366713.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690366713.pdf",
+  "available": true,
+  "date": "2024-03-29T05:32:46.830Z"
+  },
+{
+  
+  "id": 70,
+  "fmsi": "9063",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "240*160*3.5/24",
+  "application": "Nissan Ichi-Van 2.4 L, Sachs",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690390246.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690390246.pdf",
+  "available": true,
+  "date": "2024-03-29T05:33:10.359Z"
+  },
+{
+  
+  "id": 71,
+  "fmsi": "9063P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "240*160*3.5/24",
+  "application": "Nissan Ichi-Van 2.4 L, Sachs, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690425786.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690425786.pdf",
+  "available": true,
+  "date": "2024-03-29T05:33:45.903Z"
+  },
+{
+  
+  "id": 72,
+  "fmsi": "9068T",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "249*171*3.7",
+  "application": "Ford Transit",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690445575.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690445575.pdf",
+  "available": true,
+  "date": "2024-03-29T05:34:05.692Z"
+  },
+{
+  
+  "id": 73,
+  "fmsi": "909D",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "232*155*3.2/16",
+  "application": "Chevrolet Cavalier, Cutlas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690471292.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690471292.pdf",
+  "available": true,
+  "date": "2024-03-29T05:34:31.404Z"
+  },
+{
+  
+  "id": 74,
+  "fmsi": "909E",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "232*155*3.45/16",
+  "application": "Chevrolet Cavalier, Cutlas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690491049.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690491049.pdf",
+  "available": true,
+  "date": "2024-03-29T05:34:51.164Z"
+  },
+{
+  
+  "id": 75,
+  "fmsi": "909P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "232*155*3.45/19",
+  "application": "Chevrolet Cavalier, Cutlas, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690601721.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690601721.pdf",
+  "available": true,
+  "date": "2024-03-29T05:36:41.835Z"
+  },
+{
+  
+  "id": 76,
+  "fmsi": "9161",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "232*155*3.4/8",
+  "application": "Chevrolet S-10",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690626213.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690626213.pdf",
+  "available": true,
+  "date": "2024-03-29T05:37:06.327Z"
+  },
+{
+  
+  "id": 77,
+  "fmsi": "9209",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "240*155*3.5/24",
+  "application": "Nissan Pick Up, 2.4 lts. 8 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690648692.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690648692.pdf",
+  "available": true,
+  "date": "2024-03-29T05:37:28.807Z"
+  },
+{
+  
+  "id": 78,
+  "fmsi": "953",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "250*155*3.18/24",
+  "application": "Tractor Massey Ferguson, Agricola",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690667319.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690667319.pdf",
+  "available": true,
+  "date": "2024-03-29T05:37:47.432Z"
+  },
+{
+  
+  "id": 79,
+  "fmsi": "9863",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "250*160*3.50/8",
+  "application": "Toyota Hiace",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690686630.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690686630.pdf",
+  "available": true,
+  "date": "2024-03-29T05:38:06.744Z"
+  },
+{
+  
+  "id": 80,
+  "fmsi": "990P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "242*153*3.5/9",
+  "application": "Chevrolet, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690704237.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690704237.pdf",
+  "available": true,
+  "date": "2024-03-29T05:38:24.348Z"
+  },
+{
+  
+  "id": 81,
+  "fmsi": "993P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "235*155*3.18/16",
+  "application": "Valiant, Volare, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690723719.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690723719.pdf",
+  "available": true,
+  "date": "2024-03-29T05:38:43.834Z"
+  },
+{
+  
+  "id": 82,
+  "fmsi": "993A",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "235*155*3.18/16",
+  "application": "Valiant, Volare",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690744489.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690744489.pdf",
+  "available": true,
+  "date": "2024-03-29T05:39:04.601Z"
+  },
+{
+  
+  "id": 83,
+  "fmsi": "996AP",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "240*170*4.0/24",
+  "application": "Ford Contour, Mystique, Sobre medida, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690768029.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690768029.pdf",
+  "available": true,
+  "date": "2024-03-29T05:39:28.145Z"
+  },
+{
+  
+  "id": 84,
+  "fmsi": "996P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "240*170*3.18/24",
+  "application": "Ford Contour, Mystique, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690787081.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690787081.pdf",
+  "available": true,
+  "date": "2024-03-29T05:39:47.195Z"
+  },
+{
+  
+  "id": 85,
+  "fmsi": "1005A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "254*171*3.18/20",
+  "application": "Ford, 8 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690813426.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690813426.pdf",
+  "available": true,
+  "date": "2024-03-29T05:40:13.543Z"
+  },
+{
+  
+  "id": 86,
+  "fmsi": "1005B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "254*171*3.18/18",
+  "application": "Ford, 10 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690904673.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690904673.pdf",
+  "available": true,
+  "date": "2024-03-29T05:41:44.793Z"
+  },
+{
+  
+  "id": 87,
+  "fmsi": "1005P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "254*171*3.18/20",
+  "application": "Ford, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711690921711.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711690921711.pdf",
+  "available": true,
+  "date": "2024-03-29T05:42:01.826Z"
+  },
+{
+  
+  "id": 88,
+  "fmsi": "1005R",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "254*171*3.6/24",
+  "application": "Ford, 8 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691333985.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691333985.pdf",
+  "available": true,
+  "date": "2024-03-29T05:50:07.813Z"
+  },
+{
+  
+  "id": 89,
+  "fmsi": "1025",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "190*135*3.65/24",
+  "application": "Chevy",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691353848.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691353848.pdf",
+  "available": true,
+  "date": "2024-03-29T05:50:26.437Z"
+  },
+{
+  
+  "id": 90,
+  "fmsi": "1026",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "216*153*3.45/8",
+  "application": "Dodge Neon, Stratus, Chrysler Dart K, Volare K, Sentra",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691452464.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691452464.pdf",
+  "available": true,
+  "date": "2024-03-29T05:50:52.578Z"
+  },
+{
+  
+  "id": 91,
+  "fmsi": "1026P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "216*153*3.45/8",
+  "application": "Dodge Neon, Stratus, Chrysler Dart K, Volare K, Sentra, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691470801.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691470801.pdf",
+  "available": true,
+  "date": "2024-03-29T05:51:10.914Z"
+  },
+{
+  
+  "id": 92,
+  "fmsi": "1027",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "228*150*3.6/24",
+  "application": "VW Jetta, Golf A4, Ford Ranger",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691492534.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691492534.pdf",
+  "available": true,
+  "date": "2024-03-29T05:51:32.647Z"
+  },
+{
+  
+  "id": 93,
+  "fmsi": "1027P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "228*150*3.6/24",
+  "application": "VW Jetta, Golf A4, Ford Ranger, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691509600.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691509600.pdf",
+  "available": true,
+  "date": "2024-03-29T05:51:49.718Z"
+  },
+{
+  
+  "id": 94,
+  "fmsi": "1028",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "200*146*3.2/24",
+  "application": "Ford Ikon",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691526380.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691526380.pdf",
+  "available": true,
+  "date": "2024-03-29T05:52:06.495Z"
+  },
+{
+  
+  "id": 95,
+  "fmsi": "1029",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "240*170*3.5/24",
+  "application": "Ford Focus",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691545074.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691545074.pdf",
+  "available": true,
+  "date": "2024-03-29T05:52:25.187Z"
+  },
+{
+  
+  "id": 96,
+  "fmsi": "1057P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "255*150*3.2/24",
+  "application": "Chevrolet Ford, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691563950.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691563950.pdf",
+  "available": true,
+  "date": "2024-03-29T05:52:44.070Z"
+  },
+{
+  
+  "id": 97,
+  "fmsi": "1059A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "267*164.5*3.18/30",
+  "application": "Chevrolet-VAM",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691579346.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691579346.pdf",
+  "available": true,
+  "date": "2024-03-29T05:52:59.459Z"
+  },
+{
+  
+  "id": 99,
+  "fmsi": "1059P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "267*164.5*3.18/30",
+  "application": "Chevrolet-VAM, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691600099.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691600099.pdf",
+  "available": true,
+  "date": "2024-03-29T05:53:20.213Z"
+  },
+{
+  
+  "id": 100,
+  "fmsi": "10026 / 11016",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "280*170*3.5/18",
+  "application": "Dodge Ram",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691780392.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691780392.pdf",
+  "available": true,
+  "date": "2024-03-29T05:56:20.506Z"
+  },
+{
+  
+  "id": 101,
+  "fmsi": "11004",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "300*172*3.55/30",
+  "application": "Chevrolet, Pick-Up, 3.5 Tons",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691804022.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691804022.pdf",
+  "available": true,
+  "date": "2024-03-29T05:56:44.138Z"
+  },
+{
+  
+  "id": 102,
+  "fmsi": "11004P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "300*172*3.55/30",
+  "application": "Chevrolet, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691821723.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691821723.pdf",
+  "available": true,
+  "date": "2024-03-29T05:57:01.837Z"
+  },
+{
+  
+  "id": 103,
+  "fmsi": "11010",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "280*165*3.4/20",
+  "application": "Pick-Up Chrysler, GM, Remache 7",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691840787.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691840787.pdf",
+  "available": true,
+  "date": "2024-03-29T05:57:20.902Z"
+  },
+{
+  
+  "id": 104,
+  "fmsi": "11012",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "302*195*3.56/24",
+  "application": "Tractor Fordson",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691874970.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691874970.pdf",
+  "available": true,
+  "date": "2024-03-29T05:57:55.135Z"
+  },
+{
+  
+  "id": 106,
+  "fmsi": "11013",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "280*198*3.4/24",
+  "application": "Ford embrague hidráulico",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691896640.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691896640.pdf",
+  "available": true,
+  "date": "2024-03-29T05:58:34.609Z"
+  },
+{
+  
+  "id": 107,
+  "fmsi": "11013P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "280*198*3.4/24",
+  "application": "Ford embrague hidráulico, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711691939692.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711691939692.pdf",
+  "available": true,
+  "date": "2024-03-29T05:58:59.857Z"
+  },
+{
+  
+  "id": 108,
+  "fmsi": "11020",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "280*170*3.55/18",
+  "application": "Chevrolet Pick-Up",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692013591.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692013591.pdf",
+  "available": true,
+  "date": "2024-03-29T06:00:13.764Z"
+  },
+{
+  
+  "id": 109,
+  "fmsi": "11020P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "280*170*3.55/18",
+  "application": "Chevrolet Pick-Up, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692238268.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692238268.pdf",
+  "available": true,
+  "date": "2024-03-29T06:03:58.431Z"
+  },
+{
+  
+  "id": 110,
+  "fmsi": "11027 / 1158",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "293*213*3.35/10",
+  "application": "Ford Pick-Up 5.8 L",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692261179.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692261179.pdf",
+  "available": true,
+  "date": "2024-03-29T06:04:21.344Z"
+  },
+{
+  
+  "id": 111,
+  "fmsi": "11027A",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "293*213*4.0/10",
+  "application": "Ford Pick-Up 5.8 L",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692277181.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692277181.pdf",
+  "available": true,
+  "date": "2024-03-29T06:04:37.343Z"
+  },
+{
+  
+  "id": 112,
+  "fmsi": "11048",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "290*185*3.9/8",
+  "application": "Ford Lobo, Excursion 4.6 L V8",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692298051.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692298051.pdf",
+  "available": true,
+  "date": "2024-03-29T06:04:58.221Z"
+  },
+{
+  
+  "id": 113,
+  "fmsi": "11048E",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "290*185*3.4/8",
+  "application": "Ford Lobo",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692315945.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692315945.pdf",
+  "available": true,
+  "date": "2024-03-29T06:05:16.106Z"
+  },
+{
+  
+  "id": 114,
+  "fmsi": "11048EP",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "290*185*3.4/8",
+  "application": "Ford Lobo, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692335176.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692335176.pdf",
+  "available": true,
+  "date": "2024-03-29T06:05:35.349Z"
+  },
+{
+  
+  "id": 115,
+  "fmsi": "11048P",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "290*185*3.9/8",
+  "application": "Ford Lobo, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692352927.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692352927.pdf",
+  "available": true,
+  "date": "2024-03-29T06:05:53.091Z"
+  },
+{
+  
+  "id": 116,
+  "fmsi": "11048R / 11049",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "290*185*3.4/8",
+  "application": "Chevrolet, Ram 4000, Ram 3500",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692378013.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692378013.pdf",
+  "available": true,
+  "date": "2024-03-29T06:06:18.179Z"
+  },
+{
+  
+  "id": 117,
+  "fmsi": "11078",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "302*195*4.1/20",
+  "application": "Tractor Massey Ferguson",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692397289.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692397289.pdf",
+  "available": true,
+  "date": "2024-03-29T06:06:37.453Z"
+  },
+{
+  
+  "id": 118,
+  "fmsi": "11078P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "302*195*4.1/20",
+  "application": "Tractor Massey Ferguson, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692415291.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692415291.pdf",
+  "available": true,
+  "date": "2024-03-29T06:06:55.454Z"
+  },
+{
+  
+  "id": 119,
+  "fmsi": "11098",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "303*173*3.56/10",
+  "application": "Ford Triton",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692438223.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692438223.pdf",
+  "available": true,
+  "date": "2024-03-29T06:07:18.391Z"
+  },
+{
+  
+  "id": 120,
+  "fmsi": "11098S",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "303*173*3.56/10",
+  "application": "Ford Triton 450",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692458670.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692458670.pdf",
+  "available": true,
+  "date": "2024-03-29T06:07:38.831Z"
+  },
+{
+  
+  "id": 121,
+  "fmsi": "1148",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "300*172*4.2/30",
+  "application": "Chevrolet, Pick-Up 3.5 Tons, Sobremedida 11004",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692476672.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692476672.pdf",
+  "available": true,
+  "date": "2024-03-29T06:07:56.836Z"
+  },
+{
+  
+  "id": 122,
+  "fmsi": "1166",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "280*165*3.48/24",
+  "application": "Chrysler lado opuesto sobreline, Ford",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692502297.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692502297.pdf",
+  "available": true,
+  "date": "2024-03-29T06:08:22.461Z"
+  },
+{
+  
+  "id": 123,
+  "fmsi": "1166A",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "280*165*3.45/24",
+  "application": "Pick- Up Chrysler, GM, Ford Remache 3",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692614110.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692614110.pdf",
+  "available": true,
+  "date": "2024-03-29T06:10:14.275Z"
+  },
+{
+  
+  "id": 124,
+  "fmsi": "1166B",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "280*165*4.0/24",
+  "application": "Pick- Up Chrysler, GM, Ford, Sobremedida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692634879.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692634879.pdf",
+  "available": true,
+  "date": "2024-03-29T06:10:35.047Z"
+  },
+{
+  
+  "id": 125,
+  "fmsi": "1166P",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "280*165*3.45/24",
+  "application": "Chrysler, Ford, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692651120.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692651120.pdf",
+  "available": true,
+  "date": "2024-03-29T06:10:51.283Z"
+  },
+{
+  
+  "id": 126,
+  "fmsi": "1166BP",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "280*165*4.0/24",
+  "application": "Pick- Up Chrysler, GM, Ford, Sobremedida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692670131.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692670131.pdf",
+  "available": true,
+  "date": "2024-03-29T06:11:10.306Z"
+  },
+{
+  
+  "id": 127,
+  "fmsi": "1169 / 1178 / 1123",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "297*198*3.6/8",
+  "application": "Chevrolet Heavy Duty, GMT 800 V6",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692705898.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692705898.pdf",
+  "available": true,
+  "date": "2024-03-29T06:11:46.064Z"
+  },
+{
+  
+  "id": 128,
+  "fmsi": "1169B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "297*198*4.0/8",
+  "application": "Chevrolet Heavy Duty, GMT 800 V6, Sobremedida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692731421.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692731421.pdf",
+  "available": true,
+  "date": "2024-03-29T06:12:11.584Z"
+  },
+{
+  
+  "id": 129,
+  "fmsi": "1177 / 1122",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "298*177*3.75/10",
+  "application": "Dogde RAM 2500, 3500",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692773968.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692773968.pdf",
+  "available": true,
+  "date": "2024-03-29T06:12:54.142Z"
+  },
+{
+  
+  "id": 130,
+  "fmsi": "1183",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "300*185*3.6/8",
+  "application": "Chevrolet Heavy Duty, GMT 800",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692790581.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692790581.pdf",
+  "available": true,
+  "date": "2024-03-29T06:13:10.745Z"
+  },
+{
+  
+  "id": 131,
+  "fmsi": "1188",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "301*213*3.65/20",
+  "application": "GM 3.5 tons, Heavy Duty",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692813120.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692813120.pdf",
+  "available": true,
+  "date": "2024-03-29T06:13:33.285Z"
+  },
+{
+  
+  "id": 132,
+  "fmsi": "1188P",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "301*213*3.65/20",
+  "application": "GM 3.5 tons, Heavy Duty, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692833848.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692833848.pdf",
+  "available": true,
+  "date": "2024-03-29T06:13:54.016Z"
+  },
+{
+  
+  "id": 133,
+  "fmsi": "1188A",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "301*213*4.2/20",
+  "application": "GM 3.5 tons, Heavy Duty",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692852229.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692852229.pdf",
+  "available": true,
+  "date": "2024-03-29T06:14:12.393Z"
+  },
+{
+  
+  "id": 134,
+  "fmsi": "12090",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "330*210*3.9/9",
+  "application": "Ford Super Duty, Gasolina",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692870223.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692870223.pdf",
+  "available": true,
+  "date": "2024-03-29T06:14:30.390Z"
+  },
+{
+  
+  "id": 135,
+  "fmsi": "1233C",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "327*190*3.56/27",
+  "application": "Disco F-600, Disco D-600, Disco C60, Disco Rígido",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692889339.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692889339.pdf",
+  "available": true,
+  "date": "2024-03-29T06:14:49.504Z"
+  },
+{
+  
+  "id": 136,
+  "fmsi": "1233P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "327*190*3.56/27",
+  "application": "Disco F-600, Disco D-600, Disco C60, Disco Rígido, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692908854.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692908854.pdf",
+  "available": true,
+  "date": "2024-03-29T06:15:09.016Z"
+  },
+{
+  
+  "id": 137,
+  "fmsi": "1235",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "302*173*3.48/10",
+  "application": "Tractor International",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692937712.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692937712.pdf",
+  "available": true,
+  "date": "2024-03-29T06:15:37.877Z"
+  },
+{
+  
+  "id": 138,
+  "fmsi": "1235A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "302*173*4.0/10",
+  "application": "Tractor International",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711692957482.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711692957482.pdf",
+  "available": true,
+  "date": "2024-03-29T06:15:57.650Z"
+  },
+{
+  
+  "id": 139,
+  "fmsi": "1236B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "327*190*4.0/27",
+  "application": "Disco F-600, Disco D-600, Disco C60, Disco Rígido",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693045014.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693045014.pdf",
+  "available": true,
+  "date": "2024-03-29T06:17:25.185Z"
+  },
+{
+  
+  "id": 140,
+  "fmsi": "1236C",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "327*190*3.8/27",
+  "application": "Disco F-600, Disco D-600, Disco C60",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693066237.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693066237.pdf",
+  "available": true,
+  "date": "2024-03-29T06:17:46.404Z"
+  },
+{
+  
+  "id": 141,
+  "fmsi": "1236P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "327*190*4.2/27",
+  "application": "Disco F-600, Disco D-600, Disco C60, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693101929.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693101929.pdf",
+  "available": true,
+  "date": "2024-03-29T06:18:22.093Z"
+  },
+{
+  
+  "id": 142,
+  "fmsi": "1281P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "326*201*4.45",
+  "application": "Tractor John Deere, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693137031.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693137031.pdf",
+  "available": true,
+  "date": "2024-03-29T06:18:57.195Z"
+  },
+{
+  
+  "id": 143,
+  "fmsi": "1312",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "349*187*4.75/6",
+  "application": "Disco 14\" Spicer",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693157506.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693157506.pdf",
+  "available": true,
+  "date": "2024-03-29T06:19:17.682Z"
+  },
+{
+  
+  "id": 144,
+  "fmsi": "1312E / 1367",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "349*187*3.75/6",
+  "application": "Disco 14\" Spicer",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693183088.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693183088.pdf",
+  "available": true,
+  "date": "2024-03-29T06:19:43.255Z"
+  },
+{
+  
+  "id": 145,
+  "fmsi": "1312P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "349*187*4.75/6",
+  "application": "Disco 14\" Spicer, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693219286.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693219286.pdf",
+  "available": true,
+  "date": "2024-03-29T06:20:19.456Z"
+  },
+{
+  
+  "id": 146,
+  "fmsi": "1386",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "349*220*4.4/24",
+  "application": "Disco 14\" Mercedes Benz",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693252944.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693252944.pdf",
+  "available": true,
+  "date": "2024-03-29T06:20:53.112Z"
+  },
+{
+  
+  "id": 147,
+  "fmsi": "1386A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "349*220*5.0/24",
+  "application": "Disco 14\" Mercedes Benz, Sobre medida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693272721.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693272721.pdf",
+  "available": true,
+  "date": "2024-03-29T06:21:12.888Z"
+  },
+{
+  
+  "id": 148,
+  "fmsi": "1386P",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "349*220*4.4/24",
+  "application": "Disco 14\" Mercedes Benz, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693290363.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693290363.pdf",
+  "available": true,
+  "date": "2024-03-29T06:21:30.531Z"
+  },
+{
+  
+  "id": 149,
+  "fmsi": "13FSDP / 1298",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "330*210*3.7/9",
+  "application": "Ford Super Duty",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693453935.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693453935.pdf",
+  "available": true,
+  "date": "2024-03-29T06:24:14.102Z"
+  },
+{
+  
+  "id": 150,
+  "fmsi": "13FSD / 1298",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "330*210*3.7/9",
+  "application": "Ford Super Duty, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693481825.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693481825.pdf",
+  "available": true,
+  "date": "2024-03-29T06:24:41.996Z"
+  },
+{
+  
+  "id": 151,
+  "fmsi": "1429",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.0/8",
+  "application": "Mercedes Benz, Panorámico",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693500192.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693500192.pdf",
+  "available": true,
+  "date": "2024-03-29T06:25:00.358Z"
+  },
+{
+  
+  "id": 152,
+  "fmsi": "1429A / 1493",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.3/8",
+  "application": "Mercedes Benz, Panorámico, Sobremedida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693609173.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693609173.pdf",
+  "available": true,
+  "date": "2024-03-29T06:26:49.339Z"
+  },
+{
+  
+  "id": 153,
+  "fmsi": "1429B",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "361*238*4.7/8",
+  "application": "Mercedes Benz, Panorámico, Sobremedida",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693630841.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693630841.pdf",
+  "available": true,
+  "date": "2024-03-29T06:27:11.007Z"
+  },
+{
+  
+  "id": 154,
+  "fmsi": "1429P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.0/8",
+  "application": "Mercedes Benz, Panorámico, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693672559.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693672559.pdf",
+  "available": true,
+  "date": "2024-03-29T06:27:52.733Z"
+  },
+{
+  
+  "id": 155,
+  "fmsi": "1429AP",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.3/8",
+  "application": "Mercedes Benz, Sobre medida, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693695164.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693695164.pdf",
+  "available": true,
+  "date": "2024-03-29T06:28:15.333Z"
+  },
+{
+  
+  "id": 156,
+  "fmsi": "1430 / 1494",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "363*236.5*4.0/5",
+  "application": "Mercedes Benz, OM904 Reforzado",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693722869.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693722869.pdf",
+  "available": true,
+  "date": "2024-03-29T06:28:43.038Z"
+  },
+{
+  
+  "id": 157,
+  "fmsi": "1430A",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "363*236.5*4.4/5",
+  "application": "Mercedes Benz, OM904 Reforzado",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693823984.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693823984.pdf",
+  "available": true,
+  "date": "2024-03-29T06:30:24.149Z"
+  },
+{
+  
+  "id": 158,
+  "fmsi": "1431 / 14099",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.4/5",
+  "application": "Mercedes Benz, OM904 Reforzado",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693864879.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693864879.pdf",
+  "available": true,
+  "date": "2024-03-29T06:31:05.047Z"
+  },
+{
+  
+  "id": 159,
+  "fmsi": "1432 / 14029",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*238*4.4/5",
+  "application": "Mercedes Benz, OM904 Reforzado",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711693892047.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711693892047.pdf",
+  "available": true,
+  "date": "2024-03-29T06:31:32.221Z"
+  },
+{
+  
+  "id": 160,
+  "fmsi": "1497",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*196*4.2",
+  "application": "Volkswagen Bus",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694014192.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694014192.pdf",
+  "available": true,
+  "date": "2024-03-29T06:33:34.356Z"
+  },
+{
+  
+  "id": 161,
+  "fmsi": "1497P",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "361*196*4.2",
+  "application": "Volkswagen Bus, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694034502.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694034502.pdf",
+  "available": true,
+  "date": "2024-03-29T06:33:54.669Z"
+  },
+{
+  
+  "id": 162,
+  "fmsi": "HINO",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "381*227*4.4",
+  "application": "Hino Serie 500",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694056427.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694056427.pdf",
+  "available": true,
+  "date": "2024-03-29T06:34:16.594Z"
+  },
+{
+  
+  "id": 163,
+  "fmsi": "1553",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "387*225*4.45/6",
+  "application": "Spicer Kenworth",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694079028.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694079028.pdf",
+  "available": true,
+  "date": "2024-03-29T06:34:39.196Z"
+  },
+{
+  
+  "id": 164,
+  "fmsi": "1555 / 1559",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "395*240*4.4/18",
+  "application": "Mercedes Benz, OM906 Valeo (18)",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694104869.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694104869.pdf",
+  "available": true,
+  "date": "2024-03-29T06:35:05.035Z"
+  },
+{
+  
+  "id": 165,
+  "fmsi": "1556",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "395*240*3.5/8",
+  "application": "Mercedes Benz, OM906",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694122214.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694122214.pdf",
+  "available": true,
+  "date": "2024-03-29T06:35:22.381Z"
+  },
+{
+  
+  "id": 166,
+  "fmsi": "1556A",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "395*240*4.0/8",
+  "application": "Mercedes Benz, OM906",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694140695.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694140695.pdf",
+  "available": true,
+  "date": "2024-03-29T06:35:40.862Z"
+  },
+{
+  
+  "id": 167,
+  "fmsi": "1556AP",
+  "brand": "Vafri",
+  "formula": "VFR",
+  "measures": "395*240*4.0/8",
+  "application": "Mercedes Benz, OM906, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711694207524.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711694207524.pdf",
+  "available": true,
+  "date": "2024-03-29T06:36:47.690Z"
+  },
+{
+  
+  "id": 168,
+  "fmsi": "788",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "190*132*3.8/16",
+  "application": "VW Caribe, VW Atlantic",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695122356.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695122356.pdf",
+  "available": true,
+  "date": "2024-03-29T06:52:02.527Z"
+  },
+{
+  
+  "id": 169,
+  "fmsi": "8037",
+  "brand": "Vafri",
+  "formula": "VFB / VFC / VFR",
+  "measures": "225*150*3.5/24",
+  "application": "Ford, Toyota 8 Lainas",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695148773.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695148773.pdf",
+  "available": true,
+  "date": "2024-03-29T06:52:28.952Z"
+  },
+{
+  
+  "id": 171,
+  "fmsi": "1236D",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "327*190*4.2/27",
+  "application": "Disco F-600, Disco D-600, Disco C60",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695177662.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695177662.pdf",
+  "available": true,
+  "date": "2024-03-29T06:53:34.224Z"
+  },
+{
+  
+  "id": 172,
+  "fmsi": "1281",
+  "brand": "Vafri",
+  "formula": "VFC",
+  "measures": "326*201*4.45",
+  "application": "Tractor John Deere",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695259523.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695259523.pdf",
+  "available": true,
+  "date": "2024-03-29T06:54:19.693Z"
+  },
+{
+  
+  "id": 173,
+  "fmsi": "1312EP",
+  "brand": "Vafri",
+  "formula": "VFC / VFR",
+  "measures": "349*187*4.0/6",
+  "application": "Disco 14\" Spicer, Adaptaciones",
+  "category": "pasta",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695282574.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695282574.pdf",
+  "available": true,
+  "date": "2024-03-29T06:54:42.741Z"
+  },
+{
+  
+  "id": 174,
+  "fmsi": "831_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "215*145*3.6/24",
+  "application": "Chrysler Dart K, Topaz",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695469475.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695469475.pdf",
+  "available": true,
+  "date": "2024-03-29T07:00:17.479Z"
+  },
+{
+  
+  "id": 175,
+  "fmsi": "909E_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "232*155*3.45/16",
+  "application": "Chevrolet Cavalier, Cutlas",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695636379.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695636379.pdf",
+  "available": true,
+  "date": "2024-03-29T07:00:36.557Z"
+  },
+{
+  
+  "id": 176,
+  "fmsi": "1025_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "190*135*3.65/24",
+  "application": "Chevy",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695654754.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695654754.pdf",
+  "available": true,
+  "date": "2024-03-29T07:00:54.929Z"
+  },
+{
+  
+  "id": 177,
+  "fmsi": "1166A_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "280*165*3.45/24",
+  "application": "Pick-Up Chrysler, GM, Ford Remache 3",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695673003.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695673003.pdf",
+  "available": true,
+  "date": "2024-03-29T07:01:13.176Z"
+  },
+{
+  
+  "id": 178,
+  "fmsi": "1188_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "301*213*3.65/20",
+  "application": "G Motors 3 1/2 tons. Heavy Duty",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695695907.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695695907.pdf",
+  "available": true,
+  "date": "2024-03-29T07:01:36.078Z"
+  },
+{
+  
+  "id": 187,
+  "fmsi": "9040U_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "240*160*3.55/24",
+  "application": "Nissan Urvan 2.5L",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695969849.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695969849.pdf",
+  "available": true,
+  "date": "2024-03-29T07:06:10.025Z"
+  },
+{
+  
+  "id": 188,
+  "fmsi": "9051_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "250*160*3.7/24",
+  "application": "Nissan V6",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695986561.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695986561.pdf",
+  "available": true,
+  "date": "2024-03-29T07:06:26.739Z"
+  },
+{
+  
+  "id": 189,
+  "fmsi": "11004_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "300*172*3.55/30",
+  "application": "Chevrolet, Pick-Up, 3.5 Tons",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696002538.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696002538.pdf",
+  "available": true,
+  "date": "2024-03-29T07:06:42.711Z"
+  },
+{
+  
+  "id": 190,
+  "fmsi": "11048_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "290*185*3.9/8",
+  "application": "Ford Lobo, Excursion 4.6 L V8",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696019338.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696019338.pdf",
+  "available": true,
+  "date": "2024-03-29T07:06:59.515Z"
+  },
+{
+  
+  "id": 191,
+  "fmsi": "1169_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "297*198*3.6/8",
+  "application": "Chevrolet Heavy Duty, GMT 800 V6",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696041285.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696041285.pdf",
+  "available": true,
+  "date": "2024-03-29T07:07:21.456Z"
+  },
+{
+  
+  "id": 192,
+  "fmsi": "8036T_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "225*160*3.2/24",
+  "application": "Nissan Tida, Sentra",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696218487.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696218487.pdf",
+  "available": true,
+  "date": "2024-03-29T07:10:18.661Z"
+  },
+{
+  
+  "id": 193,
+  "fmsi": "8037_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "225*150*3.5/24",
+  "application": "Ford, Toyota 8 Lainas",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695823190.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695823190.pdf",
+  "available": true,
+  "date": "2024-03-29T07:10:35.663Z"
+  },
+{
+  
+  "id": 194,
+  "fmsi": "8038_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "225*150*3.4/24",
+  "application": "Volkswagen Beetle, Bora",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695842119.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695842119.pdf",
+  "available": true,
+  "date": "2024-03-29T07:10:50.683Z"
+  },
+{
+  
+  "id": 196,
+  "fmsi": "8048_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "210*144*3.4/24",
+  "application": "VW Golf, Jetta",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695858138.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695858138.pdf",
+  "available": true,
+  "date": "2024-03-29T07:11:12.800Z"
+  },
+{
+  
+  "id": 197,
+  "fmsi": "8048T_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "225*148*3.0/24",
+  "application": "VW Jetta Turbo",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695874396.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695874396.pdf",
+  "available": true,
+  "date": "2024-03-29T07:11:51.410Z"
+  },
+{
+  
+  "id": 198,
+  "fmsi": "8805_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "228*155*3.5",
+  "application": "Volkswagen Eurovan",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695909320.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695909320.pdf",
+  "available": true,
+  "date": "2024-03-29T07:12:08.341Z"
+  },
+{
+  
+  "id": 199,
+  "fmsi": "9040_VC",
+  "brand": "Vafri Ceramic",
+  "formula": "VC",
+  "measures": "240*150*3.55/24",
+  "application": "Ichi-Van 2.4 L (Luk)",
+  "category": "pastaTacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711695927819.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711695927819.pdf",
+  "available": true,
+  "date": "2024-03-29T07:12:23.637Z"
+  },
+{
+  
+  "id": 200,
+  "fmsi": "3V156",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696543477.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696543477.pdf",
+  "available": true,
+  "date": "2024-03-29T07:15:43.650Z"
+  },
+{
+  
+  "id": 201,
+  "fmsi": "3V175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696554744.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696543477.pdf",
+  "available": true,
+  "date": "2024-03-29T07:15:54.917Z"
+  },
+{
+  
+  "id": 202,
+  "fmsi": "3V187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696566645.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696543477.pdf",
+  "available": true,
+  "date": "2024-03-29T07:16:06.815Z"
+  },
+{
+  
+  "id": 203,
+  "fmsi": "3D156L",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696578486.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696578486.pdf",
+  "available": true,
+  "date": "2024-03-29T07:16:18.661Z"
+  },
+{
+  
+  "id": 205,
+  "fmsi": "3D187L",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696587801.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696578486.pdf",
+  "available": true,
+  "date": "2024-03-29T07:16:42.007Z"
+  },
+{
+  
+  "id": 206,
+  "fmsi": "3D156R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696612038.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696612038.pdf",
+  "available": true,
+  "date": "2024-03-29T07:16:52.206Z"
+  },
+{
+  
+  "id": 207,
+  "fmsi": "3D175R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696622003.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696622003.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:02.172Z"
+  },
+{
+  
+  "id": 208,
+  "fmsi": "3D187R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696633160.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696633160.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:13.333Z"
+  },
+{
+  
+  "id": 209,
+  "fmsi": "2V125",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696644766.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696679140.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:24.944Z"
+  },
+{
+  
+  "id": 210,
+  "fmsi": "2V156",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696660303.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696679140.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:40.478Z"
+  },
+{
+  
+  "id": 211,
+  "fmsi": "2V175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696669777.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696679140.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:49.947Z"
+  },
+{
+  
+  "id": 212,
+  "fmsi": "2V187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696679140.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696679140.pdf",
+  "available": true,
+  "date": "2024-03-29T07:17:59.310Z"
+  },
+{
+  
+  "id": 213,
+  "fmsi": "2D156R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696688261.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696697114.pdf",
+  "available": true,
+  "date": "2024-03-29T07:18:08.431Z"
+  },
+{
+  
+  "id": 215,
+  "fmsi": "2D187R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696710431.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696697114.pdf",
+  "available": true,
+  "date": "2024-03-29T07:18:30.613Z"
+  },
+{
+  
+  "id": 216,
+  "fmsi": "2D175R",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696697114.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696697114.pdf",
+  "available": true,
+  "date": "2024-03-29T07:18:44.981Z"
+  },
+{
+  
+  "id": 217,
+  "fmsi": "2D156",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696738147.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696759266.pdf",
+  "available": true,
+  "date": "2024-03-29T07:18:58.322Z"
+  },
+{
+  
+  "id": 218,
+  "fmsi": "2D175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696749419.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696759266.pdf",
+  "available": true,
+  "date": "2024-03-29T07:19:09.591Z"
+  },
+{
+  
+  "id": 219,
+  "fmsi": "2D187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696759266.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696759266.pdf",
+  "available": true,
+  "date": "2024-03-29T07:19:19.439Z"
+  },
+{
+  
+  "id": 220,
+  "fmsi": "3HK175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696768294.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696800484.pdf",
+  "available": true,
+  "date": "2024-03-29T07:19:28.469Z"
+  },
+{
+  
+  "id": 221,
+  "fmsi": "3HK187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696780060.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696800484.pdf",
+  "available": true,
+  "date": "2024-03-29T07:19:40.234Z"
+  },
+{
+  
+  "id": 222,
+  "fmsi": "3HT175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696789076.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696800484.pdf",
+  "available": true,
+  "date": "2024-03-29T07:19:49.250Z"
+  },
+{
+  
+  "id": 223,
+  "fmsi": "3HT187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696800483.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696800484.pdf",
+  "available": true,
+  "date": "2024-03-29T07:20:00.658Z"
+  },
+{
+  
+  "id": 224,
+  "fmsi": "4V156",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696817840.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696838806.pdf",
+  "available": true,
+  "date": "2024-03-29T07:20:18.015Z"
+  },
+{
+  
+  "id": 225,
+  "fmsi": "4V175",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696829026.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696838806.pdf",
+  "available": true,
+  "date": "2024-03-29T07:20:29.200Z"
+  },
+{
+  
+  "id": 226,
+  "fmsi": "4V187",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696838806.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696838806.pdf",
+  "available": true,
+  "date": "2024-03-29T07:20:38.990Z"
+  },
+{
+  
+  "id": 227,
+  "fmsi": "3D175L",
+  "brand": "Vafri Ceramic",
+  "formula": "VC-SD",
+  "measures": "",
+  "application": "",
+  "category": "tacon",
+  "image": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/product_1711696979222.png",
+  "pdf": "https://vafri-nuevo.s3.us-east-2.amazonaws.com/images/productPDF_1711696979222.pdf",
+  "available": true,
+  "date": "2024-03-29T07:22:59.398Z"
+  }
+]

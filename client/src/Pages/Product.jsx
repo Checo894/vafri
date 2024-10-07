@@ -9,12 +9,18 @@ import DescriptionBox_t from "../Components/DescriptionBox/DescriptionBox_t";
 import RelatedProducts from "../Components/RelatedProducts/RelatedProducts";
 
 const Product = () => {
-    const {all_data} = useContext(ShopContext);
-    const {productId} = useParams(); // Obtiene el productId de la URL con React Router
-    const product = all_data.find((e) => e.id === Number(productId));
-    
+    const { allData } = useContext(ShopContext);  // Cambiado a allData en lugar de all_data
+    const { productId } = useParams();  // Obtiene el productId de la URL con React Router
+
+    // Verifica que allData esté disponible y que no sea undefined o vacío
+    if (!allData || allData.length === 0) {
+        return <div>Cargando productos...</div>;  // Muestra un mensaje de carga mientras se obtienen los datos
+    }
+
+    const product = allData.find((e) => e.id === Number(productId));  // Busca el producto por ID
+
     if (!product) {
-        return <div>Producto no encontrado</div>; // Manejo en caso de que el producto no exista
+        return <div>Producto no encontrado</div>;  // Manejo en caso de que el producto no exista
     }
 
     const category = product.category;
@@ -40,6 +46,6 @@ const Product = () => {
             <RelatedProducts productId={productId} />
         </div>
     );
-}
+};
 
 export default Product;

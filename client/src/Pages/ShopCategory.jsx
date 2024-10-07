@@ -1,20 +1,28 @@
 import React, { useState, useContext, useRef, useEffect } from "react";
-import './CSS/ShopCategory.css'
+import './CSS/ShopCategory.css';
 import { ShopContext } from "../Context/ShopContext";
 import Item from "../Components/Item/Item";
 
 const ShopCategory = (props) => {
-    const { all_data } = useContext(ShopContext);
+    const { allData } = useContext(ShopContext);  // Cambiado all_data a allData para mantener consistencia con el contexto
     const [sortBy, setSortBy] = useState('');
-    const [filteredData, setFilteredData] = useState(all_data.filter(item => item.category === props.category));
+    const [filteredData, setFilteredData] = useState([]);  // Inicializa como un array vacío
     const [showCount, setShowCount] = useState(12);
+
+    useEffect(() => {
+        if (allData && allData.length > 0) {
+            const filtered = allData.filter(item => item.category === props.category);
+            setFilteredData(filtered);
+        }
+    }, [allData, props.category]);
+
     const visibleData = filteredData.slice(0, showCount);
 
     const handleSortChange = (event) => {
         const sortOrder = event.target.value;
         setSortBy(sortOrder);
-        let sortedData = [...all_data].filter(item => item.category === props.category);
-    
+        let sortedData = [...filteredData];  // Trabajamos sobre `filteredData` ya que contiene los datos filtrados
+
         switch (sortOrder) {
             case 'newest':
                 sortedData.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -28,35 +36,29 @@ const ShopCategory = (props) => {
             case 'alphabetical_desc':
                 sortedData.sort((a, b) => b.application.localeCompare(a.application));
                 break;
+            default:
+                break;
         }
-    
+
         setFilteredData(sortedData);
     };
-
-    useEffect(() => {
-        const updateFilteredData = () => {
-            const filtered = all_data.filter(item => item.category === props.category);
-            setFilteredData(filtered);
-        };
-    
-        updateFilteredData();
-    }, [all_data, props.category]);
-    
-    
 
     const bottomRef = useRef(null);
 
     const handleShowMore = (event) => {
-        event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace (scroll)
-        setShowCount(prevCount => prevCount + 8); // Aumentar la cantidad de artículos mostrados
+        event.preventDefault();
+        setShowCount(prevCount => prevCount + 8);
     };
 
     useEffect(() => {
-        // Hacer scroll al elemento bottomRef cuando cambie showCount
         if (bottomRef.current) {
             bottomRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
-    }, [showCount, bottomRef.current]);
+    }, [showCount]);
+
+    if (!allData || allData.length === 0) {
+        return <div>Cargando productos...</div>;  // Mostrar mensaje mientras se cargan los productos
+    }
 
     return (
         <div className="shopcategory">
@@ -85,7 +87,7 @@ const ShopCategory = (props) => {
                 </div>
             )}
         </div>
-    );    
+    );
 }
 
 export default ShopCategory;

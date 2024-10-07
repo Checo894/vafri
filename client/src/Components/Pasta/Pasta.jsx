@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Pasta.css';
 import Item from '../Item/Item';
-import all_data from '../Assets/vafri-products-new.js'; // Importa los datos locales
+import all_data from '../Assets/vafri-products-new.json'; // Importa los datos locales
 
 const Pasta = () => {
 

@@ -1,6 +1,6 @@
 import fotoPrueba from '../Assets/fotoPrueba.png'
 
-let data_product= [ {
+[ {
     id: 1,
     brand: "Vafri",
     category: "pasta",
@@ -2333,5 +2333,3 @@ let data_product= [ {
     pdf: ""
   }
 ]
-
-export default data_product
