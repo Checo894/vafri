@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vafri/static/css/main.e6bf71da.css",
-    "main.js": "/vafri/static/js/main.d87b7825.js",
+    "main.js": "/vafri/static/js/main.3c9ab316.js",
     "static/js/592.0e161b22.chunk.js": "/vafri/static/js/592.0e161b22.chunk.js",
     "static/media/pasta_tacon_hero.png": "/vafri/static/media/pasta_tacon_hero.012f9be59dd728dd9ca2.png",
     "static/media/banner_remache.png": "/vafri/static/media/banner_remache.2c476f95c79fb423f258.png",
@@ -33,7 +33,7 @@
     "static/media/slick.svg": "/vafri/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/vafri/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/vafri/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/phone_logo.svg": "/vafri/static/media/phone_logo.1a6fc05643d777047c364ab489a9074a.svg",
+    "static/media/phone_logo.svg": "/vafri/static/media/phone_logo.e37b276b2c490ef85a8afd3f2a7a3a09.svg",
     "static/media/slick.woff": "/vafri/static/media/slick.295183786cd8a1389865.woff",
     "static/media/whatsapp_logo.svg": "/vafri/static/media/whatsapp_logo.864e281065edf700a66f845bc2bf75a7.svg",
     "index.html": "/vafri/index.html",
@@ -42,11 +42,11 @@
     "static/media/arrow_icon.svg": "/vafri/static/media/arrow_icon.1a79cd9e1bb38ee4943790c8c17d8769.svg",
     "static/media/dropdown_icon2.svg": "/vafri/static/media/dropdown_icon2.f38759a838483615524e8cb7bef3ed2f.svg",
     "main.e6bf71da.css.map": "/vafri/static/css/main.e6bf71da.css.map",
-    "main.d87b7825.js.map": "/vafri/static/js/main.d87b7825.js.map",
+    "main.3c9ab316.js.map": "/vafri/static/js/main.3c9ab316.js.map",
     "592.0e161b22.chunk.js.map": "/vafri/static/js/592.0e161b22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6bf71da.css",
-    "static/js/main.d87b7825.js"
+    "static/js/main.3c9ab316.js"
   ]
 }
