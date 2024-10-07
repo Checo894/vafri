@@ -14,4 +14,5 @@ node_modules/
 # Ignorar archivos de configuración de entorno
 /.env
 
-/.serviceAccountKey.json
+/serviceAccountKey.json
+
